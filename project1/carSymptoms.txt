@@ -1,0 +1,33 @@
+1. engine will not rotate when attempting to start
+2. engine rotates but will not start
+3. engine lopes or idles erratically
+4. battery will not hold a charge
+5. hesitation when accelerating
+6. low oil pressure
+7. fuel odor
+8. overheating
+9. oil leak
+10. fluid leak
+11. vibration while driving
+12. difficulty steering
+13. vehicle pulls to one side while braking
+14. noise while braking
+15. excessive brake pedal travel
+16. brake pedal feels spongy
+17. vehicle pulls to one side while driving
+18. car shakes or shimmies while driving
+19. excessive play in steering
+20. difficult to steer
+21. noisy power steering pump
+22. excessive tire wear
+23. a/c not cooling
+24. headlight/tailight/running lights not turning on
+25. difficulty shifting gears
+26. car jumps out of gear
+27. pinging or knocking when engine under load
+28. engine backfires
+29. excessive oil consumption
+30. excessive fuel consumption
+31. engine starts but stops immediately
+32. engine hard to start when hot
+33. engine hard to start when cold

@@ -1,0 +1,44 @@
+Engine will not rotate when attempting to start
+1. battery is disconnected
+2. battery is discharged or faulty
+3. starter motor is faulty
+4. ignition switch is faulty
+Engine rotates but will not start
+5. battery is discharged/terminals loose
+6. fuel tank is empty
+7. fuel injectors are faulty
+8. fuel pump is faulty
+9. air filter is dirty
+Engine runs roughly
+10. there is a vacuum leak
+11. timing chain is worn
+12. engine valves are faulty
+13. ignition system is faulty
+14. spark plugs are faulty
+15. fuel injectors are faulty
+Battery will not hold a charge
+16. alternator is faulty
+17. battery wires are faulty
+18. alternator drive belt is faulty
+19. short circuit in the electrical system
+20. need new battery
+Oil pressure is low
+21. clogged oil filter
+22. oil pump faulty
+23. improper grade of oil
+Excessive oil consumption
+24. oil drain plug is loose
+25. problem with engine seals/gaskets
+Excessive fuel consumption
+26. clogged/dirty air filter
+27. low tire pressure
+28. fuel leak
+29. fuel managment system faulty
+Overheating
+30. insufficient coolant
+31. drive belt defective
+32. radiator faulty
+33. radiator fan faulty
+34. radiator cap faulty
+35. water pump faulty
+
