@@ -89,8 +89,8 @@
 										"$ref": "AAAAAAGC7Nq13YRIo4E="
 									},
 									"font": "Arial;13;0",
-									"left": 482,
-									"top": 1082,
+									"left": 362,
+									"top": 962,
 									"width": 76.60986328125,
 									"height": 26,
 									"text": "Battery is disconnected",
@@ -98,8 +98,8 @@
 								}
 							],
 							"font": "Arial;13;0",
-							"left": 472,
-							"top": 1072,
+							"left": 352,
+							"top": 952,
 							"width": 96.60986328125,
 							"height": 65,
 							"nameLabel": {
@@ -123,8 +123,8 @@
 										"$ref": "AAAAAAGC7PRC04RkzIA="
 									},
 									"font": "Arial;13;0",
-									"left": 418,
-									"top": 474,
+									"left": 650,
+									"top": 874,
 									"width": 98.28076171875,
 									"height": 26,
 									"text": "Battery is discharged/faulty",
@@ -132,760 +132,12 @@
 								}
 							],
 							"font": "Arial;13;0",
-							"left": 408,
-							"top": 464,
+							"left": 640,
+							"top": 864,
 							"width": 118.28076171875,
 							"height": 65,
 							"nameLabel": {
 								"$ref": "AAAAAAGC7PRC04RlAr4="
-							}
-						},
-						{
-							"_type": "FCProcessView",
-							"_id": "AAAAAAGC7PSlOIRuxGk=",
-							"_parent": {
-								"$ref": "AAAAAAGC7NpdBYQ6DXw="
-							},
-							"model": {
-								"$ref": "AAAAAAGC7PSlOIRsn6g="
-							},
-							"subViews": [
-								{
-									"_type": "LabelView",
-									"_id": "AAAAAAGC7PSlOIRvK3M=",
-									"_parent": {
-										"$ref": "AAAAAAGC7PSlOIRuxGk="
-									},
-									"font": "Arial;13;0",
-									"left": 522,
-									"top": 402,
-									"width": 77,
-									"height": 26,
-									"text": "Starter motor is faulty",
-									"wordWrap": true
-								}
-							],
-							"font": "Arial;13;0",
-							"left": 512,
-							"top": 392,
-							"width": 97,
-							"height": 64,
-							"nameLabel": {
-								"$ref": "AAAAAAGC7PSlOIRvK3M="
-							}
-						},
-						{
-							"_type": "FCProcessView",
-							"_id": "AAAAAAGC7PTbxYR3bnk=",
-							"_parent": {
-								"$ref": "AAAAAAGC7NpdBYQ6DXw="
-							},
-							"model": {
-								"$ref": "AAAAAAGC7PTbxYR1BYQ="
-							},
-							"subViews": [
-								{
-									"_type": "LabelView",
-									"_id": "AAAAAAGC7PTbxYR48H4=",
-									"_parent": {
-										"$ref": "AAAAAAGC7PTbxYR3bnk="
-									},
-									"font": "Arial;13;0",
-									"left": 546,
-									"top": 474,
-									"width": 77,
-									"height": 39,
-									"text": "Ignition switch is faulty",
-									"wordWrap": true
-								}
-							],
-							"font": "Arial;13;0",
-							"left": 536,
-							"top": 464,
-							"width": 97,
-							"height": 64,
-							"nameLabel": {
-								"$ref": "AAAAAAGC7PTbxYR48H4="
-							}
-						},
-						{
-							"_type": "FCProcessView",
-							"_id": "AAAAAAGC7PUwMYSBCV4=",
-							"_parent": {
-								"$ref": "AAAAAAGC7NpdBYQ6DXw="
-							},
-							"model": {
-								"$ref": "AAAAAAGC7PUwMYR/rgg="
-							},
-							"subViews": [
-								{
-									"_type": "LabelView",
-									"_id": "AAAAAAGC7PUwMYSC6w0=",
-									"_parent": {
-										"$ref": "AAAAAAGC7PUwMYSBCV4="
-									},
-									"font": "Arial;13;0",
-									"left": 810,
-									"top": 26,
-									"width": 119.9453125,
-									"height": 39,
-									"text": "Battery is discharged/terminals are loose",
-									"wordWrap": true
-								}
-							],
-							"font": "Arial;13;0",
-							"left": 800,
-							"top": 16,
-							"width": 139.9453125,
-							"height": 64,
-							"nameLabel": {
-								"$ref": "AAAAAAGC7PUwMYSC6w0="
-							}
-						},
-						{
-							"_type": "FCProcessView",
-							"_id": "AAAAAAGC7PWMHISK9DU=",
-							"_parent": {
-								"$ref": "AAAAAAGC7NpdBYQ6DXw="
-							},
-							"model": {
-								"$ref": "AAAAAAGC7PWMHISIHnc="
-							},
-							"subViews": [
-								{
-									"_type": "LabelView",
-									"_id": "AAAAAAGC7PWMHYSLYS8=",
-									"_parent": {
-										"$ref": "AAAAAAGC7PWMHISK9DU="
-									},
-									"font": "Arial;13;0",
-									"left": 954,
-									"top": 26,
-									"width": 77,
-									"height": 26,
-									"text": "Fuel tank is empty",
-									"wordWrap": true
-								}
-							],
-							"font": "Arial;13;0",
-							"left": 944,
-							"top": 16,
-							"width": 97,
-							"height": 65,
-							"nameLabel": {
-								"$ref": "AAAAAAGC7PWMHYSLYS8="
-							}
-						},
-						{
-							"_type": "FCProcessView",
-							"_id": "AAAAAAGC7PW2rYSTkYs=",
-							"_parent": {
-								"$ref": "AAAAAAGC7NpdBYQ6DXw="
-							},
-							"model": {
-								"$ref": "AAAAAAGC7PW2rYSRuec="
-							},
-							"subViews": [
-								{
-									"_type": "LabelView",
-									"_id": "AAAAAAGC7PW2rYSU2PA=",
-									"_parent": {
-										"$ref": "AAAAAAGC7PW2rYSTkYs="
-									},
-									"font": "Arial;13;0",
-									"left": 1018,
-									"top": 274,
-									"width": 77,
-									"height": 39,
-									"text": "Fuel injectors are faulty",
-									"wordWrap": true
-								}
-							],
-							"font": "Arial;13;0",
-							"left": 1008,
-							"top": 264,
-							"width": 97,
-							"height": 65,
-							"nameLabel": {
-								"$ref": "AAAAAAGC7PW2rYSU2PA="
-							}
-						},
-						{
-							"_type": "FCProcessView",
-							"_id": "AAAAAAGC7PYaAoSc4GY=",
-							"_parent": {
-								"$ref": "AAAAAAGC7NpdBYQ6DXw="
-							},
-							"model": {
-								"$ref": "AAAAAAGC7PYaAoSaVRg="
-							},
-							"subViews": [
-								{
-									"_type": "LabelView",
-									"_id": "AAAAAAGC7PYaAoSdjf4=",
-									"_parent": {
-										"$ref": "AAAAAAGC7PYaAoSc4GY="
-									},
-									"font": "Arial;13;0",
-									"left": 914,
-									"top": 98,
-									"width": 77,
-									"height": 26,
-									"text": "Fuel pump is faulty",
-									"wordWrap": true
-								}
-							],
-							"font": "Arial;13;0",
-							"left": 904,
-							"top": 88,
-							"width": 97,
-							"height": 65,
-							"nameLabel": {
-								"$ref": "AAAAAAGC7PYaAoSdjf4="
-							}
-						},
-						{
-							"_type": "FCProcessView",
-							"_id": "AAAAAAGC7PZKDYSlqes=",
-							"_parent": {
-								"$ref": "AAAAAAGC7NpdBYQ6DXw="
-							},
-							"model": {
-								"$ref": "AAAAAAGC7PZKDYSj8PQ="
-							},
-							"subViews": [
-								{
-									"_type": "LabelView",
-									"_id": "AAAAAAGC7PZKDYSmFW0=",
-									"_parent": {
-										"$ref": "AAAAAAGC7PZKDYSlqes="
-									},
-									"font": "Arial;13;0",
-									"left": 1018,
-									"top": 98,
-									"width": 77,
-									"height": 26,
-									"text": "Air filter is dirty",
-									"wordWrap": true
-								}
-							],
-							"font": "Arial;13;0",
-							"left": 1008,
-							"top": 88,
-							"width": 97,
-							"height": 65,
-							"nameLabel": {
-								"$ref": "AAAAAAGC7PZKDYSmFW0="
-							}
-						},
-						{
-							"_type": "FCProcessView",
-							"_id": "AAAAAAGC7PafPYSuaAc=",
-							"_parent": {
-								"$ref": "AAAAAAGC7NpdBYQ6DXw="
-							},
-							"model": {
-								"$ref": "AAAAAAGC7PafPYSs+T4="
-							},
-							"subViews": [
-								{
-									"_type": "LabelView",
-									"_id": "AAAAAAGC7PafPYSvAKo=",
-									"_parent": {
-										"$ref": "AAAAAAGC7PafPYSuaAc="
-									},
-									"font": "Arial;13;0",
-									"left": 810,
-									"top": 202,
-									"width": 77,
-									"height": 26,
-									"text": "There is a vacuum leak",
-									"wordWrap": true
-								}
-							],
-							"font": "Arial;13;0",
-							"left": 800,
-							"top": 192,
-							"width": 97,
-							"height": 65,
-							"nameLabel": {
-								"$ref": "AAAAAAGC7PafPYSvAKo="
-							}
-						},
-						{
-							"_type": "FCProcessView",
-							"_id": "AAAAAAGC7PbEtYS3WHs=",
-							"_parent": {
-								"$ref": "AAAAAAGC7NpdBYQ6DXw="
-							},
-							"model": {
-								"$ref": "AAAAAAGC7PbEtYS1DxY="
-							},
-							"subViews": [
-								{
-									"_type": "LabelView",
-									"_id": "AAAAAAGC7PbEtYS4zIk=",
-									"_parent": {
-										"$ref": "AAAAAAGC7PbEtYS3WHs="
-									},
-									"font": "Arial;13;0",
-									"left": 914,
-									"top": 202,
-									"width": 77,
-									"height": 26,
-									"text": "Timing chain is worn",
-									"wordWrap": true
-								}
-							],
-							"font": "Arial;13;0",
-							"left": 904,
-							"top": 192,
-							"width": 97,
-							"height": 65,
-							"nameLabel": {
-								"$ref": "AAAAAAGC7PbEtYS4zIk="
-							}
-						},
-						{
-							"_type": "FCProcessView",
-							"_id": "AAAAAAGC7Pbsc4TAxtI=",
-							"_parent": {
-								"$ref": "AAAAAAGC7NpdBYQ6DXw="
-							},
-							"model": {
-								"$ref": "AAAAAAGC7Pbsc4S+r9Y="
-							},
-							"subViews": [
-								{
-									"_type": "LabelView",
-									"_id": "AAAAAAGC7Pbsc4TBNh8=",
-									"_parent": {
-										"$ref": "AAAAAAGC7Pbsc4TAxtI="
-									},
-									"font": "Arial;13;0",
-									"left": 1018,
-									"top": 202,
-									"width": 77,
-									"height": 39,
-									"text": "Engine valves are faulty",
-									"wordWrap": true
-								}
-							],
-							"font": "Arial;13;0",
-							"left": 1008,
-							"top": 192,
-							"width": 97,
-							"height": 65,
-							"nameLabel": {
-								"$ref": "AAAAAAGC7Pbsc4TBNh8="
-							}
-						},
-						{
-							"_type": "FCProcessView",
-							"_id": "AAAAAAGC7Pcbi4TJsu0=",
-							"_parent": {
-								"$ref": "AAAAAAGC7NpdBYQ6DXw="
-							},
-							"model": {
-								"$ref": "AAAAAAGC7Pcbi4THRBI="
-							},
-							"subViews": [
-								{
-									"_type": "LabelView",
-									"_id": "AAAAAAGC7Pcbi4TKZlU=",
-									"_parent": {
-										"$ref": "AAAAAAGC7Pcbi4TJsu0="
-									},
-									"font": "Arial;13;0",
-									"left": 810,
-									"top": 274,
-									"width": 77,
-									"height": 39,
-									"text": "Ignition system is faulty",
-									"wordWrap": true
-								}
-							],
-							"font": "Arial;13;0",
-							"left": 800,
-							"top": 264,
-							"width": 97,
-							"height": 65,
-							"nameLabel": {
-								"$ref": "AAAAAAGC7Pcbi4TKZlU="
-							}
-						},
-						{
-							"_type": "FCProcessView",
-							"_id": "AAAAAAGC7PdLEoTS24I=",
-							"_parent": {
-								"$ref": "AAAAAAGC7NpdBYQ6DXw="
-							},
-							"model": {
-								"$ref": "AAAAAAGC7PdLEYTQk1M="
-							},
-							"subViews": [
-								{
-									"_type": "LabelView",
-									"_id": "AAAAAAGC7PdLEoTT+Aw=",
-									"_parent": {
-										"$ref": "AAAAAAGC7PdLEoTS24I="
-									},
-									"font": "Arial;13;0",
-									"left": 914,
-									"top": 274,
-									"width": 77,
-									"height": 26,
-									"text": "Spark plugs are faulty",
-									"wordWrap": true
-								}
-							],
-							"font": "Arial;13;0",
-							"left": 904,
-							"top": 264,
-							"width": 97,
-							"height": 65,
-							"nameLabel": {
-								"$ref": "AAAAAAGC7PdLEoTT+Aw="
-							}
-						},
-						{
-							"_type": "FCProcessView",
-							"_id": "AAAAAAGC7Pd4pYTbgq8=",
-							"_parent": {
-								"$ref": "AAAAAAGC7NpdBYQ6DXw="
-							},
-							"model": {
-								"$ref": "AAAAAAGC7Pd4pYTZ/b0="
-							},
-							"subViews": [
-								{
-									"_type": "LabelView",
-									"_id": "AAAAAAGC7Pd4pYTcpGY=",
-									"_parent": {
-										"$ref": "AAAAAAGC7Pd4pYTbgq8="
-									},
-									"font": "Arial;13;0",
-									"left": 810,
-									"top": 98,
-									"width": 77,
-									"height": 39,
-									"text": "Fuel injectors are faulty",
-									"wordWrap": true
-								}
-							],
-							"font": "Arial;13;0",
-							"left": 800,
-							"top": 88,
-							"width": 97,
-							"height": 64,
-							"nameLabel": {
-								"$ref": "AAAAAAGC7Pd4pYTcpGY="
-							}
-						},
-						{
-							"_type": "FCProcessView",
-							"_id": "AAAAAAGC7Pej8oTkUrM=",
-							"_parent": {
-								"$ref": "AAAAAAGC7NpdBYQ6DXw="
-							},
-							"model": {
-								"$ref": "AAAAAAGC7Pej8oTiOP8="
-							},
-							"subViews": [
-								{
-									"_type": "LabelView",
-									"_id": "AAAAAAGC7Pej8oTlcdw=",
-									"_parent": {
-										"$ref": "AAAAAAGC7Pej8oTkUrM="
-									},
-									"font": "Arial;13;0",
-									"left": 418,
-									"top": 26,
-									"width": 77,
-									"height": 26,
-									"text": "Alternator is faulty",
-									"wordWrap": true
-								}
-							],
-							"font": "Arial;13;0",
-							"left": 408,
-							"top": 16,
-							"width": 97,
-							"height": 64,
-							"nameLabel": {
-								"$ref": "AAAAAAGC7Pej8oTlcdw="
-							}
-						},
-						{
-							"_type": "FCProcessView",
-							"_id": "AAAAAAGC7PfoT4TtOfE=",
-							"_parent": {
-								"$ref": "AAAAAAGC7NpdBYQ6DXw="
-							},
-							"model": {
-								"$ref": "AAAAAAGC7PfoT4Tr9pI="
-							},
-							"subViews": [
-								{
-									"_type": "LabelView",
-									"_id": "AAAAAAGC7PfoT4Tu+ak=",
-									"_parent": {
-										"$ref": "AAAAAAGC7PfoT4TtOfE="
-									},
-									"font": "Arial;13;0",
-									"left": 522,
-									"top": 26,
-									"width": 77,
-									"height": 26,
-									"text": "Battery wires are faulty",
-									"wordWrap": true
-								}
-							],
-							"font": "Arial;13;0",
-							"left": 512,
-							"top": 16,
-							"width": 97,
-							"height": 65,
-							"nameLabel": {
-								"$ref": "AAAAAAGC7PfoT4Tu+ak="
-							}
-						},
-						{
-							"_type": "FCProcessView",
-							"_id": "AAAAAAGC7PggwoT2las=",
-							"_parent": {
-								"$ref": "AAAAAAGC7NpdBYQ6DXw="
-							},
-							"model": {
-								"$ref": "AAAAAAGC7PggwYT0Wrk="
-							},
-							"subViews": [
-								{
-									"_type": "LabelView",
-									"_id": "AAAAAAGC7PggwoT36Ow=",
-									"_parent": {
-										"$ref": "AAAAAAGC7PggwoT2las="
-									},
-									"font": "Arial;13;0",
-									"left": 418,
-									"top": 98,
-									"width": 77,
-									"height": 39,
-									"text": "Alternator drive belt is faulty",
-									"wordWrap": true
-								}
-							],
-							"font": "Arial;13;0",
-							"left": 408,
-							"top": 88,
-							"width": 97,
-							"height": 65,
-							"nameLabel": {
-								"$ref": "AAAAAAGC7PggwoT36Ow="
-							}
-						},
-						{
-							"_type": "FCProcessView",
-							"_id": "AAAAAAGC7PkUyIT/ExU=",
-							"_parent": {
-								"$ref": "AAAAAAGC7NpdBYQ6DXw="
-							},
-							"model": {
-								"$ref": "AAAAAAGC7PkUyIT9Uus="
-							},
-							"subViews": [
-								{
-									"_type": "LabelView",
-									"_id": "AAAAAAGC7PkUyIUAazc=",
-									"_parent": {
-										"$ref": "AAAAAAGC7PkUyIT/ExU="
-									},
-									"font": "Arial;13;0",
-									"left": 522,
-									"top": 98,
-									"width": 77,
-									"height": 39,
-									"text": "Short circuit in electrical system",
-									"wordWrap": true
-								}
-							],
-							"font": "Arial;13;0",
-							"left": 512,
-							"top": 88,
-							"width": 97,
-							"height": 65,
-							"nameLabel": {
-								"$ref": "AAAAAAGC7PkUyIUAazc="
-							}
-						},
-						{
-							"_type": "FCProcessView",
-							"_id": "AAAAAAGC7Pl5BYUKzQ0=",
-							"_parent": {
-								"$ref": "AAAAAAGC7NpdBYQ6DXw="
-							},
-							"model": {
-								"$ref": "AAAAAAGC7Pl5BYUI/4o="
-							},
-							"subViews": [
-								{
-									"_type": "LabelView",
-									"_id": "AAAAAAGC7Pl5BYULQaQ=",
-									"_parent": {
-										"$ref": "AAAAAAGC7Pl5BYUKzQ0="
-									},
-									"font": "Arial;13;0",
-									"left": 626,
-									"top": 26,
-									"width": 77,
-									"height": 26,
-									"text": "Battery is bad",
-									"wordWrap": true
-								}
-							],
-							"font": "Arial;13;0",
-							"left": 616,
-							"top": 16,
-							"width": 97,
-							"height": 65,
-							"nameLabel": {
-								"$ref": "AAAAAAGC7Pl5BYULQaQ="
-							}
-						},
-						{
-							"_type": "FCProcessView",
-							"_id": "AAAAAAGC7PmsR4UTKiw=",
-							"_parent": {
-								"$ref": "AAAAAAGC7NpdBYQ6DXw="
-							},
-							"model": {
-								"$ref": "AAAAAAGC7PmsR4URaUM="
-							},
-							"subViews": [
-								{
-									"_type": "LabelView",
-									"_id": "AAAAAAGC7PmsR4UUk20=",
-									"_parent": {
-										"$ref": "AAAAAAGC7PmsR4UTKiw="
-									},
-									"font": "Arial;13;0",
-									"left": 418,
-									"top": 274,
-									"width": 77,
-									"height": 26,
-									"text": "Clogged oil filter",
-									"wordWrap": true
-								}
-							],
-							"font": "Arial;13;0",
-							"left": 408,
-							"top": 264,
-							"width": 97,
-							"height": 65,
-							"nameLabel": {
-								"$ref": "AAAAAAGC7PmsR4UUk20="
-							}
-						},
-						{
-							"_type": "FCProcessView",
-							"_id": "AAAAAAGC7PnPMYUc/FY=",
-							"_parent": {
-								"$ref": "AAAAAAGC7NpdBYQ6DXw="
-							},
-							"model": {
-								"$ref": "AAAAAAGC7PnPMYUaA+g="
-							},
-							"subViews": [
-								{
-									"_type": "LabelView",
-									"_id": "AAAAAAGC7PnPMYUdLgo=",
-									"_parent": {
-										"$ref": "AAAAAAGC7PnPMYUc/FY="
-									},
-									"font": "Arial;13;0",
-									"left": 418,
-									"top": 202,
-									"width": 77,
-									"height": 26,
-									"text": "Oil pump bad",
-									"wordWrap": true
-								}
-							],
-							"font": "Arial;13;0",
-							"left": 408,
-							"top": 192,
-							"width": 97,
-							"height": 65,
-							"nameLabel": {
-								"$ref": "AAAAAAGC7PnPMYUdLgo="
-							}
-						},
-						{
-							"_type": "FCProcessView",
-							"_id": "AAAAAAGC7PoMwYUl6JY=",
-							"_parent": {
-								"$ref": "AAAAAAGC7NpdBYQ6DXw="
-							},
-							"model": {
-								"$ref": "AAAAAAGC7PoMwYUjCu8="
-							},
-							"subViews": [
-								{
-									"_type": "LabelView",
-									"_id": "AAAAAAGC7PoMwYUmuxM=",
-									"_parent": {
-										"$ref": "AAAAAAGC7PoMwYUl6JY="
-									},
-									"font": "Arial;13;0",
-									"left": 522,
-									"top": 202,
-									"width": 77,
-									"height": 26,
-									"text": "Improper grade of oil",
-									"wordWrap": true
-								}
-							],
-							"font": "Arial;13;0",
-							"left": 512,
-							"top": 192,
-							"width": 97,
-							"height": 65,
-							"nameLabel": {
-								"$ref": "AAAAAAGC7PoMwYUmuxM="
-							}
-						},
-						{
-							"_type": "FCProcessView",
-							"_id": "AAAAAAGC7Po6EIUutok=",
-							"_parent": {
-								"$ref": "AAAAAAGC7NpdBYQ6DXw="
-							},
-							"model": {
-								"$ref": "AAAAAAGC7Po6EIUsJV4="
-							},
-							"subViews": [
-								{
-									"_type": "LabelView",
-									"_id": "AAAAAAGC7Po6EIUv3OE=",
-									"_parent": {
-										"$ref": "AAAAAAGC7Po6EIUutok="
-									},
-									"font": "Arial;13;0",
-									"left": 1042,
-									"top": 498,
-									"width": 77,
-									"height": 39,
-									"text": "Oil drain plug is loose/worn",
-									"wordWrap": true
-								}
-							],
-							"font": "Arial;13;0",
-							"left": 1032,
-							"top": 488,
-							"width": 97,
-							"height": 65,
-							"nameLabel": {
-								"$ref": "AAAAAAGC7Po6EIUv3OE="
 							}
 						},
 						{
@@ -905,8 +157,8 @@
 										"$ref": "AAAAAAGC7Pp2eYU3ZXo="
 									},
 									"font": "Arial;13;0",
-									"left": 986,
-									"top": 650,
+									"left": 634,
+									"top": 490,
 									"width": 78.76171875,
 									"height": 39,
 									"text": "Engine seals/gaskets bad",
@@ -914,352 +166,12 @@
 								}
 							],
 							"font": "Arial;13;0",
-							"left": 976,
-							"top": 640,
+							"left": 624,
+							"top": 480,
 							"width": 98.76171875,
 							"height": 65,
 							"nameLabel": {
 								"$ref": "AAAAAAGC7Pp2eYU4pw8="
-							}
-						},
-						{
-							"_type": "FCProcessView",
-							"_id": "AAAAAAGC7PrDdIVAqz0=",
-							"_parent": {
-								"$ref": "AAAAAAGC7NpdBYQ6DXw="
-							},
-							"model": {
-								"$ref": "AAAAAAGC7PrDdIU+Fio="
-							},
-							"subViews": [
-								{
-									"_type": "LabelView",
-									"_id": "AAAAAAGC7PrDdIVBKl8=",
-									"_parent": {
-										"$ref": "AAAAAAGC7PrDdIVAqz0="
-									},
-									"font": "Arial;13;0",
-									"left": 26,
-									"top": 210,
-									"width": 76.59716796875,
-									"height": 26,
-									"text": "Clogged/dirty air filter",
-									"wordWrap": true
-								}
-							],
-							"font": "Arial;13;0",
-							"left": 16,
-							"top": 200,
-							"width": 96.59716796875,
-							"height": 64,
-							"nameLabel": {
-								"$ref": "AAAAAAGC7PrDdIVBKl8="
-							}
-						},
-						{
-							"_type": "FCProcessView",
-							"_id": "AAAAAAGC7Prv2YVJhbQ=",
-							"_parent": {
-								"$ref": "AAAAAAGC7NpdBYQ6DXw="
-							},
-							"model": {
-								"$ref": "AAAAAAGC7Prv2YVHp0o="
-							},
-							"subViews": [
-								{
-									"_type": "LabelView",
-									"_id": "AAAAAAGC7Prv2YVKIOU=",
-									"_parent": {
-										"$ref": "AAAAAAGC7Prv2YVJhbQ="
-									},
-									"font": "Arial;13;0",
-									"left": 130,
-									"top": 210,
-									"width": 76,
-									"height": 26,
-									"text": "Low tire pressure",
-									"wordWrap": true
-								}
-							],
-							"font": "Arial;13;0",
-							"left": 120,
-							"top": 200,
-							"width": 96,
-							"height": 64,
-							"nameLabel": {
-								"$ref": "AAAAAAGC7Prv2YVKIOU="
-							}
-						},
-						{
-							"_type": "FCProcessView",
-							"_id": "AAAAAAGC7PsSJ4VSKcw=",
-							"_parent": {
-								"$ref": "AAAAAAGC7NpdBYQ6DXw="
-							},
-							"model": {
-								"$ref": "AAAAAAGC7PsSJ4VQ7tA="
-							},
-							"subViews": [
-								{
-									"_type": "LabelView",
-									"_id": "AAAAAAGC7PsSJ4VTel0=",
-									"_parent": {
-										"$ref": "AAAAAAGC7PsSJ4VSKcw="
-									},
-									"font": "Arial;13;0",
-									"left": 234,
-									"top": 210,
-									"width": 77,
-									"height": 13,
-									"text": "Fuel leak",
-									"wordWrap": true
-								}
-							],
-							"font": "Arial;13;0",
-							"left": 224,
-							"top": 200,
-							"width": 97,
-							"height": 65,
-							"nameLabel": {
-								"$ref": "AAAAAAGC7PsSJ4VTel0="
-							}
-						},
-						{
-							"_type": "FCProcessView",
-							"_id": "AAAAAAGC7Ps1zIVb+qk=",
-							"_parent": {
-								"$ref": "AAAAAAGC7NpdBYQ6DXw="
-							},
-							"model": {
-								"$ref": "AAAAAAGC7Ps1zIVZ6eg="
-							},
-							"subViews": [
-								{
-									"_type": "LabelView",
-									"_id": "AAAAAAGC7Ps1zIVc2VI=",
-									"_parent": {
-										"$ref": "AAAAAAGC7Ps1zIVb+qk="
-									},
-									"font": "Arial;13;0",
-									"left": 26,
-									"top": 282,
-									"width": 75.8798828125,
-									"height": 52,
-									"text": "Fuel management system faulty",
-									"wordWrap": true
-								}
-							],
-							"font": "Arial;13;0",
-							"left": 16,
-							"top": 272,
-							"width": 95.8798828125,
-							"height": 72,
-							"nameLabel": {
-								"$ref": "AAAAAAGC7Ps1zIVc2VI="
-							}
-						},
-						{
-							"_type": "FCProcessView",
-							"_id": "AAAAAAGC7PtuNIVkbhw=",
-							"_parent": {
-								"$ref": "AAAAAAGC7NpdBYQ6DXw="
-							},
-							"model": {
-								"$ref": "AAAAAAGC7PtuNIViUSY="
-							},
-							"subViews": [
-								{
-									"_type": "LabelView",
-									"_id": "AAAAAAGC7PtuNIVloOM=",
-									"_parent": {
-										"$ref": "AAAAAAGC7PtuNIVkbhw="
-									},
-									"font": "Arial;13;0",
-									"left": 130,
-									"top": 26,
-									"width": 77,
-									"height": 26,
-									"text": "Insufficient coolant",
-									"wordWrap": true
-								}
-							],
-							"font": "Arial;13;0",
-							"left": 120,
-							"top": 16,
-							"width": 97,
-							"height": 64,
-							"nameLabel": {
-								"$ref": "AAAAAAGC7PtuNIVloOM="
-							}
-						},
-						{
-							"_type": "FCProcessView",
-							"_id": "AAAAAAGC7Pudg4VtUec=",
-							"_parent": {
-								"$ref": "AAAAAAGC7NpdBYQ6DXw="
-							},
-							"model": {
-								"$ref": "AAAAAAGC7Pudg4VrP5U="
-							},
-							"subViews": [
-								{
-									"_type": "LabelView",
-									"_id": "AAAAAAGC7Pudg4VuTqk=",
-									"_parent": {
-										"$ref": "AAAAAAGC7Pudg4VtUec="
-									},
-									"font": "Arial;13;0",
-									"left": 234,
-									"top": 26,
-									"width": 77,
-									"height": 26,
-									"text": "Drive belt defective",
-									"wordWrap": true
-								}
-							],
-							"font": "Arial;13;0",
-							"left": 224,
-							"top": 16,
-							"width": 97,
-							"height": 64,
-							"nameLabel": {
-								"$ref": "AAAAAAGC7Pudg4VuTqk="
-							}
-						},
-						{
-							"_type": "FCProcessView",
-							"_id": "AAAAAAGC7PvzToV2Wg8=",
-							"_parent": {
-								"$ref": "AAAAAAGC7NpdBYQ6DXw="
-							},
-							"model": {
-								"$ref": "AAAAAAGC7PvzToV0u2g="
-							},
-							"subViews": [
-								{
-									"_type": "LabelView",
-									"_id": "AAAAAAGC7PvzToV3V+0=",
-									"_parent": {
-										"$ref": "AAAAAAGC7PvzToV2Wg8="
-									},
-									"font": "Arial;13;0",
-									"left": 26,
-									"top": 26,
-									"width": 77,
-									"height": 26,
-									"text": "Radiator faulty",
-									"wordWrap": true
-								}
-							],
-							"font": "Arial;13;0",
-							"left": 16,
-							"top": 16,
-							"width": 97,
-							"height": 65,
-							"nameLabel": {
-								"$ref": "AAAAAAGC7PvzToV3V+0="
-							}
-						},
-						{
-							"_type": "FCProcessView",
-							"_id": "AAAAAAGC7PwbioV/9AE=",
-							"_parent": {
-								"$ref": "AAAAAAGC7NpdBYQ6DXw="
-							},
-							"model": {
-								"$ref": "AAAAAAGC7PwbioV9H6M="
-							},
-							"subViews": [
-								{
-									"_type": "LabelView",
-									"_id": "AAAAAAGC7PwbioWAjlI=",
-									"_parent": {
-										"$ref": "AAAAAAGC7PwbioV/9AE="
-									},
-									"font": "Arial;13;0",
-									"left": 130,
-									"top": 98,
-									"width": 77,
-									"height": 26,
-									"text": "Radiator fan faulty",
-									"wordWrap": true
-								}
-							],
-							"font": "Arial;13;0",
-							"left": 120,
-							"top": 88,
-							"width": 97,
-							"height": 65,
-							"nameLabel": {
-								"$ref": "AAAAAAGC7PwbioWAjlI="
-							}
-						},
-						{
-							"_type": "FCProcessView",
-							"_id": "AAAAAAGC7PxKsoWIpyE=",
-							"_parent": {
-								"$ref": "AAAAAAGC7NpdBYQ6DXw="
-							},
-							"model": {
-								"$ref": "AAAAAAGC7PxKsoWGxfA="
-							},
-							"subViews": [
-								{
-									"_type": "LabelView",
-									"_id": "AAAAAAGC7PxKsoWJ5QM=",
-									"_parent": {
-										"$ref": "AAAAAAGC7PxKsoWIpyE="
-									},
-									"font": "Arial;13;0",
-									"left": 234,
-									"top": 98,
-									"width": 76,
-									"height": 26,
-									"text": "Radiator cap faulty",
-									"wordWrap": true
-								}
-							],
-							"font": "Arial;13;0",
-							"left": 224,
-							"top": 88,
-							"width": 96,
-							"height": 65,
-							"nameLabel": {
-								"$ref": "AAAAAAGC7PxKsoWJ5QM="
-							}
-						},
-						{
-							"_type": "FCProcessView",
-							"_id": "AAAAAAGC7Px6h4WRNgY=",
-							"_parent": {
-								"$ref": "AAAAAAGC7NpdBYQ6DXw="
-							},
-							"model": {
-								"$ref": "AAAAAAGC7Px6h4WPIuA="
-							},
-							"subViews": [
-								{
-									"_type": "LabelView",
-									"_id": "AAAAAAGC7Px6h4WSOpc=",
-									"_parent": {
-										"$ref": "AAAAAAGC7Px6h4WRNgY="
-									},
-									"font": "Arial;13;0",
-									"left": 26,
-									"top": 98,
-									"width": 77,
-									"height": 26,
-									"text": "Water pump faulty",
-									"wordWrap": true
-								}
-							],
-							"font": "Arial;13;0",
-							"left": 16,
-							"top": 88,
-							"width": 97,
-							"height": 64,
-							"nameLabel": {
-								"$ref": "AAAAAAGC7Px6h4WSOpc="
 							}
 						},
 						{
@@ -1279,8 +191,8 @@
 										"$ref": "AAAAAAGC9Xi9muggErE="
 									},
 									"font": "Arial;13;0",
-									"left": 162,
-									"top": 506,
+									"left": 34,
+									"top": 82,
 									"width": 77,
 									"height": 26,
 									"text": "Do not offer a fix.",
@@ -1288,8 +200,8 @@
 								}
 							],
 							"font": "Arial;13;0",
-							"left": 152,
-							"top": 496,
+							"left": 24,
+							"top": 72,
 							"width": 97,
 							"height": 65,
 							"nameLabel": {
@@ -1316,8 +228,8 @@
 										"$ref": "AAAAAAGC9Xk1/+gssHk="
 									},
 									"font": "Arial;13;0",
-									"left": 80,
-									"top": 539,
+									"left": 65,
+									"top": 365,
 									"width": 16.6181640625,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -1337,7 +249,7 @@
 								"$ref": "AAAAAAGC7NqAcIRAaNU="
 							},
 							"lineStyle": 2,
-							"points": "88:608;88:560;152:560",
+							"points": "88:608;88:136",
 							"nameLabel": {
 								"$ref": "AAAAAAGC9Xk1/+gvIbw="
 							}
@@ -1360,7 +272,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 194,
-									"top": 618,
+									"top": 490,
 									"width": 61,
 									"height": 52,
 									"text": "Do you see fluids under the car?",
@@ -1369,7 +281,7 @@
 							],
 							"font": "Arial;13;0",
 							"left": 184,
-							"top": 608,
+							"top": 480,
 							"width": 81,
 							"height": 81,
 							"nameLabel": {
@@ -1396,8 +308,8 @@
 										"$ref": "AAAAAAGC9X07t+hJTTI="
 									},
 									"font": "Arial;13;0",
-									"left": 146,
-									"top": 627,
+									"left": 143,
+									"top": 597,
 									"width": 21.20751953125,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -1417,7 +329,7 @@
 								"$ref": "AAAAAAGC7NqAcIRAaNU="
 							},
 							"lineStyle": 2,
-							"points": "128:648;184:648",
+							"points": "128:648;168:648;168:560;184:560",
 							"nameLabel": {
 								"$ref": "AAAAAAGC9X07uOhM47s="
 							}
@@ -1439,8 +351,8 @@
 										"$ref": "AAAAAAGC9X1tBuhVfZc="
 									},
 									"font": "Arial;13;0",
-									"left": 530,
-									"top": 618,
+									"left": 322,
+									"top": 386,
 									"width": 60.63720703125,
 									"height": 39,
 									"text": "Is it engine oil?",
@@ -1448,8 +360,8 @@
 								}
 							],
 							"font": "Arial;13;0",
-							"left": 520,
-							"top": 608,
+							"left": 312,
+							"top": 376,
 							"width": 80.63720703125,
 							"height": 80,
 							"nameLabel": {
@@ -1476,8 +388,8 @@
 										"$ref": "AAAAAAGC9X4WpuhhW8k="
 									},
 									"font": "Arial;13;0",
-									"left": 382,
-									"top": 627,
+									"left": 254,
+									"top": 394,
 									"width": 21.20751953125,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -1497,7 +409,7 @@
 								"$ref": "AAAAAAGC9Xxe4eg927Q="
 							},
 							"lineStyle": 2,
-							"points": "264:648;520:648",
+							"points": "264:480;264:415;312:415",
 							"nameLabel": {
 								"$ref": "AAAAAAGC9X4Wpuhkdqg="
 							}
@@ -1519,8 +431,8 @@
 										"$ref": "AAAAAAGC9X5B/Oht834="
 									},
 									"font": "Arial;13;0",
-									"left": 538,
-									"top": 722,
+									"left": 346,
+									"top": 658,
 									"width": 53,
 									"height": 26,
 									"text": "Is it coolant?",
@@ -1528,8 +440,8 @@
 								}
 							],
 							"font": "Arial;13;0",
-							"left": 528,
-							"top": 712,
+							"left": 336,
+							"top": 648,
 							"width": 73,
 							"height": 73,
 							"nameLabel": {
@@ -1556,12 +468,12 @@
 										"$ref": "AAAAAAGC9X5z9+h1n3g="
 									},
 									"font": "Arial;13;0",
-									"left": 366,
-									"top": 683,
+									"left": 248,
+									"top": 592,
 									"width": 21.20751953125,
 									"height": 13,
-									"alpha": 1.5707963267948966,
-									"distance": 15,
+									"alpha": 1.2252405691593715,
+									"distance": 53.14132102234569,
 									"hostEdge": {
 										"$ref": "AAAAAAGC9X5z9+h35cE="
 									},
@@ -1577,7 +489,7 @@
 								"$ref": "AAAAAAGC9Xxe4eg927Q="
 							},
 							"lineStyle": 2,
-							"points": "224:688;224:704;528:704;528:712",
+							"points": "240:560;240:648;336:648",
 							"nameLabel": {
 								"$ref": "AAAAAAGC9X5z9+h4PpY="
 							}
@@ -1599,8 +511,8 @@
 										"$ref": "AAAAAAGC9X7Ao+iE3FE="
 									},
 									"font": "Arial;13;0",
-									"left": 522,
-									"top": 858,
+									"left": 314,
+									"top": 746,
 									"width": 72.96630859375,
 									"height": 39,
 									"text": "Is it transmission fluid?",
@@ -1608,8 +520,8 @@
 								}
 							],
 							"font": "Arial;13;0",
-							"left": 512,
-							"top": 848,
+							"left": 304,
+							"top": 736,
 							"width": 92.96630859375,
 							"height": 81,
 							"nameLabel": {
@@ -1636,12 +548,12 @@
 										"$ref": "AAAAAAGC9X81F+iMSX0="
 									},
 									"font": "Arial;13;0",
-									"left": 358,
-									"top": 747,
+									"left": 208,
+									"top": 672,
 									"width": 21.20751953125,
 									"height": 13,
-									"alpha": 1.5707963267948966,
-									"distance": 15,
+									"alpha": 1.3734006601074114,
+									"distance": 91.78235124467012,
 									"hostEdge": {
 										"$ref": "AAAAAAGC9X81GOiOeXY="
 									},
@@ -1657,7 +569,7 @@
 								"$ref": "AAAAAAGC9Xxe4eg927Q="
 							},
 							"lineStyle": 2,
-							"points": "224:688;224:768;512:768;512:848",
+							"points": "200:560;200:768;304:768",
 							"nameLabel": {
 								"$ref": "AAAAAAGC9X81GOiPDKs="
 							}
@@ -1679,8 +591,8 @@
 										"$ref": "AAAAAAGC9X+MJ+iaSAo="
 									},
 									"font": "Arial;13;0",
-									"left": 746,
-									"top": 546,
+									"left": 466,
+									"top": 386,
 									"width": 84,
 									"height": 52,
 									"text": "Is the leak coming from the oil drain plug?",
@@ -1688,8 +600,8 @@
 								}
 							],
 							"font": "Arial;13;0",
-							"left": 736,
-							"top": 536,
+							"left": 456,
+							"top": 376,
 							"width": 104,
 							"height": 80,
 							"nameLabel": {
@@ -1716,8 +628,8 @@
 										"$ref": "AAAAAAGC9YAfAuih0sw="
 									},
 									"font": "Arial;13;0",
-									"left": 639,
-									"top": 617,
+									"left": 414,
+									"top": 394,
 									"width": 21.20751953125,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -1737,55 +649,9 @@
 								"$ref": "AAAAAAGC9X1tBuhVfZc="
 							},
 							"lineStyle": 2,
-							"points": "600:634;664:634;664:615;736:615",
+							"points": "392:415;456:415",
 							"nameLabel": {
 								"$ref": "AAAAAAGC9YAfAuik0R0="
-							}
-						},
-						{
-							"_type": "FCFlowView",
-							"_id": "AAAAAAGC9YC1/+iwSEY=",
-							"_parent": {
-								"$ref": "AAAAAAGC7NpdBYQ6DXw="
-							},
-							"model": {
-								"$ref": "AAAAAAGC9YC1/uiu7hY="
-							},
-							"subViews": [
-								{
-									"_type": "EdgeLabelView",
-									"_id": "AAAAAAGC9YC1/+ixbjc=",
-									"_parent": {
-										"$ref": "AAAAAAGC9YC1/+iwSEY="
-									},
-									"model": {
-										"$ref": "AAAAAAGC9YC1/uiu7hY="
-									},
-									"font": "Arial;13;0",
-									"left": 919,
-									"top": 550,
-									"width": 21.20751953125,
-									"height": 13,
-									"alpha": 1.5707963267948966,
-									"distance": 15,
-									"hostEdge": {
-										"$ref": "AAAAAAGC9YC1/+iwSEY="
-									},
-									"edgePosition": 1,
-									"text": "Yes"
-								}
-							],
-							"font": "Arial;13;0",
-							"head": {
-								"$ref": "AAAAAAGC7Po6EIUutok="
-							},
-							"tail": {
-								"$ref": "AAAAAAGC9X+MJ+iaSAo="
-							},
-							"lineStyle": 2,
-							"points": "839:562;944:562;944:552;1032:552",
-							"nameLabel": {
-								"$ref": "AAAAAAGC9YC1/+ixbjc="
 							}
 						},
 						{
@@ -1805,8 +671,8 @@
 										"$ref": "AAAAAAGC9YFfp+i9sAI="
 									},
 									"font": "Arial;13;0",
-									"left": 762,
-									"top": 658,
+									"left": 434,
+									"top": 490,
 									"width": 76,
 									"height": 52,
 									"text": "Is the leak coming from a seam in the engine?",
@@ -1814,8 +680,8 @@
 								}
 							],
 							"font": "Arial;13;0",
-							"left": 752,
-							"top": 648,
+							"left": 424,
+							"top": 480,
 							"width": 96,
 							"height": 72,
 							"nameLabel": {
@@ -1842,8 +708,8 @@
 										"$ref": "AAAAAAGC9YIYS+jEjD4="
 									},
 									"font": "Arial;13;0",
-									"left": 666,
-									"top": 655,
+									"left": 341,
+									"top": 494,
 									"width": 21.20751953125,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -1863,7 +729,7 @@
 								"$ref": "AAAAAAGC9X1tBuhVfZc="
 							},
 							"lineStyle": 2,
-							"points": "600:676;752:676",
+							"points": "351:455;351:515;424:515",
 							"nameLabel": {
 								"$ref": "AAAAAAGC9YIYS+jHLsc="
 							}
@@ -1888,8 +754,8 @@
 										"$ref": "AAAAAAGC9YJE/ujPLDo="
 									},
 									"font": "Arial;13;0",
-									"left": 901,
-									"top": 660,
+									"left": 561,
+									"top": 499,
 									"width": 21.20751953125,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -1909,7 +775,7 @@
 								"$ref": "AAAAAAGC9YFfp+i9sAI="
 							},
 							"lineStyle": 2,
-							"points": "847:681;976:681",
+							"points": "519:520;624:520",
 							"nameLabel": {
 								"$ref": "AAAAAAGC9YJE/ujSs7I="
 							}
@@ -1931,8 +797,8 @@
 										"$ref": "AAAAAAGC9Ydi0ejbnCg="
 									},
 									"font": "Arial;13;0",
-									"left": 770,
-									"top": 738,
+									"left": 442,
+									"top": 578,
 									"width": 68.63720703125,
 									"height": 52,
 									"text": "Is the leak coming from the radiator?",
@@ -1940,8 +806,8 @@
 								}
 							],
 							"font": "Arial;13;0",
-							"left": 760,
-							"top": 728,
+							"left": 432,
+							"top": 568,
 							"width": 88.63720703125,
 							"height": 72,
 							"nameLabel": {
@@ -1965,8 +831,8 @@
 										"$ref": "AAAAAAGC9Ye9+ujkFnM="
 									},
 									"font": "Arial;13;0",
-									"left": 986,
-									"top": 738,
+									"left": 602,
+									"top": 578,
 									"width": 68,
 									"height": 26,
 									"text": "Radiator is bad",
@@ -1974,8 +840,8 @@
 								}
 							],
 							"font": "Arial;13;0",
-							"left": 976,
-							"top": 728,
+							"left": 592,
+							"top": 568,
 							"width": 88,
 							"height": 64,
 							"nameLabel": {
@@ -2002,8 +868,8 @@
 										"$ref": "AAAAAAGC9YgUUOjsyac="
 									},
 									"font": "Arial;13;0",
-									"left": 902,
-									"top": 741,
+									"left": 546,
+									"top": 578,
 									"width": 21.20751953125,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -2023,7 +889,7 @@
 								"$ref": "AAAAAAGC9Ydi0ejbnCg="
 							},
 							"lineStyle": 2,
-							"points": "848:762;976:762",
+							"points": "520:599;592:599",
 							"nameLabel": {
 								"$ref": "AAAAAAGC9YgUUOjv3kU="
 							}
@@ -2048,8 +914,8 @@
 										"$ref": "AAAAAAGC9YgoHuj2zsM="
 									},
 									"font": "Arial;13;0",
-									"left": 670,
-									"top": 739,
+									"left": 350,
+									"top": 582,
 									"width": 21.20751953125,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -2069,7 +935,7 @@
 								"$ref": "AAAAAAGC9X5B/Oht834="
 							},
 							"lineStyle": 2,
-							"points": "600:760;760:760",
+							"points": "360:648;360:603;432:603",
 							"nameLabel": {
 								"$ref": "AAAAAAGC9YgoHuj5Kyk="
 							}
@@ -2091,8 +957,8 @@
 										"$ref": "AAAAAAGC9YhQUukC6sQ="
 									},
 									"font": "Arial;13;0",
-									"left": 722,
-									"top": 826,
+									"left": 506,
+									"top": 666,
 									"width": 68.63720703125,
 									"height": 52,
 									"text": "Is the leak coming from a hose?",
@@ -2100,8 +966,8 @@
 								}
 							],
 							"font": "Arial;13;0",
-							"left": 712,
-							"top": 816,
+							"left": 496,
+							"top": 656,
 							"width": 88.63720703125,
 							"height": 72,
 							"nameLabel": {
@@ -2125,8 +991,8 @@
 										"$ref": "AAAAAAGC9YifB+kLnKU="
 									},
 									"font": "Arial;13;0",
-									"left": 898,
-									"top": 834,
+									"left": 674,
+									"top": 682,
 									"width": 68,
 									"height": 26,
 									"text": "Radiator hose is bad",
@@ -2134,8 +1000,8 @@
 								}
 							],
 							"font": "Arial;13;0",
-							"left": 888,
-							"top": 824,
+							"left": 664,
+							"top": 672,
 							"width": 88,
 							"height": 64,
 							"nameLabel": {
@@ -2162,12 +1028,12 @@
 										"$ref": "AAAAAAGC9YjFQ+kSQyg="
 									},
 									"font": "Arial;13;0",
-									"left": 590,
-									"top": 819,
+									"left": 492,
+									"top": 675,
 									"width": 21.20751953125,
 									"height": 13,
-									"alpha": 1.5707963267948966,
-									"distance": 15,
+									"alpha": 0.1973955213883497,
+									"distance": 50.99019513592785,
 									"hostEdge": {
 										"$ref": "AAAAAAGC9YjFQ+kUwTE="
 									},
@@ -2183,7 +1049,7 @@
 								"$ref": "AAAAAAGC9X5B/Oht834="
 							},
 							"lineStyle": 2,
-							"points": "600:784;600:840;712:840",
+							"points": "408:691;496:691",
 							"nameLabel": {
 								"$ref": "AAAAAAGC9YjFQ+kVoF0="
 							}
@@ -2208,8 +1074,8 @@
 										"$ref": "AAAAAAGC9Yjbjukc2zQ="
 									},
 									"font": "Arial;13;0",
-									"left": 834,
-									"top": 821,
+									"left": 614,
+									"top": 674,
 									"width": 21.20751953125,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -2229,7 +1095,7 @@
 								"$ref": "AAAAAAGC9YhQUukC6sQ="
 							},
 							"lineStyle": 2,
-							"points": "800:842;888:842",
+							"points": "584:695;664:695",
 							"nameLabel": {
 								"$ref": "AAAAAAGC9YjbjukfgrQ="
 							}
@@ -2251,8 +1117,8 @@
 										"$ref": "AAAAAAGC9YlSWuktZNA="
 									},
 									"font": "Arial;13;0",
-									"left": 730,
-									"top": 922,
+									"left": 490,
+									"top": 762,
 									"width": 72.96630859375,
 									"height": 65,
 									"text": "Is the leak coming from the transmission drain plug?",
@@ -2260,8 +1126,8 @@
 								}
 							],
 							"font": "Arial;13;0",
-							"left": 720,
-							"top": 912,
+							"left": 480,
+							"top": 752,
 							"width": 92.96630859375,
 							"height": 85,
 							"nameLabel": {
@@ -2285,8 +1151,8 @@
 										"$ref": "AAAAAAGC9YmZ4+k2MP8="
 									},
 									"font": "Arial;13;0",
-									"left": 906,
-									"top": 922,
+									"left": 666,
+									"top": 770,
 									"width": 76.81298828125,
 									"height": 39,
 									"text": "Transmission drain plug is loose/worn",
@@ -2294,8 +1160,8 @@
 								}
 							],
 							"font": "Arial;13;0",
-							"left": 896,
-							"top": 912,
+							"left": 656,
+							"top": 760,
 							"width": 96.81298828125,
 							"height": 88,
 							"nameLabel": {
@@ -2322,12 +1188,12 @@
 										"$ref": "AAAAAAGC9YoeJuk+9G8="
 									},
 									"font": "Arial;13;0",
-									"left": 547,
-									"top": 963,
+									"left": 424,
+									"top": 777,
 									"width": 21.20751953125,
 									"height": 13,
-									"alpha": 1.5707963267948966,
-									"distance": 15,
+									"alpha": -4.331883465341588,
+									"distance": 10.770329614269007,
 									"hostEdge": {
 										"$ref": "AAAAAAGC9YoeJulACWk="
 									},
@@ -2343,7 +1209,7 @@
 								"$ref": "AAAAAAGC9X7Ao+iE3FE="
 							},
 							"lineStyle": 2,
-							"points": "557:928;557:984;720:984",
+							"points": "396:794;480:794",
 							"nameLabel": {
 								"$ref": "AAAAAAGC9YoeJulBAgA="
 							}
@@ -2368,8 +1234,8 @@
 										"$ref": "AAAAAAGC9YpQnulKg2c="
 									},
 									"font": "Arial;13;0",
-									"left": 844,
-									"top": 934,
+									"left": 604,
+									"top": 782,
 									"width": 21.20751953125,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -2389,7 +1255,7 @@
 								"$ref": "AAAAAAGC9YlSWuktZNA="
 							},
 							"lineStyle": 2,
-							"points": "812:955;896:955",
+							"points": "572:803;656:803",
 							"nameLabel": {
 								"$ref": "AAAAAAGC9YpQn+lNxc4="
 							}
@@ -2448,12 +1314,12 @@
 										"$ref": "AAAAAAGC9YuF0uldwls="
 									},
 									"font": "Arial;13;0",
-									"left": 103,
-									"top": 803,
+									"left": 120,
+									"top": 728,
 									"width": 21.20751953125,
 									"height": 13,
-									"alpha": 1.5707963267948966,
-									"distance": 15,
+									"alpha": 1.3841068886973023,
+									"distance": 91.59148432032315,
 									"hostEdge": {
 										"$ref": "AAAAAAGC9YuF0ulfu+w="
 									},
@@ -2491,8 +1357,8 @@
 										"$ref": "AAAAAAGC9Yv/VulpWOs="
 									},
 									"font": "Arial;13;0",
-									"left": 370,
-									"top": 938,
+									"left": 338,
+									"top": 842,
 									"width": 76,
 									"height": 52,
 									"text": "Are the battery terminals connected?",
@@ -2500,8 +1366,8 @@
 								}
 							],
 							"font": "Arial;13;0",
-							"left": 360,
-							"top": 928,
+							"left": 328,
+							"top": 832,
 							"width": 96,
 							"height": 88,
 							"nameLabel": {
@@ -2528,8 +1394,8 @@
 										"$ref": "AAAAAAGC9Yx2yulx7kk="
 									},
 									"font": "Arial;13;0",
-									"left": 263,
-									"top": 923,
+									"left": 291,
+									"top": 854,
 									"width": 16.6181640625,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -2549,7 +1415,7 @@
 								"$ref": "AAAAAAGC9YrXbelWOao="
 							},
 							"lineStyle": 2,
-							"points": "271:911;271:944;360:944",
+							"points": "271:875;328:875",
 							"nameLabel": {
 								"$ref": "AAAAAAGC9Yx2y+l0HMo="
 							}
@@ -2574,8 +1440,8 @@
 										"$ref": "AAAAAAGC9YzkXOmKCrg="
 									},
 									"font": "Arial;13;0",
-									"left": 436,
-									"top": 1051,
+									"left": 381,
+									"top": 928,
 									"width": 16.6181640625,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -2595,9 +1461,4455 @@
 								"$ref": "AAAAAAGC9Yv/VulpWOs="
 							},
 							"lineStyle": 2,
-							"points": "444:1015;444:1072;472:1072",
+							"points": "375:919;375:952",
 							"nameLabel": {
 								"$ref": "AAAAAAGC9YzkXOmN2ho="
+							}
+						},
+						{
+							"_type": "FCTerminatorView",
+							"_id": "AAAAAAGDCkEpshHIiRE=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCkEpsRHGfWw="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDCkEpshHJuPc=",
+									"_parent": {
+										"$ref": "AAAAAAGDCkEpshHIiRE="
+									},
+									"font": "Arial;13;0",
+									"left": 482,
+									"top": 858,
+									"width": 92,
+									"height": 39,
+									"text": "What is the battery voltage?",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 472,
+							"top": 848,
+							"width": 112,
+							"height": 96,
+							"nameLabel": {
+								"$ref": "AAAAAAGDCkEpshHJuPc="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGDCkGR6RHRBxo=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCkGR6BHPeEM="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDCkGR6RHScBo=",
+									"_parent": {
+										"$ref": "AAAAAAGDCkGR6RHRBxo="
+									},
+									"model": {
+										"$ref": "AAAAAAGDCkGR6BHPeEM="
+									},
+									"font": "Arial;13;0",
+									"left": 437,
+									"top": 898,
+									"width": 21.20751953125,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGDCkGR6RHRBxo="
+									},
+									"edgePosition": 1,
+									"text": "Yes"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDCkEpshHIiRE="
+							},
+							"tail": {
+								"$ref": "AAAAAAGC9Yv/VulpWOs="
+							},
+							"lineStyle": 2,
+							"points": "423:919;472:919",
+							"nameLabel": {
+								"$ref": "AAAAAAGDCkGR6RHScBo="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGDCkHSbBHcxko=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCkHSbBHaQCI="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDCkHSbBHdhos=",
+									"_parent": {
+										"$ref": "AAAAAAGDCkHSbBHcxko="
+									},
+									"model": {
+										"$ref": "AAAAAAGDCkHSbBHaQCI="
+									},
+									"font": "Arial;13;0",
+									"left": 589,
+									"top": 852,
+									"width": 56.00537109375,
+									"height": 13,
+									"alpha": -4.899366299668917,
+									"distance": 37.656340767525464,
+									"hostEdge": {
+										"$ref": "AAAAAAGDCkHSbBHcxko="
+									},
+									"edgePosition": 1,
+									"text": "< 12 volts"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGC7PRC04RkzIA="
+							},
+							"tail": {
+								"$ref": "AAAAAAGDCkEpshHIiRE="
+							},
+							"lineStyle": 2,
+							"points": "583:896;640:896",
+							"nameLabel": {
+								"$ref": "AAAAAAGDCkHSbBHdhos="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAGDCkWoiRIJWpo=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCkWoiRIHQrQ="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDCkWoiRIKOeM=",
+									"_parent": {
+										"$ref": "AAAAAAGDCkWoiRIJWpo="
+									},
+									"font": "Arial;13;0",
+									"left": 490,
+									"top": 1050,
+									"width": 76,
+									"height": 26,
+									"text": "Car needs more gas",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 480,
+							"top": 1040,
+							"width": 96,
+							"height": 56,
+							"nameLabel": {
+								"$ref": "AAAAAAGDCkWoiRIKOeM="
+							}
+						},
+						{
+							"_type": "FCTerminatorView",
+							"_id": "AAAAAAGDCkhIpRI7tR8=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCkhIpRI5xlM="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDCkhIpRI8x4g=",
+									"_parent": {
+										"$ref": "AAAAAAGDCkhIpRI7tR8="
+									},
+									"font": "Arial;13;0",
+									"left": 658,
+									"top": 970,
+									"width": 76,
+									"height": 39,
+									"text": "Is the starter motor working?",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 648,
+							"top": 960,
+							"width": 96,
+							"height": 72,
+							"nameLabel": {
+								"$ref": "AAAAAAGDCkhIpRI8x4g="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAGDCkmb2BJjZJU=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCkmb2BJhJr8="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDCkmb2BJkJOk=",
+									"_parent": {
+										"$ref": "AAAAAAGDCkmb2BJjZJU="
+									},
+									"font": "Arial;13;0",
+									"left": 866,
+									"top": 1034,
+									"width": 76,
+									"height": 26,
+									"text": "Starter motor is bad",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 856,
+							"top": 1024,
+							"width": 96,
+							"height": 64,
+							"nameLabel": {
+								"$ref": "AAAAAAGDCkmb2BJkJOk="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGDCknZBxJtDd0=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCknZBhJrQHQ="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDCknZBxJuCVI=",
+									"_parent": {
+										"$ref": "AAAAAAGDCknZBxJtDd0="
+									},
+									"model": {
+										"$ref": "AAAAAAGDCknZBhJrQHQ="
+									},
+									"font": "Arial;13;0",
+									"left": 767,
+									"top": 1034,
+									"width": 16.6181640625,
+									"height": 13,
+									"alpha": 0.16883188318818393,
+									"distance": 89.26925562588724,
+									"hostEdge": {
+										"$ref": "AAAAAAGDCknZBxJtDd0="
+									},
+									"edgePosition": 1,
+									"text": "No"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDCkmb2BJjZJU="
+							},
+							"tail": {
+								"$ref": "AAAAAAGDCkhIpRI7tR8="
+							},
+							"lineStyle": 2,
+							"points": "687:1031;687:1055;856:1055",
+							"nameLabel": {
+								"$ref": "AAAAAAGDCknZBxJuCVI="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGDCkvAAxKP0mQ=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCkvAAhKN9mk="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDCkvAAxKQ1pw=",
+									"_parent": {
+										"$ref": "AAAAAAGDCkvAAxKP0mQ="
+									},
+									"model": {
+										"$ref": "AAAAAAGDCkvAAhKN9mk="
+									},
+									"font": "Arial;13;0",
+									"left": 528,
+									"top": 974,
+									"width": 63.59716796875,
+									"height": 13,
+									"alpha": 0.26171345777163796,
+									"distance": 57.97413216254298,
+									"hostEdge": {
+										"$ref": "AAAAAAGDCkvAAxKP0mQ="
+									},
+									"edgePosition": 1,
+									"text": ">= 12 volts"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDCkhIpRI7tR8="
+							},
+							"tail": {
+								"$ref": "AAAAAAGDCkEpshHIiRE="
+							},
+							"lineStyle": 2,
+							"points": "503:943;503:995;648:995",
+							"nameLabel": {
+								"$ref": "AAAAAAGDCkvAAxKQ1pw="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAGDCkx8ABKnmIo=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCkx8ABKl5U0="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDCkx8ABKoxIY=",
+									"_parent": {
+										"$ref": "AAAAAAGDCkx8ABKnmIo="
+									},
+									"font": "Arial;13;0",
+									"left": 866,
+									"top": 930,
+									"width": 84,
+									"height": 26,
+									"text": "Ignition switch is bad",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 856,
+							"top": 920,
+							"width": 104,
+							"height": 80,
+							"nameLabel": {
+								"$ref": "AAAAAAGDCkx8ABKoxIY="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGDCkyrWhKwtJM=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCkyrWhKuYi4="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDCkyrWhKxU3Y=",
+									"_parent": {
+										"$ref": "AAAAAAGDCkyrWhKwtJM="
+									},
+									"model": {
+										"$ref": "AAAAAAGDCkyrWhKuYi4="
+									},
+									"font": "Arial;13;0",
+									"left": 789,
+									"top": 939,
+									"width": 21.20751953125,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGDCkyrWhKwtJM="
+									},
+									"edgePosition": 1,
+									"text": "Yes"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDCkx8ABKnmIo="
+							},
+							"tail": {
+								"$ref": "AAAAAAGDCkhIpRI7tR8="
+							},
+							"lineStyle": 2,
+							"points": "743:960;856:960",
+							"nameLabel": {
+								"$ref": "AAAAAAGDCkyrWhKxU3Y="
+							}
+						},
+						{
+							"_type": "FCTerminatorView",
+							"_id": "AAAAAAGDCk+tjBL4X70=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCk+tixL2D6M="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDCk+tjBL5W/8=",
+									"_parent": {
+										"$ref": "AAAAAAGDCk+tjBL4X70="
+									},
+									"font": "Arial;13;0",
+									"left": 306,
+									"top": 1050,
+									"width": 61,
+									"height": 26,
+									"text": "Is there fuel?",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 296,
+							"top": 1040,
+							"width": 81,
+							"height": 65,
+							"nameLabel": {
+								"$ref": "AAAAAAGDCk+tjBL5W/8="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGDClAvPBMDqMg=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDClAvPBMBzl8="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDClAvPBME3Xk=",
+									"_parent": {
+										"$ref": "AAAAAAGDClAvPBMDqMg="
+									},
+									"model": {
+										"$ref": "AAAAAAGDClAvPBMBzl8="
+									},
+									"font": "Arial;13;0",
+									"left": 256,
+									"top": 968,
+									"width": 21.20751953125,
+									"height": 13,
+									"alpha": 1.2904965305370109,
+									"distance": 68.6804193347711,
+									"hostEdge": {
+										"$ref": "AAAAAAGDClAvPBMDqMg="
+									},
+									"edgePosition": 1,
+									"text": "Yes"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDCk+tjBL4X70="
+							},
+							"tail": {
+								"$ref": "AAAAAAGC9YrXbelWOao="
+							},
+							"lineStyle": 2,
+							"points": "247:911;247:1040;296:1040",
+							"nameLabel": {
+								"$ref": "AAAAAAGDClAvPBME3Xk="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGDClB6gxMPmfU=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDClB6gxMN7bk="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDClB6gxMQDkk=",
+									"_parent": {
+										"$ref": "AAAAAAGDClB6gxMPmfU="
+									},
+									"model": {
+										"$ref": "AAAAAAGDClB6gxMN7bk="
+									},
+									"font": "Arial;13;0",
+									"left": 420,
+									"top": 1050,
+									"width": 16.6181640625,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGDClB6gxMPmfU="
+									},
+									"edgePosition": 1,
+									"text": "No"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDCkWoiRIJWpo="
+							},
+							"tail": {
+								"$ref": "AAAAAAGDCk+tjBL4X70="
+							},
+							"lineStyle": 2,
+							"points": "376:1071;480:1071",
+							"nameLabel": {
+								"$ref": "AAAAAAGDClB6gxMQDkk="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAGDClGNwxMZLOY=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDClGNwxMX90c="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDClGNwxMaOhU=",
+									"_parent": {
+										"$ref": "AAAAAAGDClGNwxMZLOY="
+									},
+									"font": "Arial;13;0",
+									"left": 490,
+									"top": 1122,
+									"width": 76,
+									"height": 26,
+									"text": "Fuel system is bad",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 480,
+							"top": 1112,
+							"width": 96,
+							"height": 72,
+							"nameLabel": {
+								"$ref": "AAAAAAGDClGNwxMaOhU="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGDClHShxMivpg=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDClHShxMgx88="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDClHShxMjFlY=",
+									"_parent": {
+										"$ref": "AAAAAAGDClHShxMivpg="
+									},
+									"model": {
+										"$ref": "AAAAAAGDClHShxMgx88="
+									},
+									"font": "Arial;13;0",
+									"left": 408,
+									"top": 1112,
+									"width": 21.20751953125,
+									"height": 13,
+									"alpha": 0.2561513242101788,
+									"distance": 43.41658669218482,
+									"hostEdge": {
+										"$ref": "AAAAAAGDClHShxMivpg="
+									},
+									"edgePosition": 1,
+									"text": "Yes"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDClGNwxMZLOY="
+							},
+							"tail": {
+								"$ref": "AAAAAAGDCk+tjBL4X70="
+							},
+							"lineStyle": 2,
+							"points": "376:1104;376:1129;480:1129",
+							"nameLabel": {
+								"$ref": "AAAAAAGDClHShxMjFlY="
+							}
+						},
+						{
+							"_type": "FCTerminatorView",
+							"_id": "AAAAAAGDClMVPBM1MH8=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDClMVPBMz0bU="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDClMVPBM22kY=",
+									"_parent": {
+										"$ref": "AAAAAAGDClMVPBM1MH8="
+									},
+									"font": "Arial;13;0",
+									"left": 162,
+									"top": 1106,
+									"width": 84,
+									"height": 26,
+									"text": "Does the car run roughly?",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 152,
+							"top": 1096,
+							"width": 104,
+							"height": 80,
+							"nameLabel": {
+								"$ref": "AAAAAAGDClMVPBM22kY="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGDClNKaBM+41A=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDClNKaBM8TS0="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDClNKaBM/dXQ=",
+									"_parent": {
+										"$ref": "AAAAAAGDClNKaBM+41A="
+									},
+									"model": {
+										"$ref": "AAAAAAGDClNKaBM8TS0="
+									},
+									"font": "Arial;13;0",
+									"left": 104,
+									"top": 936,
+									"width": 21.20751953125,
+									"height": 13,
+									"alpha": 1.4608517997219115,
+									"distance": 154.93547043850222,
+									"hostEdge": {
+										"$ref": "AAAAAAGDClNKaBM+41A="
+									},
+									"edgePosition": 1,
+									"text": "Yes"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDClMVPBM1MH8="
+							},
+							"tail": {
+								"$ref": "AAAAAAGC7NqAcIRAaNU="
+							},
+							"lineStyle": 2,
+							"points": "97:688;97:1096;152:1096",
+							"nameLabel": {
+								"$ref": "AAAAAAGDClNKaBM/dXQ="
+							}
+						},
+						{
+							"_type": "FCTerminatorView",
+							"_id": "AAAAAAGDClO6PxNJFFE=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDClO6PhNHB2o="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDClO6PxNKQKE=",
+									"_parent": {
+										"$ref": "AAAAAAGDClO6PxNJFFE="
+									},
+									"font": "Arial;13;0",
+									"left": 346,
+									"top": 1194,
+									"width": 76,
+									"height": 39,
+									"text": "Are the vacuum hoses worn?",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 336,
+							"top": 1184,
+							"width": 96,
+							"height": 72,
+							"nameLabel": {
+								"$ref": "AAAAAAGDClO6PxNKQKE="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAGDClPqExNS8J4=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDClPqEhNQGmc="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDClPqExNTNos=",
+									"_parent": {
+										"$ref": "AAAAAAGDClPqExNS8J4="
+									},
+									"font": "Arial;13;0",
+									"left": 538,
+									"top": 1210,
+									"width": 92,
+									"height": 26,
+									"text": "There is a vacuum leak",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 528,
+							"top": 1200,
+							"width": 112,
+							"height": 56,
+							"nameLabel": {
+								"$ref": "AAAAAAGDClPqExNTNos="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGDClQS8RNbAdc=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDClQS8RNZkRg="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDClQS8RNcEn0=",
+									"_parent": {
+										"$ref": "AAAAAAGDClQS8RNbAdc="
+									},
+									"model": {
+										"$ref": "AAAAAAGDClQS8RNZkRg="
+									},
+									"font": "Arial;13;0",
+									"left": 280,
+									"top": 1176,
+									"width": 21.20751953125,
+									"height": 13,
+									"alpha": 0.4048916828368325,
+									"distance": 38.07886552931954,
+									"hostEdge": {
+										"$ref": "AAAAAAGDClQS8RNbAdc="
+									},
+									"edgePosition": 1,
+									"text": "Yes"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDClO6PxNJFFE="
+							},
+							"tail": {
+								"$ref": "AAAAAAGDClMVPBM1MH8="
+							},
+							"lineStyle": 2,
+							"points": "255:1175;255:1197;336:1197",
+							"nameLabel": {
+								"$ref": "AAAAAAGDClQS8RNcEn0="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGDClQzWxNmpBI=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDClQzWhNkdrk="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDClQzWxNn4ks=",
+									"_parent": {
+										"$ref": "AAAAAAGDClQzWxNmpBI="
+									},
+									"model": {
+										"$ref": "AAAAAAGDClQzWhNkdrk="
+									},
+									"font": "Arial;13;0",
+									"left": 469,
+									"top": 1204,
+									"width": 21.20751953125,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGDClQzWxNmpBI="
+									},
+									"edgePosition": 1,
+									"text": "Yes"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDClPqExNS8J4="
+							},
+							"tail": {
+								"$ref": "AAAAAAGDClO6PxNJFFE="
+							},
+							"lineStyle": 2,
+							"points": "431:1225;528:1225",
+							"nameLabel": {
+								"$ref": "AAAAAAGDClQzWxNn4ks="
+							}
+						},
+						{
+							"_type": "FCTerminatorView",
+							"_id": "AAAAAAGDClS1PBNwlcA=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDClS1PBNuJu4="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDClS1PBNxXIs=",
+									"_parent": {
+										"$ref": "AAAAAAGDClS1PBNwlcA="
+									},
+									"font": "Arial;13;0",
+									"left": 354,
+									"top": 1274,
+									"width": 102.62890625,
+									"height": 39,
+									"text": "Do the spark plugs look corroded/burned?",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 344,
+							"top": 1264,
+							"width": 122.62890625,
+							"height": 72,
+							"nameLabel": {
+								"$ref": "AAAAAAGDClS1PBNxXIs="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGDClUfVhN56e8=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDClUfVhN31m0="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDClUfVhN61WY=",
+									"_parent": {
+										"$ref": "AAAAAAGDClUfVhN56e8="
+									},
+									"model": {
+										"$ref": "AAAAAAGDClUfVhN31m0="
+									},
+									"font": "Arial;13;0",
+									"left": 272,
+									"top": 1240,
+									"width": 21.20751953125,
+									"height": 13,
+									"alpha": 0.5404193532117967,
+									"distance": 34.9857113690718,
+									"hostEdge": {
+										"$ref": "AAAAAAGDClUfVhN56e8="
+									},
+									"edgePosition": 1,
+									"text": "Yes"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDClS1PBNwlcA="
+							},
+							"tail": {
+								"$ref": "AAAAAAGDClMVPBM1MH8="
+							},
+							"lineStyle": 2,
+							"points": "252:1175;252:1264;344:1264",
+							"nameLabel": {
+								"$ref": "AAAAAAGDClUfVhN61WY="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAGDClVFNxOE8no=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDClVFNhOCDhw="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDClVFNxOFzyI=",
+									"_parent": {
+										"$ref": "AAAAAAGDClVFNxOE8no="
+									},
+									"font": "Arial;13;0",
+									"left": 538,
+									"top": 1282,
+									"width": 92,
+									"height": 26,
+									"text": "Spark plugs are bad",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 528,
+							"top": 1272,
+							"width": 112,
+							"height": 72,
+							"nameLabel": {
+								"$ref": "AAAAAAGDClVFNxOFzyI="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGDClVqrhONnCg=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDClVqrhOLcOQ="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDClVqrhOOw6c=",
+									"_parent": {
+										"$ref": "AAAAAAGDClVqrhONnCg="
+									},
+									"model": {
+										"$ref": "AAAAAAGDClVqrhOLcOQ="
+									},
+									"font": "Arial;13;0",
+									"left": 487,
+									"top": 1284,
+									"width": 21.20751953125,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGDClVqrhONnCg="
+									},
+									"edgePosition": 1,
+									"text": "Yes"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDClVFNxOE8no="
+							},
+							"tail": {
+								"$ref": "AAAAAAGDClS1PBNwlcA="
+							},
+							"lineStyle": 2,
+							"points": "466:1305;528:1305",
+							"nameLabel": {
+								"$ref": "AAAAAAGDClVqrhOOw6c="
+							}
+						},
+						{
+							"_type": "FCTerminatorView",
+							"_id": "AAAAAAGDClWTPROXAaQ=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDClWTPBOV3Ag="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDClWTPROYNco=",
+									"_parent": {
+										"$ref": "AAAAAAGDClWTPROXAaQ="
+									},
+									"font": "Arial;13;0",
+									"left": 346,
+									"top": 1354,
+									"width": 108,
+									"height": 26,
+									"text": "Could the fuel have water in it?",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 336,
+							"top": 1344,
+							"width": 128,
+							"height": 88,
+							"nameLabel": {
+								"$ref": "AAAAAAGDClWTPROYNco="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAGDClZkVBOgS6U=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDClZkVBOe4Uw="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDClZkVROhfuk=",
+									"_parent": {
+										"$ref": "AAAAAAGDClZkVBOgS6U="
+									},
+									"font": "Arial;13;0",
+									"left": 538,
+									"top": 1370,
+									"width": 100,
+									"height": 13,
+									"text": "Fuel is bad",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 528,
+							"top": 1360,
+							"width": 120,
+							"height": 72,
+							"nameLabel": {
+								"$ref": "AAAAAAGDClZkVROhfuk="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGDClaCxhOpaYE=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDClaCxROnmL0="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDClaCxhOqjIM=",
+									"_parent": {
+										"$ref": "AAAAAAGDClaCxhOpaYE="
+									},
+									"model": {
+										"$ref": "AAAAAAGDClaCxROnmL0="
+									},
+									"font": "Arial;13;0",
+									"left": 272,
+									"top": 1328,
+									"width": 21.20751953125,
+									"height": 13,
+									"alpha": 0.2053953475924379,
+									"distance": 49.03060268852505,
+									"hostEdge": {
+										"$ref": "AAAAAAGDClaCxhOpaYE="
+									},
+									"edgePosition": 1,
+									"text": "Yes"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDClWTPROXAaQ="
+							},
+							"tail": {
+								"$ref": "AAAAAAGDClMVPBM1MH8="
+							},
+							"lineStyle": 2,
+							"points": "234:1175;234:1344;336:1344",
+							"nameLabel": {
+								"$ref": "AAAAAAGDClaCxhOqjIM="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGDClagARO0c8M=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDClagABOypUg="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDClagARO1Z+E=",
+									"_parent": {
+										"$ref": "AAAAAAGDClagARO0c8M="
+									},
+									"model": {
+										"$ref": "AAAAAAGDClagABOypUg="
+									},
+									"font": "Arial;13;0",
+									"left": 485,
+									"top": 1371,
+									"width": 21.20751953125,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGDClagARO0c8M="
+									},
+									"edgePosition": 1,
+									"text": "Yes"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDClZkVBOgS6U="
+							},
+							"tail": {
+								"$ref": "AAAAAAGDClWTPROXAaQ="
+							},
+							"lineStyle": 2,
+							"points": "463:1392;528:1392",
+							"nameLabel": {
+								"$ref": "AAAAAAGDClagARO1Z+E="
+							}
+						},
+						{
+							"_type": "FCTerminatorView",
+							"_id": "AAAAAAGDCla9rxO+1wY=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCla9rxO84pA="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDCla9rxO/344=",
+									"_parent": {
+										"$ref": "AAAAAAGDCla9rxO+1wY="
+									},
+									"font": "Arial;13;0",
+									"left": 354,
+									"top": 1450,
+									"width": 84,
+									"height": 52,
+									"text": "Do the fuel injectors look clogged or corroded?",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 344,
+							"top": 1440,
+							"width": 104,
+							"height": 72,
+							"nameLabel": {
+								"$ref": "AAAAAAGDCla9rxO/344="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAGDCliEpRPIses=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCliEpRPGLgw="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDCliEpRPJt5U=",
+									"_parent": {
+										"$ref": "AAAAAAGDCliEpRPIses="
+									},
+									"font": "Arial;13;0",
+									"left": 530,
+									"top": 1458,
+									"width": 108,
+									"height": 26,
+									"text": "Fuel injectors are bad",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 520,
+							"top": 1448,
+							"width": 128,
+							"height": 64,
+							"nameLabel": {
+								"$ref": "AAAAAAGDCliEpRPJt5U="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGDClimbhPRnB0=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDClimbhPPiUQ="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDClimbhPSuDE=",
+									"_parent": {
+										"$ref": "AAAAAAGDClimbhPRnB0="
+									},
+									"model": {
+										"$ref": "AAAAAAGDClimbhPPiUQ="
+									},
+									"font": "Arial;13;0",
+									"left": 272,
+									"top": 1419,
+									"width": 21.20751953125,
+									"height": 13,
+									"alpha": 0.26171345777163796,
+									"distance": 57.97413216254298,
+									"hostEdge": {
+										"$ref": "AAAAAAGDClimbhPRnB0="
+									},
+									"edgePosition": 1,
+									"text": "Yes"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDCla9rxO+1wY="
+							},
+							"tail": {
+								"$ref": "AAAAAAGDClMVPBM1MH8="
+							},
+							"lineStyle": 2,
+							"points": "226:1175;226:1440;344:1440",
+							"nameLabel": {
+								"$ref": "AAAAAAGDClimbhPSuDE="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGDCljDaBPcqRU=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCljDaBPadiY="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDCljDaBPdrFA=",
+									"_parent": {
+										"$ref": "AAAAAAGDCljDaBPcqRU="
+									},
+									"model": {
+										"$ref": "AAAAAAGDCljDaBPadiY="
+									},
+									"font": "Arial;13;0",
+									"left": 473,
+									"top": 1457,
+									"width": 21.20751953125,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGDCljDaBPcqRU="
+									},
+									"edgePosition": 1,
+									"text": "Yes"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDCliEpRPIses="
+							},
+							"tail": {
+								"$ref": "AAAAAAGDCla9rxO+1wY="
+							},
+							"lineStyle": 2,
+							"points": "447:1478;520:1478",
+							"nameLabel": {
+								"$ref": "AAAAAAGDCljDaBPdrFA="
+							}
+						},
+						{
+							"_type": "FCTerminatorView",
+							"_id": "AAAAAAGDClnaJhPmgrY=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDClnaJhPkUyc="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDClnaJhPna88=",
+									"_parent": {
+										"$ref": "AAAAAAGDClnaJhPmgrY="
+									},
+									"font": "Arial;13;0",
+									"left": 362,
+									"top": 1546,
+									"width": 76,
+									"height": 52,
+									"text": "Do the ignition wires look worn?",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 352,
+							"top": 1536,
+							"width": 96,
+							"height": 80,
+							"nameLabel": {
+								"$ref": "AAAAAAGDClnaJhPna88="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAGDClqhThPvPj8=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDClqhThPtK0M="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDClqhTxPwqsE=",
+									"_parent": {
+										"$ref": "AAAAAAGDClqhThPvPj8="
+									},
+									"font": "Arial;13;0",
+									"left": 530,
+									"top": 1538,
+									"width": 100,
+									"height": 26,
+									"text": "Ignition wires are bad",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 520,
+							"top": 1528,
+							"width": 120,
+							"height": 72,
+							"nameLabel": {
+								"$ref": "AAAAAAGDClqhTxPwqsE="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGDClrHHhP4zqw=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDClrHHRP2Ab8="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDClrHHhP5wfs=",
+									"_parent": {
+										"$ref": "AAAAAAGDClrHHhP4zqw="
+									},
+									"model": {
+										"$ref": "AAAAAAGDClrHHRP2Ab8="
+									},
+									"font": "Arial;13;0",
+									"left": 264,
+									"top": 1520,
+									"width": 21.20751953125,
+									"height": 13,
+									"alpha": 0.18648686729114877,
+									"distance": 53.9351462406472,
+									"hostEdge": {
+										"$ref": "AAAAAAGDClrHHhP4zqw="
+									},
+									"edgePosition": 1,
+									"text": "Yes"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDClnaJhPmgrY="
+							},
+							"tail": {
+								"$ref": "AAAAAAGDClMVPBM1MH8="
+							},
+							"lineStyle": 2,
+							"points": "221:1175;221:1536;352:1536",
+							"nameLabel": {
+								"$ref": "AAAAAAGDClrHHhP5wfs="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGDClrhCBQDD0Q=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDClrhCBQBFYQ="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDClrhCBQEabw=",
+									"_parent": {
+										"$ref": "AAAAAAGDClrhCBQDD0Q="
+									},
+									"model": {
+										"$ref": "AAAAAAGDClrhCBQBFYQ="
+									},
+									"font": "Arial;13;0",
+									"left": 473,
+									"top": 1551,
+									"width": 21.20751953125,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGDClrhCBQDD0Q="
+									},
+									"edgePosition": 1,
+									"text": "Yes"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDClqhThPvPj8="
+							},
+							"tail": {
+								"$ref": "AAAAAAGDClnaJhPmgrY="
+							},
+							"lineStyle": 2,
+							"points": "447:1572;520:1572",
+							"nameLabel": {
+								"$ref": "AAAAAAGDClrhCBQEabw="
+							}
+						},
+						{
+							"_type": "FCTerminatorView",
+							"_id": "AAAAAAGDClwX9hQNSSE=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDClwX9hQLvUo="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDClwX9xQO1Oo=",
+									"_parent": {
+										"$ref": "AAAAAAGDClwX9hQNSSE="
+									},
+									"font": "Arial;13;0",
+									"left": 370,
+									"top": 1650,
+									"width": 68.63720703125,
+									"height": 65,
+									"text": "Is there a knocking noise from the engine?",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 360,
+							"top": 1640,
+							"width": 88.63720703125,
+							"height": 85,
+							"nameLabel": {
+								"$ref": "AAAAAAGDClwX9xQO1Oo="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAGDClyBShQWmM0=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDClyBShQUns8="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDClyBShQXJtQ=",
+									"_parent": {
+										"$ref": "AAAAAAGDClyBShQWmM0="
+									},
+									"font": "Arial;13;0",
+									"left": 546,
+									"top": 1650,
+									"width": 84,
+									"height": 52,
+									"text": "Internal engine components are bad",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 536,
+							"top": 1640,
+							"width": 104,
+							"height": 88,
+							"nameLabel": {
+								"$ref": "AAAAAAGDClyBShQXJtQ="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGDClyqbBQfQi8=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDClyqbBQdK4I="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDClyqbBQgp+Y=",
+									"_parent": {
+										"$ref": "AAAAAAGDClyqbBQfQi8="
+									},
+									"model": {
+										"$ref": "AAAAAAGDClyqbBQdK4I="
+									},
+									"font": "Arial;13;0",
+									"left": 272,
+									"top": 1624,
+									"width": 21.20751953125,
+									"height": 13,
+									"alpha": 0.15499671809172344,
+									"distance": 64.77653896280658,
+									"hostEdge": {
+										"$ref": "AAAAAAGDClyqbBQfQi8="
+									},
+									"edgePosition": 1,
+									"text": "Yes"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDClwX9hQNSSE="
+							},
+							"tail": {
+								"$ref": "AAAAAAGDClMVPBM1MH8="
+							},
+							"lineStyle": 2,
+							"points": "218:1175;218:1640;360:1640",
+							"nameLabel": {
+								"$ref": "AAAAAAGDClyqbBQgp+Y="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGDClzFtRQq34w=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDClzFtRQooQ0="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDClzFtRQrapo=",
+									"_parent": {
+										"$ref": "AAAAAAGDClzFtRQq34w="
+									},
+									"model": {
+										"$ref": "AAAAAAGDClzFtRQooQ0="
+									},
+									"font": "Arial;13;0",
+									"left": 482,
+									"top": 1662,
+									"width": 21.20751953125,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGDClzFtRQq34w="
+									},
+									"edgePosition": 1,
+									"text": "Yes"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDClyBShQWmM0="
+							},
+							"tail": {
+								"$ref": "AAAAAAGDClwX9hQNSSE="
+							},
+							"lineStyle": 2,
+							"points": "448:1683;536:1683",
+							"nameLabel": {
+								"$ref": "AAAAAAGDClzFtRQrapo="
+							}
+						},
+						{
+							"_type": "FCTerminatorView",
+							"_id": "AAAAAAGDCl0TiBQ04Dw=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCl0TiBQyjl4="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDCl0TiBQ1RFM=",
+									"_parent": {
+										"$ref": "AAAAAAGDCl0TiBQ04Dw="
+									},
+									"font": "Arial;13;0",
+									"left": 218,
+									"top": 1762,
+									"width": 84,
+									"height": 39,
+									"text": "Does the battery hold a charge?",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 208,
+							"top": 1752,
+							"width": 104,
+							"height": 96,
+							"nameLabel": {
+								"$ref": "AAAAAAGDCl0TiBQ1RFM="
+							}
+						},
+						{
+							"_type": "FCTerminatorView",
+							"_id": "AAAAAAGDCl8VFxQ9lnw=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCl8VFxQ7R68="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDCl8VFxQ+HOI=",
+									"_parent": {
+										"$ref": "AAAAAAGDCl8VFxQ9lnw="
+									},
+									"font": "Arial;13;0",
+									"left": 722,
+									"top": 1754,
+									"width": 68.63720703125,
+									"height": 39,
+									"text": "Does the battery test ok?",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 712,
+							"top": 1744,
+							"width": 88.63720703125,
+							"height": 80,
+							"nameLabel": {
+								"$ref": "AAAAAAGDCl8VFxQ+HOI="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAGDCl8/YhRGT8Y=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCl8/YhRETuE="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDCl8/YhRHKeU=",
+									"_parent": {
+										"$ref": "AAAAAAGDCl8/YhRGT8Y="
+									},
+									"font": "Arial;13;0",
+									"left": 1002,
+									"top": 1730,
+									"width": 68,
+									"height": 26,
+									"text": "Battery is bad",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 992,
+							"top": 1720,
+							"width": 88,
+							"height": 80,
+							"nameLabel": {
+								"$ref": "AAAAAAGDCl8/YhRHKeU="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGDCl9w7hRPBQw=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCl9w7hRNiBo="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDCl9w7hRQGkw=",
+									"_parent": {
+										"$ref": "AAAAAAGDCl9w7hRPBQw="
+									},
+									"model": {
+										"$ref": "AAAAAAGDCl9w7hRNiBo="
+									},
+									"font": "Arial;13;0",
+									"left": 136,
+									"top": 1731,
+									"width": 21.20751953125,
+									"height": 13,
+									"alpha": 0.2808376734091942,
+									"distance": 54.120236510939236,
+									"hostEdge": {
+										"$ref": "AAAAAAGDCl9w7hRPBQw="
+									},
+									"edgePosition": 1,
+									"text": "Yes"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDCl0TiBQ04Dw="
+							},
+							"tail": {
+								"$ref": "AAAAAAGC7NqAcIRAaNU="
+							},
+							"lineStyle": 2,
+							"points": "94:688;94:1752;208:1752",
+							"nameLabel": {
+								"$ref": "AAAAAAGDCl9w7hRQGkw="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGDCl+dYBRac7Q=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCl+dXxRYJ08="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDCl+dYBRbwAk=",
+									"_parent": {
+										"$ref": "AAAAAAGDCl+dYBRac7Q="
+									},
+									"model": {
+										"$ref": "AAAAAAGDCl+dXxRYJ08="
+									},
+									"font": "Arial;13;0",
+									"left": 503,
+									"top": 1776,
+									"width": 16.6181640625,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGDCl+dYBRac7Q="
+									},
+									"edgePosition": 1,
+									"text": "No"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDCl8VFxQ9lnw="
+							},
+							"tail": {
+								"$ref": "AAAAAAGDCl0TiBQ04Dw="
+							},
+							"lineStyle": 2,
+							"points": "311:1797;712:1797",
+							"nameLabel": {
+								"$ref": "AAAAAAGDCl+dYBRbwAk="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGDCl+xlBRkVOA=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCl+xkxRiKfY="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDCl+xlBRlJ0w=",
+									"_parent": {
+										"$ref": "AAAAAAGDCl+xlBRkVOA="
+									},
+									"model": {
+										"$ref": "AAAAAAGDCl+xkxRiKfY="
+									},
+									"font": "Arial;13;0",
+									"left": 888,
+									"top": 1769,
+									"width": 16.6181640625,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGDCl+xlBRkVOA="
+									},
+									"edgePosition": 1,
+									"text": "No"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDCl8/YhRGT8Y="
+							},
+							"tail": {
+								"$ref": "AAAAAAGDCl8VFxQ9lnw="
+							},
+							"lineStyle": 2,
+							"points": "800:1790;992:1790",
+							"nameLabel": {
+								"$ref": "AAAAAAGDCl+xlBRlJ0w="
+							}
+						},
+						{
+							"_type": "FCTerminatorView",
+							"_id": "AAAAAAGDCmAUyxR7EMU=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCmAUyxR5G2Q="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDCmAUyxR8SCo=",
+									"_parent": {
+										"$ref": "AAAAAAGDCmAUyxR7EMU="
+									},
+									"font": "Arial;13;0",
+									"left": 722,
+									"top": 1858,
+									"width": 68.63720703125,
+									"height": 39,
+									"text": "Does the alternator test ok?",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 712,
+							"top": 1848,
+							"width": 88.63720703125,
+							"height": 80,
+							"nameLabel": {
+								"$ref": "AAAAAAGDCmAUyxR8SCo="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGDCmA/VRSER78=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCmA/VBSCFjE="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDCmA/VRSF4zg=",
+									"_parent": {
+										"$ref": "AAAAAAGDCmA/VRSER78="
+									},
+									"model": {
+										"$ref": "AAAAAAGDCmA/VBSCFjE="
+									},
+									"font": "Arial;13;0",
+									"left": 759,
+									"top": 1828,
+									"width": 21.20751953125,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGDCmA/VRSER78="
+									},
+									"edgePosition": 1,
+									"text": "Yes"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDCmAUyxR7EMU="
+							},
+							"tail": {
+								"$ref": "AAAAAAGDCl8VFxQ9lnw="
+							},
+							"lineStyle": 2,
+							"points": "755:1823;755:1848",
+							"nameLabel": {
+								"$ref": "AAAAAAGDCmA/VRSF4zg="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAGDCmBW5hSOTm8=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCmBW5hSMyBk="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDCmBW5hSPtUk=",
+									"_parent": {
+										"$ref": "AAAAAAGDCmBW5hSOTm8="
+									},
+									"font": "Arial;13;0",
+									"left": 1002,
+									"top": 1826,
+									"width": 68,
+									"height": 26,
+									"text": "Alternator is bad",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 992,
+							"top": 1816,
+							"width": 88,
+							"height": 72,
+							"nameLabel": {
+								"$ref": "AAAAAAGDCmBW5hSPtUk="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGDCmB46xSX4NE=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCmB46xSVEsU="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDCmB46xSYAzc=",
+									"_parent": {
+										"$ref": "AAAAAAGDCmB46xSX4NE="
+									},
+									"model": {
+										"$ref": "AAAAAAGDCmB46xSVEsU="
+									},
+									"font": "Arial;13;0",
+									"left": 878,
+									"top": 1880,
+									"width": 16.6181640625,
+									"height": 13,
+									"alpha": -4.8133947172126375,
+									"distance": 148.75819305167698,
+									"hostEdge": {
+										"$ref": "AAAAAAGDCmB46xSX4NE="
+									},
+									"edgePosition": 1,
+									"text": "No"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDCmBW5hSOTm8="
+							},
+							"tail": {
+								"$ref": "AAAAAAGDCmAUyxR7EMU="
+							},
+							"lineStyle": 2,
+							"points": "800:1901;1035:1901;1035:1887",
+							"nameLabel": {
+								"$ref": "AAAAAAGDCmB46xSYAzc="
+							}
+						},
+						{
+							"_type": "FCTerminatorView",
+							"_id": "AAAAAAGDCmDUohSh1B4=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCmDUoRSfHK4="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDCmDUohSiFaM=",
+									"_parent": {
+										"$ref": "AAAAAAGDCmDUohSh1B4="
+									},
+									"font": "Arial;13;0",
+									"left": 722,
+									"top": 1978,
+									"width": 68.63720703125,
+									"height": 52,
+									"text": "Is the alternator drive belt worn?",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 712,
+							"top": 1968,
+							"width": 88.63720703125,
+							"height": 72,
+							"nameLabel": {
+								"$ref": "AAAAAAGDCmDUohSiFaM="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGDCmEjnxSq3mo=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCmEjnxSoEnI="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDCmEjnxSrUo4=",
+									"_parent": {
+										"$ref": "AAAAAAGDCmEjnxSq3mo="
+									},
+									"model": {
+										"$ref": "AAAAAAGDCmEjnxSoEnI="
+									},
+									"font": "Arial;13;0",
+									"left": 759,
+									"top": 1940,
+									"width": 21.20751953125,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGDCmEjnxSq3mo="
+									},
+									"edgePosition": 1,
+									"text": "Yes"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDCmDUohSh1B4="
+							},
+							"tail": {
+								"$ref": "AAAAAAGDCmAUyxR7EMU="
+							},
+							"lineStyle": 2,
+							"points": "755:1927;755:1968",
+							"nameLabel": {
+								"$ref": "AAAAAAGDCmEjnxSrUo4="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAGDCmE7yxS0l/Q=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCmE7yxSyank="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDCmE7yxS1vMQ=",
+									"_parent": {
+										"$ref": "AAAAAAGDCmE7yxS0l/Q="
+									},
+									"font": "Arial;13;0",
+									"left": 994,
+									"top": 1930,
+									"width": 76,
+									"height": 39,
+									"text": "Alternator drive belt is bad",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 984,
+							"top": 1920,
+							"width": 96,
+							"height": 72,
+							"nameLabel": {
+								"$ref": "AAAAAAGDCmE7yxS1vMQ="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGDCmFgUBS9P80=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCmFgUBS7+38="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDCmFgUBS+sxc=",
+									"_parent": {
+										"$ref": "AAAAAAGDCmFgUBS9P80="
+									},
+									"model": {
+										"$ref": "AAAAAAGDCmFgUBS7+38="
+									},
+									"font": "Arial;13;0",
+									"left": 887,
+									"top": 1992,
+									"width": 21.20751953125,
+									"height": 13,
+									"alpha": -4.787435161367288,
+									"distance": 133.37541002748594,
+									"hostEdge": {
+										"$ref": "AAAAAAGDCmFgUBS9P80="
+									},
+									"edgePosition": 1,
+									"text": "Yes"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDCmE7yxS0l/Q="
+							},
+							"tail": {
+								"$ref": "AAAAAAGDCmDUohSh1B4="
+							},
+							"lineStyle": 2,
+							"points": "800:2008;1031:2008;1031:1991",
+							"nameLabel": {
+								"$ref": "AAAAAAGDCmFgUBS+sxc="
+							}
+						},
+						{
+							"_type": "FCTerminatorView",
+							"_id": "AAAAAAGDCmGG7BTHp2M=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCmGG7BTFRIQ="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDCmGG7BTISU4=",
+									"_parent": {
+										"$ref": "AAAAAAGDCmGG7BTHp2M="
+									},
+									"font": "Arial;13;0",
+									"left": 714,
+									"top": 2090,
+									"width": 68.63720703125,
+									"height": 52,
+									"text": "Are the battery wires worn?",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 704,
+							"top": 2080,
+							"width": 88.63720703125,
+							"height": 80,
+							"nameLabel": {
+								"$ref": "AAAAAAGDCmGG7BTISU4="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAGDCmHMwRTQ1cM=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCmHMwBTOLlM="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDCmHMwRTRXcs=",
+									"_parent": {
+										"$ref": "AAAAAAGDCmHMwRTQ1cM="
+									},
+									"font": "Arial;13;0",
+									"left": 994,
+									"top": 2034,
+									"width": 76,
+									"height": 39,
+									"text": "Battery wires are bad",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 984,
+							"top": 2024,
+							"width": 96,
+							"height": 80,
+							"nameLabel": {
+								"$ref": "AAAAAAGDCmHMwRTRXcs="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGDCmHqKBTZYcg=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCmHqJxTXIUM="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDCmHqKBTajOY=",
+									"_parent": {
+										"$ref": "AAAAAAGDCmHqKBTZYcg="
+									},
+									"model": {
+										"$ref": "AAAAAAGDCmHqJxTXIUM="
+									},
+									"font": "Arial;13;0",
+									"left": 760,
+									"top": 2048,
+									"width": 21.20751953125,
+									"height": 13,
+									"alpha": 1.8925462050011825,
+									"distance": 15.811388300841896,
+									"hostEdge": {
+										"$ref": "AAAAAAGDCmHqKBTZYcg="
+									},
+									"edgePosition": 1,
+									"text": "No"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDCmGG7BTHp2M="
+							},
+							"tail": {
+								"$ref": "AAAAAAGDCmDUohSh1B4="
+							},
+							"lineStyle": 2,
+							"points": "755:2039;755:2080",
+							"nameLabel": {
+								"$ref": "AAAAAAGDCmHqKBTajOY="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGDCmIOyhTk058=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCmIOyhTi1A0="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDCmIOyhTlszI=",
+									"_parent": {
+										"$ref": "AAAAAAGDCmIOyhTk058="
+									},
+									"model": {
+										"$ref": "AAAAAAGDCmIOyhTi1A0="
+									},
+									"font": "Arial;13;0",
+									"left": 895,
+									"top": 2104,
+									"width": 21.20751953125,
+									"height": 13,
+									"alpha": -4.831817461321297,
+									"distance": 125.89678312014172,
+									"hostEdge": {
+										"$ref": "AAAAAAGDCmIOyhTk058="
+									},
+									"edgePosition": 1,
+									"text": "Yes"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDCmHMwRTQ1cM="
+							},
+							"tail": {
+								"$ref": "AAAAAAGDCmGG7BTHp2M="
+							},
+							"lineStyle": 2,
+							"points": "792:2125;1031:2125;1031:2103",
+							"nameLabel": {
+								"$ref": "AAAAAAGDCmIOyhTlszI="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAGDCmItIhTun+s=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCmItIRTs7kQ="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDCmItIhTvWvU=",
+									"_parent": {
+										"$ref": "AAAAAAGDCmItIhTun+s="
+									},
+									"font": "Arial;13;0",
+									"left": 1002,
+									"top": 2154,
+									"width": 68,
+									"height": 52,
+									"text": "There is a short in the electrical system",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 992,
+							"top": 2144,
+							"width": 88,
+							"height": 72,
+							"nameLabel": {
+								"$ref": "AAAAAAGDCmItIhTvWvU="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGDCmJcChT3QCg=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCmJcChT11qs="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDCmJcChT47L8=",
+									"_parent": {
+										"$ref": "AAAAAAGDCmJcChT3QCg="
+									},
+									"model": {
+										"$ref": "AAAAAAGDCmJcChT11qs="
+									},
+									"font": "Arial;13;0",
+									"left": 895,
+									"top": 2192,
+									"width": 16.6181640625,
+									"height": 13,
+									"alpha": 0.05762842379151769,
+									"distance": 156.259399717265,
+									"hostEdge": {
+										"$ref": "AAAAAAGDCmJcChT3QCg="
+									},
+									"edgePosition": 1,
+									"text": "No"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDCmItIhTun+s="
+							},
+							"tail": {
+								"$ref": "AAAAAAGDCmGG7BTHp2M="
+							},
+							"lineStyle": 2,
+							"points": "747:2159;747:2207;992:2207",
+							"nameLabel": {
+								"$ref": "AAAAAAGDCmJcChT47L8="
+							}
+						},
+						{
+							"_type": "FCTerminatorView",
+							"_id": "AAAAAAGDCmL9lhUC/OI=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCmL9lhUAIhw="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDCmL9lhUD5YQ=",
+									"_parent": {
+										"$ref": "AAAAAAGDCmL9lhUC/OI="
+									},
+									"font": "Arial;13;0",
+									"left": 234,
+									"top": 1890,
+									"width": 68.63720703125,
+									"height": 39,
+									"text": "Does the car overheat?",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 224,
+							"top": 1880,
+							"width": 88.63720703125,
+							"height": 88,
+							"nameLabel": {
+								"$ref": "AAAAAAGDCmL9lhUD5YQ="
+							}
+						},
+						{
+							"_type": "FCTerminatorView",
+							"_id": "AAAAAAGDCmPv0RUWDFE=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCmPv0RUUfkk="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDCmPv0RUXmGM=",
+									"_parent": {
+										"$ref": "AAAAAAGDCmPv0RUWDFE="
+									},
+									"font": "Arial;13;0",
+									"left": 362,
+									"top": 1890,
+									"width": 68.63720703125,
+									"height": 26,
+									"text": "Is there coolant?",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 352,
+							"top": 1880,
+							"width": 88.63720703125,
+							"height": 80,
+							"nameLabel": {
+								"$ref": "AAAAAAGDCmPv0RUXmGM="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAGDCmSgCxUrQjQ=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCmSgCxUpBrc="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDCmSgCxUsCrw=",
+									"_parent": {
+										"$ref": "AAAAAAGDCmSgCxUrQjQ="
+									},
+									"font": "Arial;13;0",
+									"left": 546,
+									"top": 1890,
+									"width": 68,
+									"height": 26,
+									"text": "Coolant is empty",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 536,
+							"top": 1880,
+							"width": 88,
+							"height": 72,
+							"nameLabel": {
+								"$ref": "AAAAAAGDCmSgCxUsCrw="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGDCmTGFxU0sb0=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCmTGFxUygw0="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDCmTGFxU1MIM=",
+									"_parent": {
+										"$ref": "AAAAAAGDCmTGFxU0sb0="
+									},
+									"model": {
+										"$ref": "AAAAAAGDCmTGFxUygw0="
+									},
+									"font": "Arial;13;0",
+									"left": 322,
+									"top": 1898,
+									"width": 21.20751953125,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGDCmTGFxU0sb0="
+									},
+									"edgePosition": 1,
+									"text": "Yes"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDCmPv0RUWDFE="
+							},
+							"tail": {
+								"$ref": "AAAAAAGDCmL9lhUC/OI="
+							},
+							"lineStyle": 2,
+							"points": "312:1919;352:1919",
+							"nameLabel": {
+								"$ref": "AAAAAAGDCmTGFxU1MIM="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGDCmTdsxU+3hs=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCmTdshU8LNI="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDCmTdsxU/4J8=",
+									"_parent": {
+										"$ref": "AAAAAAGDCmTdsxU+3hs="
+									},
+									"model": {
+										"$ref": "AAAAAAGDCmTdshU8LNI="
+									},
+									"font": "Arial;13;0",
+									"left": 480,
+									"top": 1894,
+									"width": 16.6181640625,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGDCmTdsxU+3hs="
+									},
+									"edgePosition": 1,
+									"text": "No"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDCmSgCxUrQjQ="
+							},
+							"tail": {
+								"$ref": "AAAAAAGDCmPv0RUWDFE="
+							},
+							"lineStyle": 2,
+							"points": "440:1915;536:1915",
+							"nameLabel": {
+								"$ref": "AAAAAAGDCmTdsxU/4J8="
+							}
+						},
+						{
+							"_type": "FCTerminatorView",
+							"_id": "AAAAAAGDCmUVyRVIWvI=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCmUVyRVGFYM="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDCmUVyRVJE5w=",
+									"_parent": {
+										"$ref": "AAAAAAGDCmUVyRVIWvI="
+									},
+									"font": "Arial;13;0",
+									"left": 362,
+									"top": 1994,
+									"width": 92.49169921875,
+									"height": 26,
+									"text": "Is the drive belt worn/stretched?",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 352,
+							"top": 1984,
+							"width": 112.49169921875,
+							"height": 72,
+							"nameLabel": {
+								"$ref": "AAAAAAGDCmUVyRVJE5w="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAGDCmVclBVRG6w=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCmVclBVP6Jg="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDCmVclBVS51k=",
+									"_parent": {
+										"$ref": "AAAAAAGDCmVclBVRG6w="
+									},
+									"font": "Arial;13;0",
+									"left": 538,
+									"top": 1986,
+									"width": 84,
+									"height": 26,
+									"text": "Drive belt is bad",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 528,
+							"top": 1976,
+							"width": 104,
+							"height": 72,
+							"nameLabel": {
+								"$ref": "AAAAAAGDCmVclBVS51k="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGDCmWDlRVaChg=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCmWDlRVYIBY="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDCmWDlRVbbt0=",
+									"_parent": {
+										"$ref": "AAAAAAGDCmWDlRVaChg="
+									},
+									"model": {
+										"$ref": "AAAAAAGDCmWDlRVYIBY="
+									},
+									"font": "Arial;13;0",
+									"left": 411,
+									"top": 1964,
+									"width": 21.20751953125,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGDCmWDlRVaChg="
+									},
+									"edgePosition": 1,
+									"text": "Yes"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDCmUVyRVIWvI="
+							},
+							"tail": {
+								"$ref": "AAAAAAGDCmPv0RUWDFE="
+							},
+							"lineStyle": 2,
+							"points": "407:1959;407:1984",
+							"nameLabel": {
+								"$ref": "AAAAAAGDCmWDlRVbbt0="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGDCmWeAxVkvDI=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCmWeAxVioXA="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDCmWeAxVl15A=",
+									"_parent": {
+										"$ref": "AAAAAAGDCmWeAxVkvDI="
+									},
+									"model": {
+										"$ref": "AAAAAAGDCmWeAxVioXA="
+									},
+									"font": "Arial;13;0",
+									"left": 485,
+									"top": 1990,
+									"width": 21.20751953125,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGDCmWeAxVkvDI="
+									},
+									"edgePosition": 1,
+									"text": "Yes"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDCmVclBVRG6w="
+							},
+							"tail": {
+								"$ref": "AAAAAAGDCmUVyRVIWvI="
+							},
+							"lineStyle": 2,
+							"points": "463:2011;528:2011",
+							"nameLabel": {
+								"$ref": "AAAAAAGDCmWeAxVl15A="
+							}
+						},
+						{
+							"_type": "FCTerminatorView",
+							"_id": "AAAAAAGDCmXkZRVutvk=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCmXkZBVsC04="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDCmXkZRVvNWQ=",
+									"_parent": {
+										"$ref": "AAAAAAGDCmXkZRVutvk="
+									},
+									"font": "Arial;13;0",
+									"left": 362,
+									"top": 2090,
+									"width": 92,
+									"height": 52,
+									"text": "Does the radiator looked dirty or corroded?",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 352,
+							"top": 2080,
+							"width": 112,
+							"height": 88,
+							"nameLabel": {
+								"$ref": "AAAAAAGDCmXkZRVvNWQ="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAGDCmZ9wxV3o9A=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCmZ9wxV1Wjs="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDCmZ9wxV40cQ=",
+									"_parent": {
+										"$ref": "AAAAAAGDCmZ9wxV3o9A="
+									},
+									"font": "Arial;13;0",
+									"left": 538,
+									"top": 2082,
+									"width": 84,
+									"height": 26,
+									"text": "Radiator is bad",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 528,
+							"top": 2072,
+							"width": 104,
+							"height": 72,
+							"nameLabel": {
+								"$ref": "AAAAAAGDCmZ9wxV40cQ="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGDCmaadxWAvFE=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCmaadxV+QaQ="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDCmaaeBWBAXU=",
+									"_parent": {
+										"$ref": "AAAAAAGDCmaadxWAvFE="
+									},
+									"model": {
+										"$ref": "AAAAAAGDCmaadxV+QaQ="
+									},
+									"font": "Arial;13;0",
+									"left": 413,
+									"top": 2060,
+									"width": 16.6181640625,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGDCmaadxWAvFE="
+									},
+									"edgePosition": 1,
+									"text": "No"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDCmXkZRVutvk="
+							},
+							"tail": {
+								"$ref": "AAAAAAGDCmUVyRVIWvI="
+							},
+							"lineStyle": 2,
+							"points": "407:2055;407:2080",
+							"nameLabel": {
+								"$ref": "AAAAAAGDCmaaeBWBAXU="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGDCmatHhWKfnA=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCmatHRWI7Ng="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDCmatHhWL27k=",
+									"_parent": {
+										"$ref": "AAAAAAGDCmatHhWKfnA="
+									},
+									"model": {
+										"$ref": "AAAAAAGDCmatHRWI7Ng="
+									},
+									"font": "Arial;13;0",
+									"left": 485,
+									"top": 2086,
+									"width": 21.20751953125,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGDCmatHhWKfnA="
+									},
+									"edgePosition": 1,
+									"text": "Yes"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDCmZ9wxV3o9A="
+							},
+							"tail": {
+								"$ref": "AAAAAAGDCmXkZRVutvk="
+							},
+							"lineStyle": 2,
+							"points": "463:2107;528:2107",
+							"nameLabel": {
+								"$ref": "AAAAAAGDCmatHhWL27k="
+							}
+						},
+						{
+							"_type": "FCTerminatorView",
+							"_id": "AAAAAAGDCmb6dRWUj9M=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCmb6dRWSG4w="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDCmb6dRWVSKc=",
+									"_parent": {
+										"$ref": "AAAAAAGDCmb6dRWUj9M="
+									},
+									"font": "Arial;13;0",
+									"left": 378,
+									"top": 2210,
+									"width": 76,
+									"height": 39,
+									"text": "Does the radiator fan turn on?",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 368,
+							"top": 2200,
+							"width": 96,
+							"height": 80,
+							"nameLabel": {
+								"$ref": "AAAAAAGDCmb6dRWVSKc="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGDCmcoxxWdiF8=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCmcoxxWba44="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDCmcoxxWeqf4=",
+									"_parent": {
+										"$ref": "AAAAAAGDCmcoxxWdiF8="
+									},
+									"model": {
+										"$ref": "AAAAAAGDCmcoxxWba44="
+									},
+									"font": "Arial;13;0",
+									"left": 421,
+									"top": 2176,
+									"width": 16.6181640625,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGDCmcoxxWdiF8="
+									},
+									"edgePosition": 1,
+									"text": "No"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDCmb6dRWUj9M="
+							},
+							"tail": {
+								"$ref": "AAAAAAGDCmXkZRVutvk="
+							},
+							"lineStyle": 2,
+							"points": "415:2167;415:2200",
+							"nameLabel": {
+								"$ref": "AAAAAAGDCmcoxxWeqf4="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAGDCmdCIxWnMK8=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCmdCIxWlyp0="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDCmdCIxWopDU=",
+									"_parent": {
+										"$ref": "AAAAAAGDCmdCIxWnMK8="
+									},
+									"font": "Arial;13;0",
+									"left": 538,
+									"top": 2186,
+									"width": 100,
+									"height": 26,
+									"text": "Radiator fan is bad",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 528,
+							"top": 2176,
+							"width": 120,
+							"height": 88,
+							"nameLabel": {
+								"$ref": "AAAAAAGDCmdCIxWopDU="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGDCmdr6hWwKXg=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCmdr6hWuLVM="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDCmdr6hWxBz0=",
+									"_parent": {
+										"$ref": "AAAAAAGDCmdr6hWwKXg="
+									},
+									"model": {
+										"$ref": "AAAAAAGDCmdr6hWuLVM="
+									},
+									"font": "Arial;13;0",
+									"left": 487,
+									"top": 2198,
+									"width": 16.6181640625,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGDCmdr6hWwKXg="
+									},
+									"edgePosition": 1,
+									"text": "No"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDCmdCIxWnMK8="
+							},
+							"tail": {
+								"$ref": "AAAAAAGDCmb6dRWUj9M="
+							},
+							"lineStyle": 2,
+							"points": "463:2219;528:2219",
+							"nameLabel": {
+								"$ref": "AAAAAAGDCmdr6hWxBz0="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAGDCmgG4BW6qPs=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCmgG4BW41wk="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDCmgG4BW7TPQ=",
+									"_parent": {
+										"$ref": "AAAAAAGDCmgG4BW6qPs="
+									},
+									"font": "Arial;13;0",
+									"left": 546,
+									"top": 2298,
+									"width": 76,
+									"height": 26,
+									"text": "Water pump is bad",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 536,
+							"top": 2288,
+							"width": 96,
+							"height": 80,
+							"nameLabel": {
+								"$ref": "AAAAAAGDCmgG4BW7TPQ="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGDCmgn4BXD0X0=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCmgn3xXBxh8="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDCmgn4BXETo8=",
+									"_parent": {
+										"$ref": "AAAAAAGDCmgn4BXD0X0="
+									},
+									"model": {
+										"$ref": "AAAAAAGDCmgn3xXBxh8="
+									},
+									"font": "Arial;13;0",
+									"left": 456,
+									"top": 2306,
+									"width": 21.20751953125,
+									"height": 13,
+									"alpha": 0.28605138863877155,
+									"distance": 53.16013544000805,
+									"hostEdge": {
+										"$ref": "AAAAAAGDCmgn4BXD0X0="
+									},
+									"edgePosition": 1,
+									"text": "Yes"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDCmgG4BW6qPs="
+							},
+							"tail": {
+								"$ref": "AAAAAAGDCmb6dRWUj9M="
+							},
+							"lineStyle": 2,
+							"points": "415:2279;415:2327;536:2327",
+							"nameLabel": {
+								"$ref": "AAAAAAGDCmgn4BXETo8="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGDCmi/cRXOb70=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCmi/cBXMgdU="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDCmi/cRXPdEs=",
+									"_parent": {
+										"$ref": "AAAAAAGDCmi/cRXOb70="
+									},
+									"model": {
+										"$ref": "AAAAAAGDCmi/cBXMgdU="
+									},
+									"font": "Arial;13;0",
+									"left": 136,
+									"top": 1904,
+									"width": 21.20751953125,
+									"height": 13,
+									"alpha": 0.2242347130751645,
+									"distance": 58.463663928973865,
+									"hostEdge": {
+										"$ref": "AAAAAAGDCmi/cRXOb70="
+									},
+									"edgePosition": 1,
+									"text": "Yes"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDCmL9lhUC/OI="
+							},
+							"tail": {
+								"$ref": "AAAAAAGC7NqAcIRAaNU="
+							},
+							"lineStyle": 2,
+							"points": "89:688;89:1923;224:1923",
+							"nameLabel": {
+								"$ref": "AAAAAAGDCmi/cRXPdEs="
+							}
+						},
+						{
+							"_type": "FCTerminatorView",
+							"_id": "AAAAAAGDCmpw0BZjdCM=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCmpwzxZhkVE="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDCmpw0BZkIB4=",
+									"_parent": {
+										"$ref": "AAAAAAGDCmpw0BZjdCM="
+									},
+									"font": "Arial;13;0",
+									"left": 210,
+									"top": 258,
+									"width": 68.63720703125,
+									"height": 39,
+									"text": "Is the oil pressure low?",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 200,
+							"top": 248,
+							"width": 88.63720703125,
+							"height": 72,
+							"nameLabel": {
+								"$ref": "AAAAAAGDCmpw0BZkIB4="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGDCmqZIBZsjzg=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCmqZHxZqzcA="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDCmqZIBZtkuo=",
+									"_parent": {
+										"$ref": "AAAAAAGDCmqZIBZsjzg="
+									},
+									"model": {
+										"$ref": "AAAAAAGDCmqZHxZqzcA="
+									},
+									"font": "Arial;13;0",
+									"left": 111,
+									"top": 456,
+									"width": 21.20751953125,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGDCmqZIBZsjzg="
+									},
+									"edgePosition": 1,
+									"text": "Yes"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDCmpw0BZjdCM="
+							},
+							"tail": {
+								"$ref": "AAAAAAGC7NqAcIRAaNU="
+							},
+							"lineStyle": 2,
+							"points": "128:608;136:608;136:319;200:319",
+							"nameLabel": {
+								"$ref": "AAAAAAGDCmqZIBZtkuo="
+							}
+						},
+						{
+							"_type": "FCTerminatorView",
+							"_id": "AAAAAAGDCmtgoRZ36Jg=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCmtgoRZ1a/w="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDCmtgoRZ4EPE=",
+									"_parent": {
+										"$ref": "AAAAAAGDCmtgoRZ36Jg="
+									},
+									"font": "Arial;13;0",
+									"left": 378,
+									"top": 266,
+									"width": 76,
+									"height": 52,
+									"text": "Are you using the proper grade of oil?",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 368,
+							"top": 256,
+							"width": 96,
+							"height": 72,
+							"nameLabel": {
+								"$ref": "AAAAAAGDCmtgoRZ4EPE="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAGDCmuiGBaA/z4=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCmuiGBZ+RF0="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDCmuiGBaBYl0=",
+									"_parent": {
+										"$ref": "AAAAAAGDCmuiGBaA/z4="
+									},
+									"font": "Arial;13;0",
+									"left": 562,
+									"top": 258,
+									"width": 84,
+									"height": 39,
+									"text": "Oil is not of the proper grade",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 552,
+							"top": 248,
+							"width": 104,
+							"height": 72,
+							"nameLabel": {
+								"$ref": "AAAAAAGDCmuiGBaBYl0="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGDCmvQNBaJxm4=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCmvQNBaHPzI="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDCmvQNBaKK44=",
+									"_parent": {
+										"$ref": "AAAAAAGDCmvQNBaJxm4="
+									},
+									"model": {
+										"$ref": "AAAAAAGDCmvQNBaHPzI="
+									},
+									"font": "Arial;13;0",
+									"left": 318,
+									"top": 268,
+									"width": 21.20751953125,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGDCmvQNBaJxm4="
+									},
+									"edgePosition": 1,
+									"text": "Yes"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDCmtgoRZ36Jg="
+							},
+							"tail": {
+								"$ref": "AAAAAAGDCmpw0BZjdCM="
+							},
+							"lineStyle": 2,
+							"points": "288:289;368:289",
+							"nameLabel": {
+								"$ref": "AAAAAAGDCmvQNBaKK44="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGDCmvikxaTY5Q=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCmvikxaRFwI="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDCmvikxaU1Ps=",
+									"_parent": {
+										"$ref": "AAAAAAGDCmvikxaTY5Q="
+									},
+									"model": {
+										"$ref": "AAAAAAGDCmvikxaRFwI="
+									},
+									"font": "Arial;13;0",
+									"left": 499,
+									"top": 268,
+									"width": 16.6181640625,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGDCmvikxaTY5Q="
+									},
+									"edgePosition": 1,
+									"text": "No"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDCmuiGBaA/z4="
+							},
+							"tail": {
+								"$ref": "AAAAAAGDCmtgoRZ36Jg="
+							},
+							"lineStyle": 2,
+							"points": "463:289;552:289",
+							"nameLabel": {
+								"$ref": "AAAAAAGDCmvikxaU1Ps="
+							}
+						},
+						{
+							"_type": "FCTerminatorView",
+							"_id": "AAAAAAGDCmv7+BadmyI=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCmv7+Bab1jc="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDCmv7+BaeA/Q=",
+									"_parent": {
+										"$ref": "AAAAAAGDCmv7+BadmyI="
+									},
+									"font": "Arial;13;0",
+									"left": 386,
+									"top": 146,
+									"width": 68.63720703125,
+									"height": 26,
+									"text": "Is the oil filter new?",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 376,
+							"top": 136,
+							"width": 88.63720703125,
+							"height": 72,
+							"nameLabel": {
+								"$ref": "AAAAAAGDCmv7+BaeA/Q="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGDCmxhJBamsJs=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCmxhJBakZ1M="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDCmxhJBanSpk=",
+									"_parent": {
+										"$ref": "AAAAAAGDCmxhJBamsJs="
+									},
+									"model": {
+										"$ref": "AAAAAAGDCmxhJBakZ1M="
+									},
+									"font": "Arial;13;0",
+									"left": 393,
+									"top": 224,
+									"width": 21.20751953125,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGDCmxhJBamsJs="
+									},
+									"edgePosition": 1,
+									"text": "Yes"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDCmv7+BadmyI="
+							},
+							"tail": {
+								"$ref": "AAAAAAGDCmtgoRZ36Jg="
+							},
+							"lineStyle": 2,
+							"points": "418:256;418:207",
+							"nameLabel": {
+								"$ref": "AAAAAAGDCmxhJBanSpk="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAGDCmx2NRaw/B8=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCmx2NBauqVA="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDCmx2NRaxEIY=",
+									"_parent": {
+										"$ref": "AAAAAAGDCmx2NRaw/B8="
+									},
+									"font": "Arial;13;0",
+									"left": 562,
+									"top": 146,
+									"width": 76,
+									"height": 26,
+									"text": "Oil filter is clogged",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 552,
+							"top": 136,
+							"width": 96,
+							"height": 72,
+							"nameLabel": {
+								"$ref": "AAAAAAGDCmx2NRaxEIY="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGDCmyZsRa5BoI=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCmyZsRa3mJE="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDCmyZsRa6PE8=",
+									"_parent": {
+										"$ref": "AAAAAAGDCmyZsRa5BoI="
+									},
+									"model": {
+										"$ref": "AAAAAAGDCmyZsRa3mJE="
+									},
+									"font": "Arial;13;0",
+									"left": 500,
+									"top": 150,
+									"width": 16.6181640625,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGDCmyZsRa5BoI="
+									},
+									"edgePosition": 1,
+									"text": "No"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDCmx2NRaw/B8="
+							},
+							"tail": {
+								"$ref": "AAAAAAGDCmv7+BadmyI="
+							},
+							"lineStyle": 2,
+							"points": "464:171;552:171",
+							"nameLabel": {
+								"$ref": "AAAAAAGDCmyZsRa6PE8="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAGDCmzWSxbDmAY=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCmzWSxbB6iU="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDCmzWSxbEAuc=",
+									"_parent": {
+										"$ref": "AAAAAAGDCmzWSxbDmAY="
+									},
+									"font": "Arial;13;0",
+									"left": 562,
+									"top": 50,
+									"width": 76,
+									"height": 26,
+									"text": "Oil pump is bad",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 552,
+							"top": 40,
+							"width": 96,
+							"height": 64,
+							"nameLabel": {
+								"$ref": "AAAAAAGDCmzWSxbEAuc="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGDCm0NBxbMjyM=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCm0NBxbK/50="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDCm0NBxbNT6s=",
+									"_parent": {
+										"$ref": "AAAAAAGDCm0NBxbMjyM="
+									},
+									"model": {
+										"$ref": "AAAAAAGDCm0NBxbK/50="
+									},
+									"font": "Arial;13;0",
+									"left": 455,
+									"top": 117,
+									"width": 21.20751953125,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGDCm0NBxbMjyM="
+									},
+									"edgePosition": 1,
+									"text": "Yes"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDCmzWSxbDmAY="
+							},
+							"tail": {
+								"$ref": "AAAAAAGDCmv7+BadmyI="
+							},
+							"lineStyle": 2,
+							"points": "464:146;480:146;480:103;552:103",
+							"nameLabel": {
+								"$ref": "AAAAAAGDCm0NBxbNT6s="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAGDCm39chbX/Mc=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCm39chbVlaA="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDCm39chbYdxY=",
+									"_parent": {
+										"$ref": "AAAAAAGDCm39chbX/Mc="
+									},
+									"font": "Arial;13;0",
+									"left": 626,
+									"top": 386,
+									"width": 92,
+									"height": 26,
+									"text": "Oil drain plug is loose/worn",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 616,
+							"top": 376,
+							"width": 112,
+							"height": 56,
+							"nameLabel": {
+								"$ref": "AAAAAAGDCm39chbYdxY="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGDCm5OLRbhRdI=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCm5OLRbfzV0="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDCm5OLRbiC/Q=",
+									"_parent": {
+										"$ref": "AAAAAAGDCm5OLRbhRdI="
+									},
+									"model": {
+										"$ref": "AAAAAAGDCm5OLRbfzV0="
+									},
+									"font": "Arial;13;0",
+									"left": 577,
+									"top": 390,
+									"width": 21.20751953125,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGDCm5OLRbhRdI="
+									},
+									"edgePosition": 1,
+									"text": "Yes"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDCm39chbX/Mc="
+							},
+							"tail": {
+								"$ref": "AAAAAAGC9X+MJ+iaSAo="
+							},
+							"lineStyle": 2,
+							"points": "559:411;616:411",
+							"nameLabel": {
+								"$ref": "AAAAAAGDCm5OLRbiC/Q="
+							}
+						},
+						{
+							"_type": "FCTerminatorView",
+							"_id": "AAAAAAGDCm7lMhbrCgg=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCm7lMRbpLqg="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDCm7lMhbs7rA=",
+									"_parent": {
+										"$ref": "AAAAAAGDCm7lMhbrCgg="
+									},
+									"font": "Arial;13;0",
+									"left": 138,
+									"top": 2354,
+									"width": 93,
+									"height": 39,
+									"text": "Is there excessive fuel consumption?",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 128,
+							"top": 2344,
+							"width": 113,
+							"height": 65,
+							"nameLabel": {
+								"$ref": "AAAAAAGDCm7lMhbs7rA="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGDCm+gdhb3wLo=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCm+gdhb1EtI="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDCm+gdhb4nYQ=",
+									"_parent": {
+										"$ref": "AAAAAAGDCm+gdhb3wLo="
+									},
+									"model": {
+										"$ref": "AAAAAAGDCm+gdhb1EtI="
+									},
+									"font": "Arial;13;0",
+									"left": 96,
+									"top": 2240,
+									"width": 21.20751953125,
+									"height": 13,
+									"alpha": 1.4089587961649945,
+									"distance": 99.29753269845128,
+									"hostEdge": {
+										"$ref": "AAAAAAGDCm+gdhb3wLo="
+									},
+									"edgePosition": 1,
+									"text": "Yes"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDCm7lMhbrCgg="
+							},
+							"tail": {
+								"$ref": "AAAAAAGC7NqAcIRAaNU="
+							},
+							"lineStyle": 2,
+							"points": "90:688;90:2344;128:2344",
+							"nameLabel": {
+								"$ref": "AAAAAAGDCm+gdhb4nYQ="
+							}
+						},
+						{
+							"_type": "FCTerminatorView",
+							"_id": "AAAAAAGDCm/VyxcCmWI=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCm/VyxcAVX8="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDCm/VyxcDQoI=",
+									"_parent": {
+										"$ref": "AAAAAAGDCm/VyxcCmWI="
+									},
+									"font": "Arial;13;0",
+									"left": 362,
+									"top": 2402,
+									"width": 92,
+									"height": 39,
+									"text": "Is the tire pressure correct?",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 352,
+							"top": 2392,
+							"width": 112,
+							"height": 80,
+							"nameLabel": {
+								"$ref": "AAAAAAGDCm/VyxcDQoI="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGDCnAJqxcLH0c=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCnAJqxcJWqg="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDCnAJqxcMDqg=",
+									"_parent": {
+										"$ref": "AAAAAAGDCnAJqxcLH0c="
+									},
+									"model": {
+										"$ref": "AAAAAAGDCnAJqxcJWqg="
+									},
+									"font": "Arial;13;0",
+									"left": 272,
+									"top": 2396,
+									"width": 21.20751953125,
+									"height": 13,
+									"alpha": 0.343023865005938,
+									"distance": 44.598206241955516,
+									"hostEdge": {
+										"$ref": "AAAAAAGDCnAJqxcLH0c="
+									},
+									"edgePosition": 1,
+									"text": "Yes"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDCm/VyxcCmWI="
+							},
+							"tail": {
+								"$ref": "AAAAAAGDCm7lMhbrCgg="
+							},
+							"lineStyle": 2,
+							"points": "240:2408;240:2417;352:2417",
+							"nameLabel": {
+								"$ref": "AAAAAAGDCnAJqxcMDqg="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAGDCnAs9xcWlUM=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCnAs9xcUtE4="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDCnAs9xcXOcA=",
+									"_parent": {
+										"$ref": "AAAAAAGDCnAs9xcWlUM="
+									},
+									"font": "Arial;13;0",
+									"left": 666,
+									"top": 2402,
+									"width": 54.18994140625,
+									"height": 52,
+									"text": "Tire pressure is too low",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 656,
+							"top": 2392,
+							"width": 74.18994140625,
+							"height": 88,
+							"nameLabel": {
+								"$ref": "AAAAAAGDCnAs9xcXOcA="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGDCnBWqBcfXKo=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCnBWpxcdlEo="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDCnBWqBcgWPA=",
+									"_parent": {
+										"$ref": "AAAAAAGDCnBWqBcfXKo="
+									},
+									"model": {
+										"$ref": "AAAAAAGDCnBWpxcdlEo="
+									},
+									"font": "Arial;13;0",
+									"left": 551,
+									"top": 2413,
+									"width": 16.6181640625,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGDCnBWqBcfXKo="
+									},
+									"edgePosition": 1,
+									"text": "No"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDCnAs9xcWlUM="
+							},
+							"tail": {
+								"$ref": "AAAAAAGDCm/VyxcCmWI="
+							},
+							"lineStyle": 2,
+							"points": "463:2434;656:2434",
+							"nameLabel": {
+								"$ref": "AAAAAAGDCnBWqBcgWPA="
+							}
+						},
+						{
+							"_type": "FCTerminatorView",
+							"_id": "AAAAAAGDCnCGIhcpegQ=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCnCGIhcnwss="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDCnCGIhcqD6E=",
+									"_parent": {
+										"$ref": "AAAAAAGDCnCGIhcpegQ="
+									},
+									"font": "Arial;13;0",
+									"left": 394,
+									"top": 2506,
+									"width": 68.63720703125,
+									"height": 39,
+									"text": "Does the air filter look clean?",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 384,
+							"top": 2496,
+							"width": 88.63720703125,
+							"height": 72,
+							"nameLabel": {
+								"$ref": "AAAAAAGDCnCGIhcqD6E="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGDCnDE7BczBBQ=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCnDE6xcxHw4="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDCnDE7Bc0AyY=",
+									"_parent": {
+										"$ref": "AAAAAAGDCnDE7BczBBQ="
+									},
+									"model": {
+										"$ref": "AAAAAAGDCnDE6xcxHw4="
+									},
+									"font": "Arial;13;0",
+									"left": 419,
+									"top": 2476,
+									"width": 21.20751953125,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGDCnDE7BczBBQ="
+									},
+									"edgePosition": 1,
+									"text": "Yes"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDCnCGIhcpegQ="
+							},
+							"tail": {
+								"$ref": "AAAAAAGDCm/VyxcCmWI="
+							},
+							"lineStyle": 2,
+							"points": "415:2471;415:2496",
+							"nameLabel": {
+								"$ref": "AAAAAAGDCnDE7Bc0AyY="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAGDCnDdrRc9Dfw=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCnDdrBc7ZS8="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDCnDdrRc+hWU=",
+									"_parent": {
+										"$ref": "AAAAAAGDCnDdrRc9Dfw="
+									},
+									"font": "Arial;13;0",
+									"left": 658,
+									"top": 2506,
+									"width": 68,
+									"height": 26,
+									"text": "Air filter is clogged",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 648,
+							"top": 2496,
+							"width": 88,
+							"height": 72,
+							"nameLabel": {
+								"$ref": "AAAAAAGDCnDdrRc+hWU="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGDCnEEfhdG1kg=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCnEEfRdEVNo="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDCnEEfhdHj7I=",
+									"_parent": {
+										"$ref": "AAAAAAGDCnEEfhdG1kg="
+									},
+									"model": {
+										"$ref": "AAAAAAGDCnEEfRdEVNo="
+									},
+									"font": "Arial;13;0",
+									"left": 552,
+									"top": 2510,
+									"width": 16.6181640625,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGDCnEEfhdG1kg="
+									},
+									"edgePosition": 1,
+									"text": "No"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDCnDdrRc9Dfw="
+							},
+							"tail": {
+								"$ref": "AAAAAAGDCnCGIhcpegQ="
+							},
+							"lineStyle": 2,
+							"points": "472:2531;648:2531",
+							"nameLabel": {
+								"$ref": "AAAAAAGDCnEEfhdHj7I="
+							}
+						},
+						{
+							"_type": "FCTerminatorView",
+							"_id": "AAAAAAGDCnEe8xdQza4=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCnEe8hdOqEk="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDCnEe8xdRruw=",
+									"_parent": {
+										"$ref": "AAAAAAGDCnEe8xdQza4="
+									},
+									"font": "Arial;13;0",
+									"left": 394,
+									"top": 2602,
+									"width": 68.63720703125,
+									"height": 52,
+									"text": "Can you smell fuel under the car?",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 384,
+							"top": 2592,
+							"width": 88.63720703125,
+							"height": 80,
+							"nameLabel": {
+								"$ref": "AAAAAAGDCnEe8xdRruw="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGDCnFytRdZdko=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCnFytRdXGSo="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDCnFytRdasLg=",
+									"_parent": {
+										"$ref": "AAAAAAGDCnFytRdZdko="
+									},
+									"model": {
+										"$ref": "AAAAAAGDCnFytRdXGSo="
+									},
+									"font": "Arial;13;0",
+									"left": 431,
+									"top": 2572,
+									"width": 21.20751953125,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGDCnFytRdZdko="
+									},
+									"edgePosition": 1,
+									"text": "Yes"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDCnEe8xdQza4="
+							},
+							"tail": {
+								"$ref": "AAAAAAGDCnCGIhcpegQ="
+							},
+							"lineStyle": 2,
+							"points": "427:2567;427:2592",
+							"nameLabel": {
+								"$ref": "AAAAAAGDCnFytRdasLg="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAGDCnGKdBdjxPo=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCnGKdBdh7z0="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDCnGKdRdkMgc=",
+									"_parent": {
+										"$ref": "AAAAAAGDCnGKdBdjxPo="
+									},
+									"font": "Arial;13;0",
+									"left": 666,
+									"top": 2602,
+									"width": 68,
+									"height": 26,
+									"text": "There is a fuel leak",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 656,
+							"top": 2592,
+							"width": 88,
+							"height": 72,
+							"nameLabel": {
+								"$ref": "AAAAAAGDCnGKdRdkMgc="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGDCnGqrxds8zM=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCnGqrxdqIzk="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDCnGqrxdtDBQ=",
+									"_parent": {
+										"$ref": "AAAAAAGDCnGqrxds8zM="
+									},
+									"model": {
+										"$ref": "AAAAAAGDCnGqrxdqIzk="
+									},
+									"font": "Arial;13;0",
+									"left": 554,
+									"top": 2609,
+									"width": 21.20751953125,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGDCnGqrxds8zM="
+									},
+									"edgePosition": 1,
+									"text": "Yes"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDCnGKdBdjxPo="
+							},
+							"tail": {
+								"$ref": "AAAAAAGDCnEe8xdQza4="
+							},
+							"lineStyle": 2,
+							"points": "472:2630;656:2630",
+							"nameLabel": {
+								"$ref": "AAAAAAGDCnGqrxdtDBQ="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAGDCnHcDBd2d9I=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCnHcDBd0T4o="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDCnHcDBd3zr4=",
+									"_parent": {
+										"$ref": "AAAAAAGDCnHcDBd2d9I="
+									},
+									"font": "Arial;13;0",
+									"left": 666,
+									"top": 2706,
+									"width": 75.8798828125,
+									"height": 52,
+									"text": "Fuel management system is bad",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 656,
+							"top": 2696,
+							"width": 95.8798828125,
+							"height": 80,
+							"nameLabel": {
+								"$ref": "AAAAAAGDCnHcDBd3zr4="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGDCnH9jhd/R8E=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCnH9jhd9kmg="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDCnH9jheAYVY=",
+									"_parent": {
+										"$ref": "AAAAAAGDCnH9jhd/R8E="
+									},
+									"model": {
+										"$ref": "AAAAAAGDCnH9jhd9kmg="
+									},
+									"font": "Arial;13;0",
+									"left": 559,
+									"top": 2696,
+									"width": 16.6181640625,
+									"height": 13,
+									"alpha": 0.10673566508293189,
+									"distance": 140.80127840328723,
+									"hostEdge": {
+										"$ref": "AAAAAAGDCnH9jhd/R8E="
+									},
+									"edgePosition": 1,
+									"text": "No"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDCnHcDBd2d9I="
+							},
+							"tail": {
+								"$ref": "AAAAAAGDCnEe8xdQza4="
+							},
+							"lineStyle": 2,
+							"points": "427:2671;427:2717;656:2717",
+							"nameLabel": {
+								"$ref": "AAAAAAGDCnH9jheAYVY="
 							}
 						}
 					]
@@ -2651,6 +5963,76 @@
 							"target": {
 								"$ref": "AAAAAAGC9YrXbOlUVnY="
 							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGDClNKaBM8TS0=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NqAcIQ+8RI="
+							},
+							"name": "Yes",
+							"source": {
+								"$ref": "AAAAAAGC7NqAcIQ+8RI="
+							},
+							"target": {
+								"$ref": "AAAAAAGDClMVPBMz0bU="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGDCl9w7hRNiBo=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NqAcIQ+8RI="
+							},
+							"name": "Yes",
+							"source": {
+								"$ref": "AAAAAAGC7NqAcIQ+8RI="
+							},
+							"target": {
+								"$ref": "AAAAAAGDCl0TiBQyjl4="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGDCmi/cBXMgdU=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NqAcIQ+8RI="
+							},
+							"name": "Yes",
+							"source": {
+								"$ref": "AAAAAAGC7NqAcIQ+8RI="
+							},
+							"target": {
+								"$ref": "AAAAAAGDCmL9lhUAIhw="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGDCmqZHxZqzcA=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NqAcIQ+8RI="
+							},
+							"name": "Yes",
+							"source": {
+								"$ref": "AAAAAAGC7NqAcIQ+8RI="
+							},
+							"target": {
+								"$ref": "AAAAAAGDCmpwzxZhkVE="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGDCm+gdhb1EtI=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NqAcIQ+8RI="
+							},
+							"name": "Yes",
+							"source": {
+								"$ref": "AAAAAAGC7NqAcIQ+8RI="
+							},
+							"target": {
+								"$ref": "AAAAAAGDCm7lMRbpLqg="
+							}
 						}
 					]
 				},
@@ -2672,267 +6054,11 @@
 				},
 				{
 					"_type": "FCProcess",
-					"_id": "AAAAAAGC7PSlOIRsn6g=",
-					"_parent": {
-						"$ref": "AAAAAAGC7NpdBYQ5mns="
-					},
-					"name": "Starter motor is faulty"
-				},
-				{
-					"_type": "FCProcess",
-					"_id": "AAAAAAGC7PTbxYR1BYQ=",
-					"_parent": {
-						"$ref": "AAAAAAGC7NpdBYQ5mns="
-					},
-					"name": "Ignition switch is faulty"
-				},
-				{
-					"_type": "FCProcess",
-					"_id": "AAAAAAGC7PUwMYR/rgg=",
-					"_parent": {
-						"$ref": "AAAAAAGC7NpdBYQ5mns="
-					},
-					"name": "Battery is discharged/terminals are loose"
-				},
-				{
-					"_type": "FCProcess",
-					"_id": "AAAAAAGC7PWMHISIHnc=",
-					"_parent": {
-						"$ref": "AAAAAAGC7NpdBYQ5mns="
-					},
-					"name": "Fuel tank is empty"
-				},
-				{
-					"_type": "FCProcess",
-					"_id": "AAAAAAGC7PW2rYSRuec=",
-					"_parent": {
-						"$ref": "AAAAAAGC7NpdBYQ5mns="
-					},
-					"name": "Fuel injectors are faulty"
-				},
-				{
-					"_type": "FCProcess",
-					"_id": "AAAAAAGC7PYaAoSaVRg=",
-					"_parent": {
-						"$ref": "AAAAAAGC7NpdBYQ5mns="
-					},
-					"name": "Fuel pump is faulty"
-				},
-				{
-					"_type": "FCProcess",
-					"_id": "AAAAAAGC7PZKDYSj8PQ=",
-					"_parent": {
-						"$ref": "AAAAAAGC7NpdBYQ5mns="
-					},
-					"name": "Air filter is dirty"
-				},
-				{
-					"_type": "FCProcess",
-					"_id": "AAAAAAGC7PafPYSs+T4=",
-					"_parent": {
-						"$ref": "AAAAAAGC7NpdBYQ5mns="
-					},
-					"name": "There is a vacuum leak"
-				},
-				{
-					"_type": "FCProcess",
-					"_id": "AAAAAAGC7PbEtYS1DxY=",
-					"_parent": {
-						"$ref": "AAAAAAGC7NpdBYQ5mns="
-					},
-					"name": "Timing chain is worn"
-				},
-				{
-					"_type": "FCProcess",
-					"_id": "AAAAAAGC7Pbsc4S+r9Y=",
-					"_parent": {
-						"$ref": "AAAAAAGC7NpdBYQ5mns="
-					},
-					"name": "Engine valves are faulty"
-				},
-				{
-					"_type": "FCProcess",
-					"_id": "AAAAAAGC7Pcbi4THRBI=",
-					"_parent": {
-						"$ref": "AAAAAAGC7NpdBYQ5mns="
-					},
-					"name": "Ignition system is faulty"
-				},
-				{
-					"_type": "FCProcess",
-					"_id": "AAAAAAGC7PdLEYTQk1M=",
-					"_parent": {
-						"$ref": "AAAAAAGC7NpdBYQ5mns="
-					},
-					"name": "Spark plugs are faulty"
-				},
-				{
-					"_type": "FCProcess",
-					"_id": "AAAAAAGC7Pd4pYTZ/b0=",
-					"_parent": {
-						"$ref": "AAAAAAGC7NpdBYQ5mns="
-					},
-					"name": "Fuel injectors are faulty"
-				},
-				{
-					"_type": "FCProcess",
-					"_id": "AAAAAAGC7Pej8oTiOP8=",
-					"_parent": {
-						"$ref": "AAAAAAGC7NpdBYQ5mns="
-					},
-					"name": "Alternator is faulty"
-				},
-				{
-					"_type": "FCProcess",
-					"_id": "AAAAAAGC7PfoT4Tr9pI=",
-					"_parent": {
-						"$ref": "AAAAAAGC7NpdBYQ5mns="
-					},
-					"name": "Battery wires are faulty"
-				},
-				{
-					"_type": "FCProcess",
-					"_id": "AAAAAAGC7PggwYT0Wrk=",
-					"_parent": {
-						"$ref": "AAAAAAGC7NpdBYQ5mns="
-					},
-					"name": "Alternator drive belt is faulty"
-				},
-				{
-					"_type": "FCProcess",
-					"_id": "AAAAAAGC7PkUyIT9Uus=",
-					"_parent": {
-						"$ref": "AAAAAAGC7NpdBYQ5mns="
-					},
-					"name": "Short circuit in electrical system"
-				},
-				{
-					"_type": "FCProcess",
-					"_id": "AAAAAAGC7Pl5BYUI/4o=",
-					"_parent": {
-						"$ref": "AAAAAAGC7NpdBYQ5mns="
-					},
-					"name": "Battery is bad"
-				},
-				{
-					"_type": "FCProcess",
-					"_id": "AAAAAAGC7PmsR4URaUM=",
-					"_parent": {
-						"$ref": "AAAAAAGC7NpdBYQ5mns="
-					},
-					"name": "Clogged oil filter"
-				},
-				{
-					"_type": "FCProcess",
-					"_id": "AAAAAAGC7PnPMYUaA+g=",
-					"_parent": {
-						"$ref": "AAAAAAGC7NpdBYQ5mns="
-					},
-					"name": "Oil pump bad"
-				},
-				{
-					"_type": "FCProcess",
-					"_id": "AAAAAAGC7PoMwYUjCu8=",
-					"_parent": {
-						"$ref": "AAAAAAGC7NpdBYQ5mns="
-					},
-					"name": "Improper grade of oil"
-				},
-				{
-					"_type": "FCProcess",
-					"_id": "AAAAAAGC7Po6EIUsJV4=",
-					"_parent": {
-						"$ref": "AAAAAAGC7NpdBYQ5mns="
-					},
-					"name": "Oil drain plug is loose/worn"
-				},
-				{
-					"_type": "FCProcess",
 					"_id": "AAAAAAGC7Pp2eYU1y/4=",
 					"_parent": {
 						"$ref": "AAAAAAGC7NpdBYQ5mns="
 					},
 					"name": "Engine seals/gaskets bad"
-				},
-				{
-					"_type": "FCProcess",
-					"_id": "AAAAAAGC7PrDdIU+Fio=",
-					"_parent": {
-						"$ref": "AAAAAAGC7NpdBYQ5mns="
-					},
-					"name": "Clogged/dirty air filter"
-				},
-				{
-					"_type": "FCProcess",
-					"_id": "AAAAAAGC7Prv2YVHp0o=",
-					"_parent": {
-						"$ref": "AAAAAAGC7NpdBYQ5mns="
-					},
-					"name": "Low tire pressure"
-				},
-				{
-					"_type": "FCProcess",
-					"_id": "AAAAAAGC7PsSJ4VQ7tA=",
-					"_parent": {
-						"$ref": "AAAAAAGC7NpdBYQ5mns="
-					},
-					"name": "Fuel leak"
-				},
-				{
-					"_type": "FCProcess",
-					"_id": "AAAAAAGC7Ps1zIVZ6eg=",
-					"_parent": {
-						"$ref": "AAAAAAGC7NpdBYQ5mns="
-					},
-					"name": "Fuel management system faulty"
-				},
-				{
-					"_type": "FCProcess",
-					"_id": "AAAAAAGC7PtuNIViUSY=",
-					"_parent": {
-						"$ref": "AAAAAAGC7NpdBYQ5mns="
-					},
-					"name": "Insufficient coolant"
-				},
-				{
-					"_type": "FCProcess",
-					"_id": "AAAAAAGC7Pudg4VrP5U=",
-					"_parent": {
-						"$ref": "AAAAAAGC7NpdBYQ5mns="
-					},
-					"name": "Drive belt defective"
-				},
-				{
-					"_type": "FCProcess",
-					"_id": "AAAAAAGC7PvzToV0u2g=",
-					"_parent": {
-						"$ref": "AAAAAAGC7NpdBYQ5mns="
-					},
-					"name": "Radiator faulty"
-				},
-				{
-					"_type": "FCProcess",
-					"_id": "AAAAAAGC7PwbioV9H6M=",
-					"_parent": {
-						"$ref": "AAAAAAGC7NpdBYQ5mns="
-					},
-					"name": "Radiator fan faulty"
-				},
-				{
-					"_type": "FCProcess",
-					"_id": "AAAAAAGC7PxKsoWGxfA=",
-					"_parent": {
-						"$ref": "AAAAAAGC7NpdBYQ5mns="
-					},
-					"name": "Radiator cap faulty"
-				},
-				{
-					"_type": "FCProcess",
-					"_id": "AAAAAAGC7Px6h4WPIuA=",
-					"_parent": {
-						"$ref": "AAAAAAGC7NpdBYQ5mns="
-					},
-					"name": "Water pump faulty"
 				},
 				{
 					"_type": "FCProcess",
@@ -3104,7 +6230,7 @@
 					"ownedElements": [
 						{
 							"_type": "FCFlow",
-							"_id": "AAAAAAGC9YC1/uiu7hY=",
+							"_id": "AAAAAAGDCm5OLRbfzV0=",
 							"_parent": {
 								"$ref": "AAAAAAGC9X+MJuiYkJc="
 							},
@@ -3113,7 +6239,7 @@
 								"$ref": "AAAAAAGC9X+MJuiYkJc="
 							},
 							"target": {
-								"$ref": "AAAAAAGC7Po6EIUsJV4="
+								"$ref": "AAAAAAGDCm39chbVlaA="
 							}
 						}
 					]
@@ -3259,6 +6385,20 @@
 							"target": {
 								"$ref": "AAAAAAGC9Yv/Vulnsdk="
 							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGDClAvPBMBzl8=",
+							"_parent": {
+								"$ref": "AAAAAAGC9YrXbOlUVnY="
+							},
+							"name": "Yes",
+							"source": {
+								"$ref": "AAAAAAGC9YrXbOlUVnY="
+							},
+							"target": {
+								"$ref": "AAAAAAGDCk+tixL2D6M="
+							}
 						}
 					]
 				},
@@ -3283,8 +6423,1188 @@
 							"target": {
 								"$ref": "AAAAAAGC7Nq13YRGH70="
 							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGDCkGR6BHPeEM=",
+							"_parent": {
+								"$ref": "AAAAAAGC9Yv/Vulnsdk="
+							},
+							"name": "Yes",
+							"source": {
+								"$ref": "AAAAAAGC9Yv/Vulnsdk="
+							},
+							"target": {
+								"$ref": "AAAAAAGDCkEpsRHGfWw="
+							}
 						}
 					]
+				},
+				{
+					"_type": "FCTerminator",
+					"_id": "AAAAAAGDCkEpsRHGfWw=",
+					"_parent": {
+						"$ref": "AAAAAAGC7NpdBYQ5mns="
+					},
+					"name": "What is the battery voltage?",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGDCkHSbBHaQCI=",
+							"_parent": {
+								"$ref": "AAAAAAGDCkEpsRHGfWw="
+							},
+							"name": "< 12 volts",
+							"source": {
+								"$ref": "AAAAAAGDCkEpsRHGfWw="
+							},
+							"target": {
+								"$ref": "AAAAAAGC7PRC04RivnQ="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGDCkvAAhKN9mk=",
+							"_parent": {
+								"$ref": "AAAAAAGDCkEpsRHGfWw="
+							},
+							"name": ">= 12 volts",
+							"source": {
+								"$ref": "AAAAAAGDCkEpsRHGfWw="
+							},
+							"target": {
+								"$ref": "AAAAAAGDCkhIpRI5xlM="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAGDCkWoiRIHQrQ=",
+					"_parent": {
+						"$ref": "AAAAAAGC7NpdBYQ5mns="
+					},
+					"name": "Car needs more gas"
+				},
+				{
+					"_type": "FCTerminator",
+					"_id": "AAAAAAGDCkhIpRI5xlM=",
+					"_parent": {
+						"$ref": "AAAAAAGC7NpdBYQ5mns="
+					},
+					"name": "Is the starter motor working?",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGDCknZBhJrQHQ=",
+							"_parent": {
+								"$ref": "AAAAAAGDCkhIpRI5xlM="
+							},
+							"name": "No",
+							"source": {
+								"$ref": "AAAAAAGDCkhIpRI5xlM="
+							},
+							"target": {
+								"$ref": "AAAAAAGDCkmb2BJhJr8="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGDCkyrWhKuYi4=",
+							"_parent": {
+								"$ref": "AAAAAAGDCkhIpRI5xlM="
+							},
+							"name": "Yes",
+							"source": {
+								"$ref": "AAAAAAGDCkhIpRI5xlM="
+							},
+							"target": {
+								"$ref": "AAAAAAGDCkx8ABKl5U0="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAGDCkmb2BJhJr8=",
+					"_parent": {
+						"$ref": "AAAAAAGC7NpdBYQ5mns="
+					},
+					"name": "Starter motor is bad"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAGDCkx8ABKl5U0=",
+					"_parent": {
+						"$ref": "AAAAAAGC7NpdBYQ5mns="
+					},
+					"name": "Ignition switch is bad"
+				},
+				{
+					"_type": "FCTerminator",
+					"_id": "AAAAAAGDCk+tixL2D6M=",
+					"_parent": {
+						"$ref": "AAAAAAGC7NpdBYQ5mns="
+					},
+					"name": "Is there fuel?",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGDClB6gxMN7bk=",
+							"_parent": {
+								"$ref": "AAAAAAGDCk+tixL2D6M="
+							},
+							"name": "No",
+							"source": {
+								"$ref": "AAAAAAGDCk+tixL2D6M="
+							},
+							"target": {
+								"$ref": "AAAAAAGDCkWoiRIHQrQ="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGDClHShxMgx88=",
+							"_parent": {
+								"$ref": "AAAAAAGDCk+tixL2D6M="
+							},
+							"name": "Yes",
+							"source": {
+								"$ref": "AAAAAAGDCk+tixL2D6M="
+							},
+							"target": {
+								"$ref": "AAAAAAGDClGNwxMX90c="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAGDClGNwxMX90c=",
+					"_parent": {
+						"$ref": "AAAAAAGC7NpdBYQ5mns="
+					},
+					"name": "Fuel system is bad"
+				},
+				{
+					"_type": "FCTerminator",
+					"_id": "AAAAAAGDClMVPBMz0bU=",
+					"_parent": {
+						"$ref": "AAAAAAGC7NpdBYQ5mns="
+					},
+					"name": "Does the car run roughly?",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGDClQS8RNZkRg=",
+							"_parent": {
+								"$ref": "AAAAAAGDClMVPBMz0bU="
+							},
+							"name": "Yes",
+							"source": {
+								"$ref": "AAAAAAGDClMVPBMz0bU="
+							},
+							"target": {
+								"$ref": "AAAAAAGDClO6PhNHB2o="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGDClUfVhN31m0=",
+							"_parent": {
+								"$ref": "AAAAAAGDClMVPBMz0bU="
+							},
+							"name": "Yes",
+							"source": {
+								"$ref": "AAAAAAGDClMVPBMz0bU="
+							},
+							"target": {
+								"$ref": "AAAAAAGDClS1PBNuJu4="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGDClaCxROnmL0=",
+							"_parent": {
+								"$ref": "AAAAAAGDClMVPBMz0bU="
+							},
+							"name": "Yes",
+							"source": {
+								"$ref": "AAAAAAGDClMVPBMz0bU="
+							},
+							"target": {
+								"$ref": "AAAAAAGDClWTPBOV3Ag="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGDClimbhPPiUQ=",
+							"_parent": {
+								"$ref": "AAAAAAGDClMVPBMz0bU="
+							},
+							"name": "Yes",
+							"source": {
+								"$ref": "AAAAAAGDClMVPBMz0bU="
+							},
+							"target": {
+								"$ref": "AAAAAAGDCla9rxO84pA="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGDClrHHRP2Ab8=",
+							"_parent": {
+								"$ref": "AAAAAAGDClMVPBMz0bU="
+							},
+							"name": "Yes",
+							"source": {
+								"$ref": "AAAAAAGDClMVPBMz0bU="
+							},
+							"target": {
+								"$ref": "AAAAAAGDClnaJhPkUyc="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGDClyqbBQdK4I=",
+							"_parent": {
+								"$ref": "AAAAAAGDClMVPBMz0bU="
+							},
+							"name": "Yes",
+							"source": {
+								"$ref": "AAAAAAGDClMVPBMz0bU="
+							},
+							"target": {
+								"$ref": "AAAAAAGDClwX9hQLvUo="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCTerminator",
+					"_id": "AAAAAAGDClO6PhNHB2o=",
+					"_parent": {
+						"$ref": "AAAAAAGC7NpdBYQ5mns="
+					},
+					"name": "Are the vacuum hoses worn?",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGDClQzWhNkdrk=",
+							"_parent": {
+								"$ref": "AAAAAAGDClO6PhNHB2o="
+							},
+							"name": "Yes",
+							"source": {
+								"$ref": "AAAAAAGDClO6PhNHB2o="
+							},
+							"target": {
+								"$ref": "AAAAAAGDClPqEhNQGmc="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAGDClPqEhNQGmc=",
+					"_parent": {
+						"$ref": "AAAAAAGC7NpdBYQ5mns="
+					},
+					"name": "There is a vacuum leak"
+				},
+				{
+					"_type": "FCTerminator",
+					"_id": "AAAAAAGDClS1PBNuJu4=",
+					"_parent": {
+						"$ref": "AAAAAAGC7NpdBYQ5mns="
+					},
+					"name": "Do the spark plugs look corroded/burned?",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGDClVqrhOLcOQ=",
+							"_parent": {
+								"$ref": "AAAAAAGDClS1PBNuJu4="
+							},
+							"name": "Yes",
+							"source": {
+								"$ref": "AAAAAAGDClS1PBNuJu4="
+							},
+							"target": {
+								"$ref": "AAAAAAGDClVFNhOCDhw="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAGDClVFNhOCDhw=",
+					"_parent": {
+						"$ref": "AAAAAAGC7NpdBYQ5mns="
+					},
+					"name": "Spark plugs are bad"
+				},
+				{
+					"_type": "FCTerminator",
+					"_id": "AAAAAAGDClWTPBOV3Ag=",
+					"_parent": {
+						"$ref": "AAAAAAGC7NpdBYQ5mns="
+					},
+					"name": "Could the fuel have water in it?",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGDClagABOypUg=",
+							"_parent": {
+								"$ref": "AAAAAAGDClWTPBOV3Ag="
+							},
+							"name": "Yes",
+							"source": {
+								"$ref": "AAAAAAGDClWTPBOV3Ag="
+							},
+							"target": {
+								"$ref": "AAAAAAGDClZkVBOe4Uw="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAGDClZkVBOe4Uw=",
+					"_parent": {
+						"$ref": "AAAAAAGC7NpdBYQ5mns="
+					},
+					"name": "Fuel is bad"
+				},
+				{
+					"_type": "FCTerminator",
+					"_id": "AAAAAAGDCla9rxO84pA=",
+					"_parent": {
+						"$ref": "AAAAAAGC7NpdBYQ5mns="
+					},
+					"name": "Do the fuel injectors look clogged or corroded?",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGDCljDaBPadiY=",
+							"_parent": {
+								"$ref": "AAAAAAGDCla9rxO84pA="
+							},
+							"name": "Yes",
+							"source": {
+								"$ref": "AAAAAAGDCla9rxO84pA="
+							},
+							"target": {
+								"$ref": "AAAAAAGDCliEpRPGLgw="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAGDCliEpRPGLgw=",
+					"_parent": {
+						"$ref": "AAAAAAGC7NpdBYQ5mns="
+					},
+					"name": "Fuel injectors are bad"
+				},
+				{
+					"_type": "FCTerminator",
+					"_id": "AAAAAAGDClnaJhPkUyc=",
+					"_parent": {
+						"$ref": "AAAAAAGC7NpdBYQ5mns="
+					},
+					"name": "Do the ignition wires look worn?",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGDClrhCBQBFYQ=",
+							"_parent": {
+								"$ref": "AAAAAAGDClnaJhPkUyc="
+							},
+							"name": "Yes",
+							"source": {
+								"$ref": "AAAAAAGDClnaJhPkUyc="
+							},
+							"target": {
+								"$ref": "AAAAAAGDClqhThPtK0M="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAGDClqhThPtK0M=",
+					"_parent": {
+						"$ref": "AAAAAAGC7NpdBYQ5mns="
+					},
+					"name": "Ignition wires are bad"
+				},
+				{
+					"_type": "FCTerminator",
+					"_id": "AAAAAAGDClwX9hQLvUo=",
+					"_parent": {
+						"$ref": "AAAAAAGC7NpdBYQ5mns="
+					},
+					"name": "Is there a knocking noise from the engine?",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGDClzFtRQooQ0=",
+							"_parent": {
+								"$ref": "AAAAAAGDClwX9hQLvUo="
+							},
+							"name": "Yes",
+							"source": {
+								"$ref": "AAAAAAGDClwX9hQLvUo="
+							},
+							"target": {
+								"$ref": "AAAAAAGDClyBShQUns8="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAGDClyBShQUns8=",
+					"_parent": {
+						"$ref": "AAAAAAGC7NpdBYQ5mns="
+					},
+					"name": "Internal engine components are bad"
+				},
+				{
+					"_type": "FCTerminator",
+					"_id": "AAAAAAGDCl0TiBQyjl4=",
+					"_parent": {
+						"$ref": "AAAAAAGC7NpdBYQ5mns="
+					},
+					"name": "Does the battery hold a charge?",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGDCl+dXxRYJ08=",
+							"_parent": {
+								"$ref": "AAAAAAGDCl0TiBQyjl4="
+							},
+							"name": "No",
+							"source": {
+								"$ref": "AAAAAAGDCl0TiBQyjl4="
+							},
+							"target": {
+								"$ref": "AAAAAAGDCl8VFxQ7R68="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCTerminator",
+					"_id": "AAAAAAGDCl8VFxQ7R68=",
+					"_parent": {
+						"$ref": "AAAAAAGC7NpdBYQ5mns="
+					},
+					"name": "Does the battery test ok?",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGDCl+xkxRiKfY=",
+							"_parent": {
+								"$ref": "AAAAAAGDCl8VFxQ7R68="
+							},
+							"name": "No",
+							"source": {
+								"$ref": "AAAAAAGDCl8VFxQ7R68="
+							},
+							"target": {
+								"$ref": "AAAAAAGDCl8/YhRETuE="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGDCmA/VBSCFjE=",
+							"_parent": {
+								"$ref": "AAAAAAGDCl8VFxQ7R68="
+							},
+							"name": "Yes",
+							"source": {
+								"$ref": "AAAAAAGDCl8VFxQ7R68="
+							},
+							"target": {
+								"$ref": "AAAAAAGDCmAUyxR5G2Q="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAGDCl8/YhRETuE=",
+					"_parent": {
+						"$ref": "AAAAAAGC7NpdBYQ5mns="
+					},
+					"name": "Battery is bad"
+				},
+				{
+					"_type": "FCTerminator",
+					"_id": "AAAAAAGDCmAUyxR5G2Q=",
+					"_parent": {
+						"$ref": "AAAAAAGC7NpdBYQ5mns="
+					},
+					"name": "Does the alternator test ok?",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGDCmB46xSVEsU=",
+							"_parent": {
+								"$ref": "AAAAAAGDCmAUyxR5G2Q="
+							},
+							"name": "No",
+							"source": {
+								"$ref": "AAAAAAGDCmAUyxR5G2Q="
+							},
+							"target": {
+								"$ref": "AAAAAAGDCmBW5hSMyBk="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGDCmEjnxSoEnI=",
+							"_parent": {
+								"$ref": "AAAAAAGDCmAUyxR5G2Q="
+							},
+							"name": "Yes",
+							"source": {
+								"$ref": "AAAAAAGDCmAUyxR5G2Q="
+							},
+							"target": {
+								"$ref": "AAAAAAGDCmDUoRSfHK4="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAGDCmBW5hSMyBk=",
+					"_parent": {
+						"$ref": "AAAAAAGC7NpdBYQ5mns="
+					},
+					"name": "Alternator is bad"
+				},
+				{
+					"_type": "FCTerminator",
+					"_id": "AAAAAAGDCmDUoRSfHK4=",
+					"_parent": {
+						"$ref": "AAAAAAGC7NpdBYQ5mns="
+					},
+					"name": "Is the alternator drive belt worn?",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGDCmFgUBS7+38=",
+							"_parent": {
+								"$ref": "AAAAAAGDCmDUoRSfHK4="
+							},
+							"name": "Yes",
+							"source": {
+								"$ref": "AAAAAAGDCmDUoRSfHK4="
+							},
+							"target": {
+								"$ref": "AAAAAAGDCmE7yxSyank="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGDCmHqJxTXIUM=",
+							"_parent": {
+								"$ref": "AAAAAAGDCmDUoRSfHK4="
+							},
+							"name": "No",
+							"source": {
+								"$ref": "AAAAAAGDCmDUoRSfHK4="
+							},
+							"target": {
+								"$ref": "AAAAAAGDCmGG7BTFRIQ="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAGDCmE7yxSyank=",
+					"_parent": {
+						"$ref": "AAAAAAGC7NpdBYQ5mns="
+					},
+					"name": "Alternator drive belt is bad"
+				},
+				{
+					"_type": "FCTerminator",
+					"_id": "AAAAAAGDCmGG7BTFRIQ=",
+					"_parent": {
+						"$ref": "AAAAAAGC7NpdBYQ5mns="
+					},
+					"name": "Are the battery wires worn?",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGDCmIOyhTi1A0=",
+							"_parent": {
+								"$ref": "AAAAAAGDCmGG7BTFRIQ="
+							},
+							"name": "Yes",
+							"source": {
+								"$ref": "AAAAAAGDCmGG7BTFRIQ="
+							},
+							"target": {
+								"$ref": "AAAAAAGDCmHMwBTOLlM="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGDCmJcChT11qs=",
+							"_parent": {
+								"$ref": "AAAAAAGDCmGG7BTFRIQ="
+							},
+							"name": "No",
+							"source": {
+								"$ref": "AAAAAAGDCmGG7BTFRIQ="
+							},
+							"target": {
+								"$ref": "AAAAAAGDCmItIRTs7kQ="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAGDCmHMwBTOLlM=",
+					"_parent": {
+						"$ref": "AAAAAAGC7NpdBYQ5mns="
+					},
+					"name": "Battery wires are bad"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAGDCmItIRTs7kQ=",
+					"_parent": {
+						"$ref": "AAAAAAGC7NpdBYQ5mns="
+					},
+					"name": "There is a short in the electrical system"
+				},
+				{
+					"_type": "FCTerminator",
+					"_id": "AAAAAAGDCmL9lhUAIhw=",
+					"_parent": {
+						"$ref": "AAAAAAGC7NpdBYQ5mns="
+					},
+					"name": "Does the car overheat?",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGDCmTGFxUygw0=",
+							"_parent": {
+								"$ref": "AAAAAAGDCmL9lhUAIhw="
+							},
+							"name": "Yes",
+							"source": {
+								"$ref": "AAAAAAGDCmL9lhUAIhw="
+							},
+							"target": {
+								"$ref": "AAAAAAGDCmPv0RUUfkk="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCTerminator",
+					"_id": "AAAAAAGDCmPv0RUUfkk=",
+					"_parent": {
+						"$ref": "AAAAAAGC7NpdBYQ5mns="
+					},
+					"name": "Is there coolant?",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGDCmTdshU8LNI=",
+							"_parent": {
+								"$ref": "AAAAAAGDCmPv0RUUfkk="
+							},
+							"name": "No",
+							"source": {
+								"$ref": "AAAAAAGDCmPv0RUUfkk="
+							},
+							"target": {
+								"$ref": "AAAAAAGDCmSgCxUpBrc="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGDCmWDlRVYIBY=",
+							"_parent": {
+								"$ref": "AAAAAAGDCmPv0RUUfkk="
+							},
+							"name": "Yes",
+							"source": {
+								"$ref": "AAAAAAGDCmPv0RUUfkk="
+							},
+							"target": {
+								"$ref": "AAAAAAGDCmUVyRVGFYM="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAGDCmSgCxUpBrc=",
+					"_parent": {
+						"$ref": "AAAAAAGC7NpdBYQ5mns="
+					},
+					"name": "Coolant is empty"
+				},
+				{
+					"_type": "FCTerminator",
+					"_id": "AAAAAAGDCmUVyRVGFYM=",
+					"_parent": {
+						"$ref": "AAAAAAGC7NpdBYQ5mns="
+					},
+					"name": "Is the drive belt worn/stretched?",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGDCmWeAxVioXA=",
+							"_parent": {
+								"$ref": "AAAAAAGDCmUVyRVGFYM="
+							},
+							"name": "Yes",
+							"source": {
+								"$ref": "AAAAAAGDCmUVyRVGFYM="
+							},
+							"target": {
+								"$ref": "AAAAAAGDCmVclBVP6Jg="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGDCmaadxV+QaQ=",
+							"_parent": {
+								"$ref": "AAAAAAGDCmUVyRVGFYM="
+							},
+							"name": "No",
+							"source": {
+								"$ref": "AAAAAAGDCmUVyRVGFYM="
+							},
+							"target": {
+								"$ref": "AAAAAAGDCmXkZBVsC04="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAGDCmVclBVP6Jg=",
+					"_parent": {
+						"$ref": "AAAAAAGC7NpdBYQ5mns="
+					},
+					"name": "Drive belt is bad"
+				},
+				{
+					"_type": "FCTerminator",
+					"_id": "AAAAAAGDCmXkZBVsC04=",
+					"_parent": {
+						"$ref": "AAAAAAGC7NpdBYQ5mns="
+					},
+					"name": "Does the radiator looked dirty or corroded?",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGDCmatHRWI7Ng=",
+							"_parent": {
+								"$ref": "AAAAAAGDCmXkZBVsC04="
+							},
+							"name": "Yes",
+							"source": {
+								"$ref": "AAAAAAGDCmXkZBVsC04="
+							},
+							"target": {
+								"$ref": "AAAAAAGDCmZ9wxV1Wjs="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGDCmcoxxWba44=",
+							"_parent": {
+								"$ref": "AAAAAAGDCmXkZBVsC04="
+							},
+							"name": "No",
+							"source": {
+								"$ref": "AAAAAAGDCmXkZBVsC04="
+							},
+							"target": {
+								"$ref": "AAAAAAGDCmb6dRWSG4w="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAGDCmZ9wxV1Wjs=",
+					"_parent": {
+						"$ref": "AAAAAAGC7NpdBYQ5mns="
+					},
+					"name": "Radiator is bad"
+				},
+				{
+					"_type": "FCTerminator",
+					"_id": "AAAAAAGDCmb6dRWSG4w=",
+					"_parent": {
+						"$ref": "AAAAAAGC7NpdBYQ5mns="
+					},
+					"name": "Does the radiator fan turn on?",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGDCmdr6hWuLVM=",
+							"_parent": {
+								"$ref": "AAAAAAGDCmb6dRWSG4w="
+							},
+							"name": "No",
+							"source": {
+								"$ref": "AAAAAAGDCmb6dRWSG4w="
+							},
+							"target": {
+								"$ref": "AAAAAAGDCmdCIxWlyp0="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGDCmgn3xXBxh8=",
+							"_parent": {
+								"$ref": "AAAAAAGDCmb6dRWSG4w="
+							},
+							"name": "Yes",
+							"source": {
+								"$ref": "AAAAAAGDCmb6dRWSG4w="
+							},
+							"target": {
+								"$ref": "AAAAAAGDCmgG4BW41wk="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAGDCmdCIxWlyp0=",
+					"_parent": {
+						"$ref": "AAAAAAGC7NpdBYQ5mns="
+					},
+					"name": "Radiator fan is bad"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAGDCmgG4BW41wk=",
+					"_parent": {
+						"$ref": "AAAAAAGC7NpdBYQ5mns="
+					},
+					"name": "Water pump is bad"
+				},
+				{
+					"_type": "FCTerminator",
+					"_id": "AAAAAAGDCmpwzxZhkVE=",
+					"_parent": {
+						"$ref": "AAAAAAGC7NpdBYQ5mns="
+					},
+					"name": "Is the oil pressure low?",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGDCmvQNBaHPzI=",
+							"_parent": {
+								"$ref": "AAAAAAGDCmpwzxZhkVE="
+							},
+							"name": "Yes",
+							"source": {
+								"$ref": "AAAAAAGDCmpwzxZhkVE="
+							},
+							"target": {
+								"$ref": "AAAAAAGDCmtgoRZ1a/w="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCTerminator",
+					"_id": "AAAAAAGDCmtgoRZ1a/w=",
+					"_parent": {
+						"$ref": "AAAAAAGC7NpdBYQ5mns="
+					},
+					"name": "Are you using the proper grade of oil?",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGDCmvikxaRFwI=",
+							"_parent": {
+								"$ref": "AAAAAAGDCmtgoRZ1a/w="
+							},
+							"name": "No",
+							"source": {
+								"$ref": "AAAAAAGDCmtgoRZ1a/w="
+							},
+							"target": {
+								"$ref": "AAAAAAGDCmuiGBZ+RF0="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGDCmxhJBakZ1M=",
+							"_parent": {
+								"$ref": "AAAAAAGDCmtgoRZ1a/w="
+							},
+							"name": "Yes",
+							"source": {
+								"$ref": "AAAAAAGDCmtgoRZ1a/w="
+							},
+							"target": {
+								"$ref": "AAAAAAGDCmv7+Bab1jc="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAGDCmuiGBZ+RF0=",
+					"_parent": {
+						"$ref": "AAAAAAGC7NpdBYQ5mns="
+					},
+					"name": "Oil is not of the proper grade"
+				},
+				{
+					"_type": "FCTerminator",
+					"_id": "AAAAAAGDCmv7+Bab1jc=",
+					"_parent": {
+						"$ref": "AAAAAAGC7NpdBYQ5mns="
+					},
+					"name": "Is the oil filter new?",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGDCmyZsRa3mJE=",
+							"_parent": {
+								"$ref": "AAAAAAGDCmv7+Bab1jc="
+							},
+							"name": "No",
+							"source": {
+								"$ref": "AAAAAAGDCmv7+Bab1jc="
+							},
+							"target": {
+								"$ref": "AAAAAAGDCmx2NBauqVA="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGDCm0NBxbK/50=",
+							"_parent": {
+								"$ref": "AAAAAAGDCmv7+Bab1jc="
+							},
+							"name": "Yes",
+							"source": {
+								"$ref": "AAAAAAGDCmv7+Bab1jc="
+							},
+							"target": {
+								"$ref": "AAAAAAGDCmzWSxbB6iU="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAGDCmx2NBauqVA=",
+					"_parent": {
+						"$ref": "AAAAAAGC7NpdBYQ5mns="
+					},
+					"name": "Oil filter is clogged"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAGDCmzWSxbB6iU=",
+					"_parent": {
+						"$ref": "AAAAAAGC7NpdBYQ5mns="
+					},
+					"name": "Oil pump is bad"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAGDCm39chbVlaA=",
+					"_parent": {
+						"$ref": "AAAAAAGC7NpdBYQ5mns="
+					},
+					"name": "Oil drain plug is loose/worn"
+				},
+				{
+					"_type": "FCTerminator",
+					"_id": "AAAAAAGDCm7lMRbpLqg=",
+					"_parent": {
+						"$ref": "AAAAAAGC7NpdBYQ5mns="
+					},
+					"name": "Is there excessive fuel consumption?",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGDCnAJqxcJWqg=",
+							"_parent": {
+								"$ref": "AAAAAAGDCm7lMRbpLqg="
+							},
+							"name": "Yes",
+							"source": {
+								"$ref": "AAAAAAGDCm7lMRbpLqg="
+							},
+							"target": {
+								"$ref": "AAAAAAGDCm/VyxcAVX8="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCTerminator",
+					"_id": "AAAAAAGDCm/VyxcAVX8=",
+					"_parent": {
+						"$ref": "AAAAAAGC7NpdBYQ5mns="
+					},
+					"name": "Is the tire pressure correct?",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGDCnBWpxcdlEo=",
+							"_parent": {
+								"$ref": "AAAAAAGDCm/VyxcAVX8="
+							},
+							"name": "No",
+							"source": {
+								"$ref": "AAAAAAGDCm/VyxcAVX8="
+							},
+							"target": {
+								"$ref": "AAAAAAGDCnAs9xcUtE4="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGDCnDE6xcxHw4=",
+							"_parent": {
+								"$ref": "AAAAAAGDCm/VyxcAVX8="
+							},
+							"name": "Yes",
+							"source": {
+								"$ref": "AAAAAAGDCm/VyxcAVX8="
+							},
+							"target": {
+								"$ref": "AAAAAAGDCnCGIhcnwss="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAGDCnAs9xcUtE4=",
+					"_parent": {
+						"$ref": "AAAAAAGC7NpdBYQ5mns="
+					},
+					"name": "Tire pressure is too low"
+				},
+				{
+					"_type": "FCTerminator",
+					"_id": "AAAAAAGDCnCGIhcnwss=",
+					"_parent": {
+						"$ref": "AAAAAAGC7NpdBYQ5mns="
+					},
+					"name": "Does the air filter look clean?",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGDCnEEfRdEVNo=",
+							"_parent": {
+								"$ref": "AAAAAAGDCnCGIhcnwss="
+							},
+							"name": "No",
+							"source": {
+								"$ref": "AAAAAAGDCnCGIhcnwss="
+							},
+							"target": {
+								"$ref": "AAAAAAGDCnDdrBc7ZS8="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGDCnFytRdXGSo=",
+							"_parent": {
+								"$ref": "AAAAAAGDCnCGIhcnwss="
+							},
+							"name": "Yes",
+							"source": {
+								"$ref": "AAAAAAGDCnCGIhcnwss="
+							},
+							"target": {
+								"$ref": "AAAAAAGDCnEe8hdOqEk="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAGDCnDdrBc7ZS8=",
+					"_parent": {
+						"$ref": "AAAAAAGC7NpdBYQ5mns="
+					},
+					"name": "Air filter is clogged"
+				},
+				{
+					"_type": "FCTerminator",
+					"_id": "AAAAAAGDCnEe8hdOqEk=",
+					"_parent": {
+						"$ref": "AAAAAAGC7NpdBYQ5mns="
+					},
+					"name": "Can you smell fuel under the car?",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGDCnGqrxdqIzk=",
+							"_parent": {
+								"$ref": "AAAAAAGDCnEe8hdOqEk="
+							},
+							"name": "Yes",
+							"source": {
+								"$ref": "AAAAAAGDCnEe8hdOqEk="
+							},
+							"target": {
+								"$ref": "AAAAAAGDCnGKdBdh7z0="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGDCnH9jhd9kmg=",
+							"_parent": {
+								"$ref": "AAAAAAGDCnEe8hdOqEk="
+							},
+							"name": "No",
+							"source": {
+								"$ref": "AAAAAAGDCnEe8hdOqEk="
+							},
+							"target": {
+								"$ref": "AAAAAAGDCnHcDBd0T4o="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAGDCnGKdBdh7z0=",
+					"_parent": {
+						"$ref": "AAAAAAGC7NpdBYQ5mns="
+					},
+					"name": "There is a fuel leak"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAGDCnHcDBd0T4o=",
+					"_parent": {
+						"$ref": "AAAAAAGC7NpdBYQ5mns="
+					},
+					"name": "Fuel management system is bad"
 				}
 			]
 		}
