@@ -5911,6 +5911,726 @@
 							"nameLabel": {
 								"$ref": "AAAAAAGDCnH9jheAYVY="
 							}
+						},
+						{
+							"_type": "FCTerminatorView",
+							"_id": "AAAAAAGDCndpjqA1AWo=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCndpjaAz2Ts="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDCndpjqA2wKo=",
+									"_parent": {
+										"$ref": "AAAAAAGDCndpjqA1AWo="
+									},
+									"font": "Arial;13;0",
+									"left": 26,
+									"top": 2722,
+									"width": 133,
+									"height": 26,
+									"text": "Is the check brake light on?",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 16,
+							"top": 2712,
+							"width": 153,
+							"height": 46,
+							"nameLabel": {
+								"$ref": "AAAAAAGDCndpjqA2wKo="
+							}
+						},
+						{
+							"_type": "FCTerminatorView",
+							"_id": "AAAAAAGDCnfHL6A+zIo=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCnfHLqA80es="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDCnfHL6A/Ssc=",
+									"_parent": {
+										"$ref": "AAAAAAGDCnfHL6A+zIo="
+									},
+									"font": "Arial;13;0",
+									"left": 258,
+									"top": 2842,
+									"width": 164,
+									"height": 26,
+									"text": "Wobbling/vibration when braking",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 248,
+							"top": 2832,
+							"width": 184,
+							"height": 49,
+							"nameLabel": {
+								"$ref": "AAAAAAGDCnfHL6A/Ssc="
+							}
+						},
+						{
+							"_type": "FCTerminatorView",
+							"_id": "AAAAAAGDCngVf6BH9EU=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCngVf6BFRT8="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDCngVgKBIB0o=",
+									"_parent": {
+										"$ref": "AAAAAAGDCngVf6BH9EU="
+									},
+									"font": "Arial;13;0",
+									"left": 258,
+									"top": 2922,
+									"width": 132,
+									"height": 26,
+									"text": "Chemical burning smell when braking",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 248,
+							"top": 2912,
+							"width": 152,
+							"height": 49,
+							"nameLabel": {
+								"$ref": "AAAAAAGDCngVgKBIB0o="
+							}
+						},
+						{
+							"_type": "FCTerminatorView",
+							"_id": "AAAAAAGDCnhpbaBQXKg=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCnhpbaBOYzI="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDCnhpbaBRYy8=",
+									"_parent": {
+										"$ref": "AAAAAAGDCnhpbaBQXKg="
+									},
+									"font": "Arial;13;0",
+									"left": 250,
+									"top": 2986,
+									"width": 132,
+									"height": 26,
+									"text": "braking is spongey or soft",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 240,
+							"top": 2976,
+							"width": 152,
+							"height": 48,
+							"nameLabel": {
+								"$ref": "AAAAAAGDCnhpbaBRYy8="
+							}
+						},
+						{
+							"_type": "FCTerminatorView",
+							"_id": "AAAAAAGDCniWNKBZPRI=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCniWNKBXw/8="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDCniWNKBapRg=",
+									"_parent": {
+										"$ref": "AAAAAAGDCniWNKBZPRI="
+									},
+									"font": "Arial;13;0",
+									"left": 210,
+									"top": 3074,
+									"width": 148,
+									"height": 26,
+									"text": "Squeaking noise when braking",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 200,
+							"top": 3064,
+							"width": 168,
+							"height": 56,
+							"nameLabel": {
+								"$ref": "AAAAAAGDCniWNKBapRg="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAGDCnj+MKBleww=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCnj+MKBjORI="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDCnj+MKBm9T0=",
+									"_parent": {
+										"$ref": "AAAAAAGDCnj+MKBleww="
+									},
+									"font": "Arial;13;0",
+									"left": 658,
+									"top": 2874,
+									"width": 93,
+									"height": 26,
+									"text": "Uneven brake rotor/pads",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 648,
+							"top": 2864,
+							"width": 113,
+							"height": 46,
+							"nameLabel": {
+								"$ref": "AAAAAAGDCnj+MKBm9T0="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAGDCnkGyKBt/20=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCnkGyKBrV/k="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDCnkGyKBu0xQ=",
+									"_parent": {
+										"$ref": "AAAAAAGDCnkGyKBt/20="
+									},
+									"font": "Arial;13;0",
+									"left": 642,
+									"top": 2946,
+									"width": 109,
+									"height": 13,
+									"text": "overheated brakes",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 632,
+							"top": 2936,
+							"width": 129,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAGDCnkGyKBu0xQ="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAGDCnkRGKB1tjA=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCnkRGKBz9q0="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDCnkRGKB2j7k=",
+									"_parent": {
+										"$ref": "AAAAAAGDCnkRGKB1tjA="
+									},
+									"font": "Arial;13;0",
+									"left": 650,
+									"top": 3010,
+									"width": 93,
+									"height": 26,
+									"text": "Issue in braking system",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 640,
+							"top": 3000,
+							"width": 113,
+							"height": 46,
+							"nameLabel": {
+								"$ref": "AAAAAAGDCnkRGKB2j7k="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAGDCnkaoaB9L/U=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCnkaoaB7RBU="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGDCnkaoaB+4XU=",
+									"_parent": {
+										"$ref": "AAAAAAGDCnkaoaB9L/U="
+									},
+									"font": "Arial;13;0",
+									"left": 642,
+									"top": 3090,
+									"width": 141,
+									"height": 13,
+									"text": "Worn brakes",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 632,
+							"top": 3080,
+							"width": 161,
+							"height": 41,
+							"nameLabel": {
+								"$ref": "AAAAAAGDCnkaoaB+4XU="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGDCns9g6CaN7I=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCns9g6CYxG4="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDCns9g6CbFm0=",
+									"_parent": {
+										"$ref": "AAAAAAGDCns9g6CaN7I="
+									},
+									"model": {
+										"$ref": "AAAAAAGDCns9g6CYxG4="
+									},
+									"font": "Arial;13;0",
+									"left": 421,
+									"top": 2864,
+									"width": 20.22998046875,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGDCns9g6CaN7I="
+									},
+									"edgePosition": 1,
+									"text": "yes"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDCnj+MKBleww="
+							},
+							"tail": {
+								"$ref": "AAAAAAGDCnfHL6A+zIo="
+							},
+							"lineStyle": 2,
+							"points": "431:2880;431:2885;648:2885",
+							"nameLabel": {
+								"$ref": "AAAAAAGDCns9g6CbFm0="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGDCntPeKCkG24=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCntPeKCi6aM="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDCntPeKClZAw=",
+									"_parent": {
+										"$ref": "AAAAAAGDCntPeKCkG24="
+									},
+									"model": {
+										"$ref": "AAAAAAGDCntPeKCi6aM="
+									},
+									"font": "Arial;13;0",
+									"left": 505,
+									"top": 2931,
+									"width": 20.22998046875,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGDCntPeKCkG24="
+									},
+									"edgePosition": 1,
+									"text": "yes"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDCnkGyKBt/20="
+							},
+							"tail": {
+								"$ref": "AAAAAAGDCngVf6BH9EU="
+							},
+							"lineStyle": 2,
+							"points": "399:2952;632:2952",
+							"nameLabel": {
+								"$ref": "AAAAAAGDCntPeKClZAw="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGDCntho6Cucas=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCntho6CsJJw="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDCntho6CvGRY=",
+									"_parent": {
+										"$ref": "AAAAAAGDCntho6Cucas="
+									},
+									"model": {
+										"$ref": "AAAAAAGDCntho6CsJJw="
+									},
+									"font": "Arial;13;0",
+									"left": 505,
+									"top": 3002,
+									"width": 20.22998046875,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGDCntho6Cucas="
+									},
+									"edgePosition": 1,
+									"text": "yes"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDCnkRGKB1tjA="
+							},
+							"tail": {
+								"$ref": "AAAAAAGDCnhpbaBQXKg="
+							},
+							"lineStyle": 2,
+							"points": "391:3023;640:3023",
+							"nameLabel": {
+								"$ref": "AAAAAAGDCntho6CvGRY="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGDCntwtqC4ZWQ=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCntwtqC2IOk="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDCntwtqC5czA=",
+									"_parent": {
+										"$ref": "AAAAAAGDCntwtqC4ZWQ="
+									},
+									"model": {
+										"$ref": "AAAAAAGDCntwtqC2IOk="
+									},
+									"font": "Arial;13;0",
+									"left": 489,
+									"top": 3091,
+									"width": 20.22998046875,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGDCntwtqC4ZWQ="
+									},
+									"edgePosition": 1,
+									"text": "yes"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDCnkaoaB9L/U="
+							},
+							"tail": {
+								"$ref": "AAAAAAGDCniWNKBZPRI="
+							},
+							"lineStyle": 2,
+							"points": "367:3112;632:3112",
+							"nameLabel": {
+								"$ref": "AAAAAAGDCntwtqC5czA="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGDCnuMdqDCrsU=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCnuMdqDAF6o="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDCnuMdqDDk0o=",
+									"_parent": {
+										"$ref": "AAAAAAGDCnuMdqDCrsU="
+									},
+									"model": {
+										"$ref": "AAAAAAGDCnuMdqDAF6o="
+									},
+									"font": "Arial;13;0",
+									"left": 121,
+									"top": 2835,
+									"width": 20.22998046875,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGDCnuMdqDCrsU="
+									},
+									"edgePosition": 1,
+									"text": "yes"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDCnfHL6A+zIo="
+							},
+							"tail": {
+								"$ref": "AAAAAAGDCndpjqA1AWo="
+							},
+							"lineStyle": 2,
+							"points": "131:2757;131:2856;248:2856",
+							"nameLabel": {
+								"$ref": "AAAAAAGDCnuMdqDDk0o="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGDCnusYaDMkjc=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCnusYaDKpFs="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDCnusYaDNlmA=",
+									"_parent": {
+										"$ref": "AAAAAAGDCnusYaDMkjc="
+									},
+									"model": {
+										"$ref": "AAAAAAGDCnusYaDKpFs="
+									},
+									"font": "Arial;13;0",
+									"left": 86,
+									"top": 2907,
+									"width": 20.22998046875,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGDCnusYaDMkjc="
+									},
+									"edgePosition": 1,
+									"text": "yes"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDCngVf6BH9EU="
+							},
+							"tail": {
+								"$ref": "AAAAAAGDCndpjqA1AWo="
+							},
+							"lineStyle": 2,
+							"points": "96:2757;96:2928;248:2928",
+							"nameLabel": {
+								"$ref": "AAAAAAGDCnusYaDNlmA="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGDCnvBfaDWmaE=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCnvBfaDUxM0="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDCnvBfaDXzN8=",
+									"_parent": {
+										"$ref": "AAAAAAGDCnvBfaDWmaE="
+									},
+									"model": {
+										"$ref": "AAAAAAGDCnvBfaDUxM0="
+									},
+									"font": "Arial;13;0",
+									"left": 54,
+									"top": 2979,
+									"width": 20.22998046875,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGDCnvBfaDWmaE="
+									},
+									"edgePosition": 1,
+									"text": "yes"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDCnhpbaBQXKg="
+							},
+							"tail": {
+								"$ref": "AAAAAAGDCndpjqA1AWo="
+							},
+							"lineStyle": 2,
+							"points": "64:2757;64:3000;240:3000",
+							"nameLabel": {
+								"$ref": "AAAAAAGDCnvBfaDXzN8="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGDCnvSrqDgf54=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCnvSrqDeadk="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDCnvSrqDhF5k=",
+									"_parent": {
+										"$ref": "AAAAAAGDCnvSrqDgf54="
+									},
+									"model": {
+										"$ref": "AAAAAAGDCnvSrqDeadk="
+									},
+									"font": "Arial;13;0",
+									"left": 30,
+									"top": 3067,
+									"width": 20.22998046875,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGDCnvSrqDgf54="
+									},
+									"edgePosition": 1,
+									"text": "yes"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDCniWNKBZPRI="
+							},
+							"tail": {
+								"$ref": "AAAAAAGDCndpjqA1AWo="
+							},
+							"lineStyle": 2,
+							"points": "40:2757;40:3088;200:3088",
+							"nameLabel": {
+								"$ref": "AAAAAAGDCnvSrqDhF5k="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGDCnyizaDxCCM=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NpdBYQ6DXw="
+							},
+							"model": {
+								"$ref": "AAAAAAGDCnyizaDvuRs="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGDCnyizaDyU3Q=",
+									"_parent": {
+										"$ref": "AAAAAAGDCnyizaDxCCM="
+									},
+									"model": {
+										"$ref": "AAAAAAGDCnyizaDvuRs="
+									},
+									"font": "Arial;13;0",
+									"left": 69,
+									"top": 1693,
+									"width": 20.22998046875,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGDCnyizaDxCCM="
+									},
+									"edgePosition": 1,
+									"text": "yes"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGDCndpjqA1AWo="
+							},
+							"tail": {
+								"$ref": "AAAAAAGC7NqAcIRAaNU="
+							},
+							"lineStyle": 2,
+							"points": "64:688;64:2712",
+							"nameLabel": {
+								"$ref": "AAAAAAGDCnyizaDyU3Q="
+							}
 						}
 					]
 				},
@@ -6032,6 +6752,20 @@
 							},
 							"target": {
 								"$ref": "AAAAAAGDCm7lMRbpLqg="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGDCnyizaDvuRs=",
+							"_parent": {
+								"$ref": "AAAAAAGC7NqAcIQ+8RI="
+							},
+							"name": "yes",
+							"source": {
+								"$ref": "AAAAAAGC7NqAcIQ+8RI="
+							},
+							"target": {
+								"$ref": "AAAAAAGDCndpjaAz2Ts="
 							}
 						}
 					]
@@ -7605,6 +8339,200 @@
 						"$ref": "AAAAAAGC7NpdBYQ5mns="
 					},
 					"name": "Fuel management system is bad"
+				},
+				{
+					"_type": "FCTerminator",
+					"_id": "AAAAAAGDCndpjaAz2Ts=",
+					"_parent": {
+						"$ref": "AAAAAAGC7NpdBYQ5mns="
+					},
+					"name": "Is the check brake light on?",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGDCnuMdqDAF6o=",
+							"_parent": {
+								"$ref": "AAAAAAGDCndpjaAz2Ts="
+							},
+							"name": "yes",
+							"source": {
+								"$ref": "AAAAAAGDCndpjaAz2Ts="
+							},
+							"target": {
+								"$ref": "AAAAAAGDCnfHLqA80es="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGDCnusYaDKpFs=",
+							"_parent": {
+								"$ref": "AAAAAAGDCndpjaAz2Ts="
+							},
+							"name": "yes",
+							"source": {
+								"$ref": "AAAAAAGDCndpjaAz2Ts="
+							},
+							"target": {
+								"$ref": "AAAAAAGDCngVf6BFRT8="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGDCnvBfaDUxM0=",
+							"_parent": {
+								"$ref": "AAAAAAGDCndpjaAz2Ts="
+							},
+							"name": "yes",
+							"source": {
+								"$ref": "AAAAAAGDCndpjaAz2Ts="
+							},
+							"target": {
+								"$ref": "AAAAAAGDCnhpbaBOYzI="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGDCnvSrqDeadk=",
+							"_parent": {
+								"$ref": "AAAAAAGDCndpjaAz2Ts="
+							},
+							"name": "yes",
+							"source": {
+								"$ref": "AAAAAAGDCndpjaAz2Ts="
+							},
+							"target": {
+								"$ref": "AAAAAAGDCniWNKBXw/8="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCTerminator",
+					"_id": "AAAAAAGDCnfHLqA80es=",
+					"_parent": {
+						"$ref": "AAAAAAGC7NpdBYQ5mns="
+					},
+					"name": "Wobbling/vibration when braking",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGDCns9g6CYxG4=",
+							"_parent": {
+								"$ref": "AAAAAAGDCnfHLqA80es="
+							},
+							"name": "yes",
+							"source": {
+								"$ref": "AAAAAAGDCnfHLqA80es="
+							},
+							"target": {
+								"$ref": "AAAAAAGDCnj+MKBjORI="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCTerminator",
+					"_id": "AAAAAAGDCngVf6BFRT8=",
+					"_parent": {
+						"$ref": "AAAAAAGC7NpdBYQ5mns="
+					},
+					"name": "Chemical burning smell when braking",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGDCntPeKCi6aM=",
+							"_parent": {
+								"$ref": "AAAAAAGDCngVf6BFRT8="
+							},
+							"name": "yes",
+							"source": {
+								"$ref": "AAAAAAGDCngVf6BFRT8="
+							},
+							"target": {
+								"$ref": "AAAAAAGDCnkGyKBrV/k="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCTerminator",
+					"_id": "AAAAAAGDCnhpbaBOYzI=",
+					"_parent": {
+						"$ref": "AAAAAAGC7NpdBYQ5mns="
+					},
+					"name": "braking is spongey or soft",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGDCntho6CsJJw=",
+							"_parent": {
+								"$ref": "AAAAAAGDCnhpbaBOYzI="
+							},
+							"name": "yes",
+							"source": {
+								"$ref": "AAAAAAGDCnhpbaBOYzI="
+							},
+							"target": {
+								"$ref": "AAAAAAGDCnkRGKBz9q0="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCTerminator",
+					"_id": "AAAAAAGDCniWNKBXw/8=",
+					"_parent": {
+						"$ref": "AAAAAAGC7NpdBYQ5mns="
+					},
+					"name": "Squeaking noise when braking",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGDCntwtqC2IOk=",
+							"_parent": {
+								"$ref": "AAAAAAGDCniWNKBXw/8="
+							},
+							"name": "yes",
+							"source": {
+								"$ref": "AAAAAAGDCniWNKBXw/8="
+							},
+							"target": {
+								"$ref": "AAAAAAGDCnkaoaB7RBU="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAGDCnj+MKBjORI=",
+					"_parent": {
+						"$ref": "AAAAAAGC7NpdBYQ5mns="
+					},
+					"name": "Uneven brake rotor/pads"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAGDCnkGyKBrV/k=",
+					"_parent": {
+						"$ref": "AAAAAAGC7NpdBYQ5mns="
+					},
+					"name": "overheated brakes"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAGDCnkRGKBz9q0=",
+					"_parent": {
+						"$ref": "AAAAAAGC7NpdBYQ5mns="
+					},
+					"name": "Issue in braking system"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAGDCnkaoaB7RBU=",
+					"_parent": {
+						"$ref": "AAAAAAGC7NpdBYQ5mns="
+					},
+					"name": "Worn brakes"
 				}
 			]
 		}
