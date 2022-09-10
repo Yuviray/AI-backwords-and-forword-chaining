@@ -274,8 +274,8 @@
 									"left": 194,
 									"top": 482,
 									"width": 61,
-									"height": 52,
-									"text": "4. Do you see fluids under the car?",
+									"height": 39,
+									"text": "4. Do you see a leak?",
 									"wordWrap": true
 								}
 							],
@@ -2206,8 +2206,8 @@
 									"left": 538,
 									"top": 1210,
 									"width": 92,
-									"height": 26,
-									"text": "41. There is a vacuum leak",
+									"height": 39,
+									"text": "41. There is a vacuum hose leak",
 									"wordWrap": true
 								}
 							],
@@ -2215,7 +2215,7 @@
 							"left": 528,
 							"top": 1200,
 							"width": 112,
-							"height": 56,
+							"height": 59,
 							"nameLabel": {
 								"$ref": "AAAAAAGDClPqExNTNos="
 							}
@@ -6808,7 +6808,7 @@
 					"_parent": {
 						"$ref": "AAAAAAGC7NpdBYQ5mns="
 					},
-					"name": "4. Do you see fluids under the car?",
+					"name": "4. Do you see a leak?",
 					"ownedElements": [
 						{
 							"_type": "FCFlow",
@@ -7444,7 +7444,7 @@
 					"_parent": {
 						"$ref": "AAAAAAGC7NpdBYQ5mns="
 					},
-					"name": "41. There is a vacuum leak"
+					"name": "41. There is a vacuum hose leak"
 				},
 				{
 					"_type": "FCTerminator",
