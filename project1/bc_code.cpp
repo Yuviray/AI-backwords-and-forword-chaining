@@ -16,9 +16,9 @@
 /*  conclusion list */
 char conclt[40][5];
 /*  variable list */
-char varlt[45][15];
-/*  clause vairable list */
-char clvarlt[1676][12];
+char varlt[45][17];
+/*  clause variable list */
+char clvarlt[1676][17];
 char varble[3];
 char /* qualify */ qu[4], /* degree*/ de[4];
 char /* discovery */ di[4], /* position */ po[4],PART[4],PROBLEM[4],OIL_PRESSURE[4],OIL_FILTER[4],OIL_GRADE[4]
@@ -29,10 +29,10 @@ char /* discovery */ di[4], /* position */ po[4],PART[4],PROBLEM[4],OIL_PRESSURE
     AIR_FILTER[4],FUEL_SMELL[4],CHECK_BRAKE[4],WOBBLE[4],CHEMICAL_SMELL[4],SPONGEY[4],SQUEAK[4];
 char buff[128];
 /* instantiated list */
-int instlt[11];
+int instlt[45];
 /* statement stack */
-int statsk[11];
-int /* clause stack */ clausk[11], sn, f, i, j, s, k, /*stack pointer */ sp;
+int statsk[45];
+int /* clause stack */ clausk[45], sn, f, i, j, s, k, /*stack pointer */ sp;
 float /* grade */ gr, /*experience */ ex,BATT_VOLTAGE;
 void determine_member_concl_list(void);
 void push_on_stack(void);
@@ -43,15 +43,15 @@ void popStack();
 int main() {
     /***** initialization section ******/
     /* stack space is 10 we initially place stack space at 10+1 */
-    sp = 11;
-    for (i = 1; i < 11; i++) {
+    sp = 45;
+    for (i = 1; i < 45; i++) {
         strcpy(conclt[i], "");
         strcpy(varlt[i], "");
         instlt[i] = 0;
         statsk[i] = 0;
         clausk[i] = 0;
     }
-    for (i = 1; i < 41; i++) strcpy(clvarlt[i], "");
+    for (i = 1; i < 1677; i++) strcpy(clvarlt[i], "");
     /* enter conclusions which are the variables in the then part,
 1 at
     a time.  enter the conclusions in exact order starting at the 1st
@@ -318,16 +318,16 @@ key. */
     strcpy(clvarlt[1675], "SQUEAK");
 
 
-    for (i = 1; i < 39; i++) {
+    for (i = 1; i < 40; i++) {
         printf("** CLAUSE %d\n", i);
-        for (j = 1; j < 44; j++) {
-            k = 4 * (i - 1) + j;
+        for (j = 1; j < 45; j++) {
+            k = 44 * (i - 1) + j;
             printf("VARIABLE %d  %s\n", j, clvarlt[k]);
         }
-        if (i == 4) {
+        /*if (i == 4) {
             printf("HIT RETURN KEY TO CONTINUE");
             gets(buff);
-        }
+        }*/
     }
     /****** inference section *****/
     printf("** ENTER CONCLUSION ? ");
@@ -349,7 +349,11 @@ void determine_member_concl_list() {
     i = f;
     while((strcmp(varble, conclt[i]) != 0) && (i<40))
         /* test for membership */
-        i=i+1;
+        {
+            i=i+1;
+
+        }
+    printf("\ni is %d\n", i);
     if (strcmp(varble, conclt[i]) == 0) sn = i;  /* a member */
 }
 void push_on_stack()
@@ -368,7 +372,7 @@ variable list (varlt) contains the variable (varble). */
 {
     i=1;
     /* find variable in the list */
-    while((strcmp(varble, varlt[i]) != 0) && (i<44)) i=i+1;
+    while((strcmp(varble, varlt[i]) != 0) && (i<45)) i=i+1;
     if((strcmp(varble, varlt[i]) == 0) && (instlt[i] != 1))
         /*found variable and not already instantiated */
     {
@@ -527,6 +531,7 @@ variable list (varlt) contains the variable (varble). */
 void b520(){
     f=1;
     determine_member_concl_list();
+
     if (sn != 0){
         /* if sn = 0 then no conclusion of that name */ do
             /* push statement number (sn) and clause number=1 on
@@ -993,7 +998,7 @@ void popStack()
 }
 void b545()
 {
-    i = (statsk[sp] - 1) * 4 + clausk[sp];
+    i = (statsk[sp] - 1) * 44 + clausk[sp];
     /* clause variable */
     strcpy(varble, clvarlt[i]);
     if (strcmp(varble, "") != 0) {
