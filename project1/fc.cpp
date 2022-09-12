@@ -18,12 +18,17 @@ of the program within the second case statement. */
 #include <cstring>
 
 int flag;
-char cndvar[10][3];
-char varlt[10][3], /* variable list*/ clvarlt[40][3]; /* clause var list */
+char cndvar[40][5];
+char varlt[45][17], /* variable list*/ clvarlt[1445][17]; /* clause var list */
 char c[3], vp[3], /* condition variable */  v[3]; /*variable */
-char fedint[10], interest[10], stock[10], dollar[10], fedmon[10];
-char po[10], /* position */  qu[10]; /* qualify */
-int instlt[10];         /* instantiated list*/
+char OIL_PUMP[4],OIL_FILTER[4],OIL[4],OIL_DRAIN_PLUG[4],ENGINE_GASKET[4],RADIATOR[4],RADIATOR_HOSE[4],
+    TRANSMISION_DRAING_PLUG[4],BATTERY[4],IGNITION_SWITCH[4],STARTER_MOTOR[4],BATTERY_TERMINALS[4],FUEL_LEVEL[4],
+    FUEL_CONDITION[4],FUEL_SYSTEM[4],VACUUM_HOSE[4],SPARK_PLUGS[4],FUEL_INJECTORS[4],IGNITION_WIRES[4],ENGINE_COMPONENTS[4]
+    ,ALTERNATOR[4],ALTERNATOR_BELT[4],BATTERY_WIRES[4],ELECTRICAL_SYSTEM[4],COOLANT[4],DRIVE_BELT[4],RADIATOR_FAN[4],
+    WATER_PUMP[4],TIRE_PRESSURE[4],AIR_FILTER[4],FUEL_TANK[4],FUEL_MANAGEMENT_SYSTEM[4],BRAKE_PARTS[4],BRAKE_LINES[4],
+    REPLACE[4],RECONNECT[4];
+char po[10],qu[10];
+int instlt[17];         /* instantiated list*/
 int f, i, j, k, s, fp   /* front pointer */;
 int  bp  /* back pointer */,  gr /* grade */,  sn; /* statement number */
 int cn;  /* clause number */
@@ -38,17 +43,17 @@ int main() {
     fp = 1;
     bp = 1;
 
-    for (i = 1; i < 41; i++)
+    for (i = 1; i < 1676; i++)
         strcpy(clvarlt[i], "");
-    for (i = 1; i < 11; i++)
+    for (i = 1; i < 40; i++)
         strcpy(cndvar[i], "");
     for (i = 1; i < 11; i++) {
         instlt[i] = 0;
     }
 
-    for (i = 1; i < 11; i++)
+    for (i = 1; i < 45; i++)
         strcpy(varlt[i], "");
-    for (i = 1; i < 11; i++) {
+    for (i = 1; i < 17; i++) {
         strcpy(cndvar[i], "");
         strcpy(varlt[i], "");
         instlt[i] = 0;
@@ -60,11 +65,42 @@ int main() {
     name is used only once. If no more variables left, just
     hit return key */
     /****** comment 367 *************/
-    strcpy(varlt[1], "DO");
-    strcpy(varlt[2], "FT");
-    strcpy(varlt[3], "FM");
-    strcpy(varlt[4], "IN");
-    strcpy(varlt[5], "ST");
+    strcpy(varlt[1], "OIL_PUMP");
+    strcpy(varlt[2], "OIL_FILTER");
+    strcpy(varlt[3], "OIL");
+    strcpy(varlt[4], "OIL_DRAIN_PLUG");
+    strcpy(varlt[5], "ENGINE_GASKET");
+    strcpy(varlt[6], "RADIATOR");
+    strcpy(varlt[7], "RADIATOR_HOSE");
+    strcpy(varlt[8], "TRANSMISSION_DRAIN_PLUG");
+    strcpy(varlt[9], "BATTERY");
+    strcpy(varlt[10], "IGNITION_SWITCH");
+    strcpy(varlt[11], "STARTER_MOTOR");
+    strcpy(varlt[12], "BATTERY_TERMINALS");
+    strcpy(varlt[13], "FUEL_LEVEL");
+    strcpy(varlt[14], "FUEL_CONDITION");
+    strcpy(varlt[15], "FUEL_SYSTEM");
+    strcpy(varlt[16], "VACUUM_HOSE");
+    strcpy(varlt[17], "SPARK_PLUGS");
+    strcpy(varlt[18], "FUEL_INJECTORS");
+    strcpy(varlt[19], "IGNITION_WIRES");
+    strcpy(varlt[20], "ENGINE_COMPONENTS");
+    strcpy(varlt[21], "ALTERNATOR");
+    strcpy(varlt[22], "ALTERNATOR_BELT");
+    strcpy(varlt[23], "BATTERY_WIRES");
+    strcpy(varlt[24], "ELECTRICAL_SYSTEM");
+    strcpy(varlt[25], "COOLANT");
+    strcpy(varlt[26], "DRIVE_BELT");
+    strcpy(varlt[27], "RADIATOR_FAN");
+    strcpy(varlt[28], "WATER_PUMP");
+    strcpy(varlt[29], "TIRE_PRESSURE");
+    strcpy(varlt[30], "AIR_FILTER");
+    strcpy(varlt[31], "FUEL_TANK");
+    strcpy(varlt[32], "FUEL_MANAGEMENT_SYSTEM");
+    strcpy(varlt[33], "BRAKE_PARTS");
+    strcpy(varlt[34], "BRAKE_LINES");
+    strcpy(varlt[35], "REPLACE");
+    strcpy(varlt[36], "RECONNECT");
 
     printf("*** VARIABLE LIST ***\n");
     for (i = 1; i < 11; i++)
@@ -76,13 +112,46 @@ int main() {
     variables per IF statement. If no more variables left, just
     hit return key */
     /****** comment 407, 408 *************/
-    strcpy(clvarlt[1], "IN");
-    strcpy(clvarlt[5], "IN");
-    strcpy(clvarlt[9], "DO");
-    strcpy(clvarlt[13], "DO");
-    strcpy(clvarlt[17], "FT");
-    strcpy(clvarlt[18], "FM");
     printf("*** CLAUSE-VARIABLE LIST ***\n");
+    strcpy(clvarlt[1], "OIL_PUMP");
+    strcpy(clvarlt[39], "OIL_FILTER");
+    strcpy(clvarlt[77], "OIL");
+    strcpy(clvarlt[115], "OIL_DRAIN_PlUG");
+    strcpy(clvarlt[153], "ENGINE_GASKET");
+    strcpy(clvarlt[191], "RADIATOR");
+    strcpy(clvarlt[229], "RADIATOR_HOSE");
+    strcpy(clvarlt[267], "TRANSMISSION_DRAIN_PLUG");
+    strcpy(clvarlt[305], "BATTERY");
+    strcpy(clvarlt[343], "IGNITION_SWITCH");
+    strcpy(clvarlt[381], "STARTER_MOTOR");
+    strcpy(clvarlt[419], "BATTERY_TERMINALS");
+    strcpy(clvarlt[457], "FUEL_LEVEL");
+    strcpy(clvarlt[495], "FUEL_CONDITION");
+    strcpy(clvarlt[533], "FUEL_SYSTEM");
+    strcpy(clvarlt[571], "VACUUM_HOSE");
+    strcpy(clvarlt[609], "SPARK_PLUGS");
+    strcpy(clvarlt[647], "FUEL_INJECTORS");
+    strcpy(clvarlt[685], "IGNITION_WIRES");
+    strcpy(clvarlt[723], "ENGINE_COMPONENTS");
+    strcpy(clvarlt[761], "BATTERY");
+    strcpy(clvarlt[799], "ALTERNATOR");
+    strcpy(clvarlt[837], "ALTERNATOR_BELT");
+    strcpy(clvarlt[875], "BATTERY_WIRES");
+    strcpy(clvarlt[913], "ELECTRICAL_SYSTEM");
+    strcpy(clvarlt[951], "COOLANT");
+    strcpy(clvarlt[989], "DRIVE_BELT");
+    strcpy(clvarlt[1027], "RADIATOR");
+    strcpy(clvarlt[1065], "RADIATOR_FAN");
+    strcpy(clvarlt[1103], "WATER_PUMP");
+    strcpy(clvarlt[1141], "TIRE_PRESSURE");
+    strcpy(clvarlt[1179], "AIR_FILTER");
+    strcpy(clvarlt[1217], "FUEL_TANK");
+    strcpy(clvarlt[1255], "FUEL_MANAGEMENT_SYSTEM");
+    strcpy(clvarlt[1293], "BRAKE_PARTS");
+    strcpy(clvarlt[1331], "BRAKE_PARTS");
+    strcpy(clvarlt[1369], "BRAKE_LINES");
+    strcpy(clvarlt[1407], "BRAKE_PARTS");
+    
     for (i = 1; i < 9; i++) {
         printf("** CLAUSE %d\n", i);
         for (j = 1; j < 5; j++) {
@@ -146,34 +215,149 @@ void b496(){
                 /* statement 1 */
                 /***** comment 1500 *****/
                 case 1:
-                    if (strcmp(interest, "FALL") == 0) s = 1;
+                    if (strcmp(OIL_PUMP, "BAD") == 0) s = 1;
                     break;
                     /* statement 2 */
                     /***** comment 1510 *****/
                 case 2:
-                    if (strcmp(interest, "RISE") == 0) s = 1;
+                    if (strcmp(OIL_FILTER, "BAD") == 0) s = 1;
                     break;
                     /* statement 3 */
                     /***** comment 1540 *****/
                 case 3:
-                    if (strcmp(dollar, "FALL") == 0) s = 1;
+                    if (strcmp(OIL, "BAD") == 0) s = 1;
 
                     break;
                     /* statement 4 */
                     /***** comment 1550 *****/
                 case 4:
-                    if (strcmp(dollar, "RISE") == 0) s = 1;
+                    if (strcmp(OIL_DRAIN_PLUG, "BAD") == 0) s = 1;
 
                     break;
                     /* statement 5 */
                 case 5:
-                    if ((strcmp(fedint, "FALL") == 0) &&
-                        (strcmp(fedmon, "ADD")) == 0)
-                        s = 1;
+                    if ((strcmp(ENGINE_GASKET, "BAD") == 0)s = 1;
                     break;
                     /* statement 6 */
                 case 6:
-                    if ((strcmp(qu, "YES") == 0) && (gr >= 3.5) == 0) s = 1;
+                    if (strcmp(RADIATOR, "BAD") == 0) s = 1;
+
+                    break;
+                case 7:
+                    if (strcmp(RADIATOR_HOSE, "BAD") == 0) s = 1;
+
+                    break;
+                case 8:
+                    if (strcmp(TRANSMISION_DRAING_PLUG, "BAD") == 0) s = 1;
+
+                    break;
+                case 9:
+                    if (strcmp(BATTERY, "BAD") == 0) s = 1;
+
+                    break;
+                case 10:
+                    if (strcmp(IGNITION_SWITCH, "BAD") == 0) s = 1;
+
+                    break;
+                case 11:
+                    if (strcmp(STARTER_MOTOR, "BAD") == 0) s = 1;
+
+                    break;
+                case 12:
+                    if (strcmp(BATTERY_TERMINALS, "BAD") == 0) s = 1;
+
+                    break;
+                case 13:
+                    if (strcmp(FUEL_LEVEL, "BAD") == 0) s = 1;
+
+                    break;
+                case 14:
+                    if (strcmp(FUEL_CONDITION, "BAD") == 0) s = 1;
+
+                    break;
+                case 15:
+                    if (strcmp(FUEL_SYSTEM, "BAD") == 0) s = 1;
+
+                    break;
+                case 16:
+                    if (strcmp(VACUUM_HOSE, "BAD") == 0) s = 1;
+
+                    break;
+                case 17:
+                    if (strcmp(SPARK_PLUGS, "BAD") == 0) s = 1;
+
+                    break;
+                case 18:
+                    if (strcmp(FUEL_INJECTORS, "BAD") == 0) s = 1;
+
+                    break;
+                case 19:
+                    if (strcmp(IGNITION_WIRES, "BAD") == 0) s = 1;
+
+                    break;
+                case 20:
+                    if (strcmp(ENGINE_COMPONENTS, "BAD") == 0) s = 1;
+
+                    break;
+                case 21:
+                    if (strcmp(BATTERY, "BAD") == 0) s = 1;
+
+                    break;
+                case 22:
+                    if (strcmp(ALTERNATOR, "BAD") == 0) s = 1;
+
+                    break;
+                case 23:
+                    if (strcmp(ALTERNATOR_BELT, "BAD") == 0) s = 1;
+
+                    break;
+                case 24:
+                    if (strcmp(BATTERY_WIRES, "BAD") == 0) s = 1;
+
+                    break;
+                case 25:
+                    if (strcmp(ELECTRICAL_SYSTEM, "BAD") == 0) s = 1;
+
+                    break;
+                case 26:
+                    if (strcmp(COOLANT, "BAD") == 0) s = 1;
+
+                    break;
+                case 27:
+                    if (strcmp(DRIVE_BELT, "BAD") == 0) s = 1;
+
+                    break;
+                case 28:
+                    if (strcmp(RADIATOR_FAN, "BAD") == 0) s = 1;
+
+                    break;
+                case 29:
+                    if (strcmp(WATER_PUMP, "BAD") == 0) s = 1;
+
+                    break;
+                case 30:
+                    if (strcmp(TIRE_PRESSURE, "BAD") == 0) s = 1;
+
+                    break;
+                case 31:
+                    if (strcmp(AIR_FILTER, "BAD") == 0) s = 1;
+
+                    break;
+                case 32:
+                    if (strcmp(FUEL_TANK, "BAD") == 0) s = 1;
+
+                    break;
+                case 33:
+                    if (strcmp(FUEL_MANAGEMENT_SYSTEM, "BAD") == 0) s = 1;
+
+                    break;
+                case 34:
+                    if (strcmp(BRAKE_PARTS, "BAD") == 0) s = 1;
+
+                    break;
+                case 35:
+                    if (strcmp(BRAKE_LINES, "BAD") == 0) s = 1;
+
                     break;
                     /***** comment 1610 *****/
             }
