@@ -3,6 +3,8 @@
 #include<cstring>
 #include<iostream>
 
+
+
 /*****backward chaining *******/
 /* Install your IF clauses in sequence in the first case
    statement of the main program
@@ -19,8 +21,8 @@ char conclt[40][5];
 char varlt[45][17];
 /*  clause variable list */
 char clvarlt[1676][17];
-char varble[3];
-char /* qualify */ qu[4], /* degree*/ de[4];
+char varble[45];
+//char /* qualify */ qu[4], /* degree*/ de[4];
 char /* discovery */ di[4], /* position */ po[4],PART[4],PROBLEM[4],OIL_PRESSURE[4],OIL_FILTER[4],OIL_GRADE[4]
     ,LEAK[4],OIL_LEAK[4],COOLANT_LEAK[4],TRANS_LEAK[4],OIL_DRAIN_PLUG[4],ENGINE_LEAK[4],RADIATOR_LEAK[4],RADIATOR_HOSE[4],
     TRANS_DRAIN_PLUG[4],ENGINE_ROTATES[4],BATT_TERMINALS[4],FUEL[4],START_MOTOR[4],ROUGH[4],VACUUM_HOSE[4],
@@ -110,7 +112,6 @@ exact
     order that they occur, up to 3 variables per if statement.  do not
     duplicate any variable names.  any name is used only once.  if no
     more variables left just hit return key. */
-    printf("*** VARIABLE LIST *\n");
     /**** comment 367 *****/
     strcpy(varlt[1], "PROBLEM");
     strcpy(varlt[2], "OIL_PRESSURE");
@@ -157,6 +158,7 @@ exact
     strcpy(varlt[43], "SPONGEY");
     strcpy(varlt[44], "SQUEAK");
 
+    printf("*** VARIABLE LIST *\n");
     for (i = 1; i < 45; i++) printf("VARIABLE %d %s\n", i, varlt[i]);
     printf("HIT RETURN KEY TO CONTINUE");
     gets(buff);
@@ -164,7 +166,7 @@ exact
 of 3
     variables per if statement.  if no more variables hit return
 key. */
-    printf("*** CLAUSE VARIABLE LIST ***\n");
+
     /***** comment 407 through 409 ***/
     strcpy(clvarlt[1], "PROBLEM");
     strcpy(clvarlt[45], "PROBLEM");
@@ -317,7 +319,7 @@ key. */
     strcpy(clvarlt[1674], "CHECK_BRAKE");
     strcpy(clvarlt[1675], "SQUEAK");
 
-
+    printf("*** CLAUSE VARIABLE LIST ***\n");
     for (i = 1; i < 40; i++) {
         printf("** CLAUSE %d\n", i);
         for (j = 1; j < 45; j++) {
@@ -353,7 +355,7 @@ void determine_member_concl_list() {
             i=i+1;
 
         }
-    printf("\ni is %d\n", i);
+
     if (strcmp(varble, conclt[i]) == 0) sn = i;  /* a member */
 }
 void push_on_stack()
@@ -435,7 +437,8 @@ variable list (varlt) contains the variable (varble). */
                 gets(FUEL);
                 break;
             case 17: printf("What is the battery voltage? INPUT A REAL NUMBER");
-                scanf("%f", &BATT_VOLTAGE);
+                std::cin >> BATT_VOLTAGE;
+                gets(buff);
                 break;
             case 18: printf("Is the starter motor working? INPUT YES OR NO");
                 gets(START_MOTOR);
@@ -986,7 +989,7 @@ goal
 void popStack()
 {
     sp=sp+1;
-    if(sp >= 11)
+    if(sp >= 45)
         /* finished */
         printf("*** SUCCESS\n");
     else {
