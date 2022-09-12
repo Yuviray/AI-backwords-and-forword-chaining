@@ -2,45 +2,12 @@
 #include<cstdio>
 #include<cstring>
 #include<iostream>
-/*****backward chaining *******/
-/* Install your IF clauses in sequence in the first case
-   statement of the main program
-   example: if((a1==2) && (a2==6)) s=1;
-                      if(strcmp(j, NO") != 0) s=1; 
-   the then part of the above construction always
-   contains s=1;
-   install your the clauses in sequence in the second
-   case statement of the main program
-   example strcpy(po,"YES"); */
-/*  conclusion list */
-char conclt[40][5];
-/*  variable list */
-char varlt[45][17];
-/*  clause variable list */
-char clvarlt[1676][17];
-char varble[45];
-//char /* qualify */ qu[4], /* degree*/ de[4];
-char PART[4],PROBLEM[4],OIL_PRESSURE[4],OIL_FILTER[4],OIL_GRADE[4],LEAK[4],OIL_LEAK[4],COOLANT_LEAK[4],
-     TRANS_LEAK[4],OIL_DRAIN_PLUG[4],ENGINE_LEAK[4],RADIATOR_LEAK[4],RADIATOR_HOSE[4],TRANS_DRAIN_PLUG[4],
-     ENGINE_ROTATES[4],BATT_TERMINALS[4],FUEL[4],START_MOTOR[4],ROUGH[4],VACUUM_HOSE[4],SPARK_PLUGS[4],
-     BAD_FUEL[4],FUEL_INJECTORS[4],IGNITION_WIRES[4],KNOCKING[4],BATT_CHARGE[4],BATT_TEST[4],ALTERNATOR[4],
-     ALT_DRIVE_BELT[4],BATT_WIRES[4],OVERHEAT[4],COOLANT[4],DRIVE_BELT[4],RADIATOR[4],RADIATOR_FAN[4],FUEL_USE[4],
-     TIRE_PRESSURE[4],AIR_FILTER[4],FUEL_SMELL[4],CHECK_BRAKE[4],WOBBLE[4],CHEMICAL_SMELL[4],SPONGEY[4],
-     SQUEAK[4];
-char buff[128];
-/* instantiated list */
-int instlt[45];
-/* statement stack */
-int statsk[45];
-int /* clause stack */ clausk[45], sn, f, i, j, s, k, /*stack pointer */ sp;
-float BATT_VOLTAGE;
-void determine_member_concl_list(void);
-void push_on_stack(void);
-void instantiate(void);
-void b545(void);
-void b520(void);
-void popStack();
-int main() {
+
+#include "bc.h"
+
+using namespace std;
+
+char * bc::start() {
     /***** initialization section ******/
     /* stack space is 10 we initially place stack space at 10+1 */
     sp = 45;
@@ -336,9 +303,10 @@ key. */
        (conclt) */
     /* first statement starts search */
     b520();
+    return end;
 }
 
-void determine_member_concl_list() {
+void bc::determine_member_concl_list() {
 /* routine to determine if a variable (varble) is a member of the
    conclusion list (conclt).  if yes return sn != 0.
    if not a member sn=0;
@@ -356,7 +324,7 @@ void determine_member_concl_list() {
 
     if (strcmp(varble, conclt[i]) == 0) sn = i;  /* a member */
 }
-void push_on_stack()
+void bc::push_on_stack()
 /* routine to push statement number (sn) and a clause number of 1 onto the
 conclusion stack which consists of the statement stack (statsk) and the
 clause stack (clausk)..to push decrement stack pointer (sp) */
@@ -365,7 +333,7 @@ clause stack (clausk)..to push decrement stack pointer (sp) */
     statsk[sp] = sn;
     clausk[sp] = 1;
 }
-void instantiate()
+void bc::instantiate()
 /* routine to instantiate a variable (varble) if it isn't already.  the
 instantiate indication (instlt) is a 0 if not, a 1 if it is.  the
 variable list (varlt) contains the variable (varble). */
@@ -529,7 +497,7 @@ variable list (varlt) contains the variable (varble). */
            base */
     }
 }
-void b520(){
+void bc::b520(){
     f=1;
     determine_member_concl_list();
 
@@ -809,148 +777,187 @@ goal
                 /******* comment 1500 *******/
                 case 1: strcpy(PROBLEM, "NO");
                     printf("NO ISSUE\n");
+                    strcpy(end, "NO ISSUE");
                     break;
                     /* then part of statement 2 */
                     /****** comment 1510 ******/
                 case 2: strcpy(PART, "YES");
                     printf("PART = OIL PUMP\n");
+                    strcpy(end, "OIL_PUMP");
                     break;
                     /* then part of statement 3 */
                 case 3: strcpy(PART, "YES");
                     printf("PART = OIL FILTER\n");
+                    strcpy(end, "OIL_FILTER");
                     break;
                     /* then part of statement 4 */
                     /******** comment 1560 ******/
                 case 4: strcpy(PART, "YES");
                     printf("OIL\n");
+                    strcpy(end, "OIL");
                     break;
                     /* then part of statement 5 */
                     /****** comment 1570 *****/
                 case 5: strcpy(PART, "YES");
                     printf("OIL DRAIN PLUG\n");
+                    strcpy(end, "OIL_DRAIN_PLUG");
                     break;
 
                 case 6: strcpy(PART, "YES");
                     printf("ENGINE GASKET\n");
+                    strcpy(end, "ENGINE_GASKET");
                     break;
                 case 7: strcpy(PART, "YES");
                     printf("RADIATOR\n");
+                    strcpy(end,"RADIATOR");
                     break;
 
                 case 8: strcpy(PART, "YES");
                     printf("RADIATOR HOSE\n");
+                    strcpy(end,"RADIATOR_HOSE");
                     break;
 
                 case 9: strcpy(PART, "YES");
                     printf("TRANSMISSION DRAIN PLUG\n");
+                    strcpy(end,"TRANSMISSION_DRAIN_PLUG");
                     break;
 
                 case 10: strcpy(PART, "YES");
                     printf("BATTERY\n");
+                    strcpy(end,"BATTERY");
                     break;
 
                 case 11: strcpy(PART, "YES");
                     printf("IGNITION SWITCH\n");
+                    strcpy(end,"IGNITION_SWITCH");
                     break;
                 case 12: strcpy(PART, "YES");
                     printf("STARTER MOTOR\n");
+                    strcpy(end,"STARTER_MOTOR");
                     break;
 
                 case 13: strcpy(PART, "YES");
                     printf("BATTERY TERMINALS\n");
+                    strcpy(end,"BATTERY_TERMINALS");
                     break;
 
                 case 14: strcpy(PART, "YES");
                     printf("FUEL LEVEL\n");
+                    strcpy(end,"FUEL_LEVEL");
                     break;
 
                 case 15: strcpy(PART, "YES");
                     printf("FUEL SYSTEM\n");
+                    strcpy(end,"FUEL_SYSTEM");
                     break;
 
                 case 16: strcpy(PART, "YES");
                     printf("VACUUM HOSE\n");
+                    strcpy(end,"VACUUM_HOSE");
                     break;
                 case 17: strcpy(PART, "YES");
                     printf("SPARK PLUGS\n");
+                    strcpy(end,"SPARK_PLUGS");
                     break;
 
                 case 18: strcpy(PART, "YES");
                     printf("FUEL CONDITION\n");
+                    strcpy(end,"FUEL_CONDITION");
                     break;
 
                 case 19: strcpy(PART, "YES");
                     printf("FUEL INJECTORS\n");
+                    strcpy(end,"FUEL_INJECTORS");
                     break;
 
                 case 20: strcpy(PART, "YES");
-                    printf("INGITION WIRES\n");
+                    printf("IGNITION WIRES\n");
+                    strcpy(end,"IGNITION_WIRES");
                     break;
 
                 case 21: strcpy(PART, "YES");
                     printf("ENGINE COMPONENTS\n");
+                    strcpy(end,"ENGINE_COMPONENTS");
                     break;
                 case 22: strcpy(PART, "YES");
                     printf("BATTERY\n");
+                    strcpy(end,"BATTERY");
                     break;
 
                 case 23: strcpy(PART, "YES");
                     printf("ALTERNATOR\n");
+                    strcpy(end,"ALTERNATOR");
                     break;
 
                 case 24: strcpy(PART, "YES");
                     printf("ALTERNATOR DRIVE BELT\n");
+                    strcpy(end,"ALTERNATOR_DRIVE_BELT");
                     break;
 
                 case 25: strcpy(PART, "YES");
                     printf("BATTERY WIRES\n");
+                    strcpy(end,"BATTERY_WIRES");
                     break;
 
                 case 26: strcpy(PART, "YES");
                     printf("ELECTRICAL SYSTEM\n");
+                    strcpy(end,"ELECTRICAL_SYSTEM");
                     break;
                 case 27: strcpy(PART, "YES");
                     printf("COOLANT\n");
+                    strcpy(end,"COOLANT");
                     break;
 
                 case 28: strcpy(PART, "YES");
                     printf("DRIVE BELT\n");
+                    strcpy(end,"DRIVE_BELT");
                     break;
 
                 case 29: strcpy(PART, "YES");
                     printf("RADIATOR\n");
+                    strcpy(end,"RADIATOR");
                     break;
 
                 case 30: strcpy(PART, "YES");
                     printf("RADIATOR FAN\n");
+                    strcpy(end,"RADIATOR_FAN");
                     break;
 
                 case 31: strcpy(PART, "YES");
                     printf("WATTER PUMP\n");
+                    strcpy(end,"WATTER_PUMP");
                     break;
                 case 32: strcpy(PART, "YES");
                     printf("TIRE PRESSURE\n");
+                    strcpy(end,"TIRE_PRESSURE");
                     break;
                 case 33: strcpy(PART, "YES");
                     printf("AIR FILTER\n");
+                    strcpy(end,"AIR_FILTER");
                     break;
                 case 34: strcpy(PART, "YES");
                     printf("FUEL TANK\n");
+                    strcpy(end,"FUEL_TANK");
                     break;
                 case 35: strcpy(PART, "YES");
-                    printf("FUEL MANAGMENT SYSTEM\n");
+                    printf("FUEL MANAGEMENT SYSTEM\n");
+                    strcpy(end,"FUEL_MANAGEMENT_SYSTEM");
                     break;
                 case 36: strcpy(PART, "YES");
                     printf("BRAKE PARTS\n");
+                    strcpy(end,"BRAKE_PARTS");
                     break;
                 case 37: strcpy(PART, "YES");
                     printf("BRAKE PARTS\n");
+                    strcpy(end,"BRAKE_PARTS");
                     break;
                 case 38: strcpy(PART, "YES");
                     printf("BRAKE LINES\n");
+                    strcpy(end,"BRAKE_LINES");
                     break;
                 case 39: strcpy(PART, "YES");
                     printf("BRAKE PARTS\n");
+                    strcpy(end,"BRAKE_PARTS");
                     break;
 
                     /****** comment 1680 ********/
@@ -960,7 +967,10 @@ goal
         }
     }
 }
-void popStack()
+
+
+
+void bc::popStack()
 {
     sp=sp+1;
     if(sp >= 45)
@@ -973,7 +983,7 @@ void popStack()
         b545();
     }
 }
-void b545()
+void bc::b545()
 {
     i = (statsk[sp] - 1) * 44 + clausk[sp];
     /* clause variable */
@@ -990,3 +1000,8 @@ void b545()
         clausk[sp] = clausk[sp] + 1;
     }
 }
+
+bc::bc(bool) {
+    true;
+}
+
