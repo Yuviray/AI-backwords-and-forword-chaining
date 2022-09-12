@@ -21,7 +21,7 @@ char cndvar[40][5];
 char varlt[45][17], /* variable list*/ clvarlt[1445][17]; /* clause var list */
 char c[3], vp[3], /* condition variable */  v[3]; /*variable */
 char OIL_PUMP[4],OIL_FILTER[4],OIL[4],OIL_DRAIN_PLUG[4],ENGINE_GASKET[4],RADIATOR[4],RADIATOR_HOSE[4],
-        TRANSMISION_DRAING_PLUG[4],BATTERY[4],IGNITION_SWITCH[4],STARTER_MOTOR[4],BATTERY_TERMINALS[4],FUEL_LEVEL[4],
+        TRANSMISSION_DRAIN_PLUG[4],BATTERY[4],IGNITION_SWITCH[4],STARTER_MOTOR[4],BATTERY_TERMINALS[4],FUEL_LEVEL[4],
         FUEL_CONDITION[4],FUEL_SYSTEM[4],VACUUM_HOSE[4],SPARK_PLUGS[4],FUEL_INJECTORS[4],IGNITION_WIRES[4],ENGINE_COMPONENTS[4]
 ,ALTERNATOR[4],ALTERNATOR_BELT[4],BATTERY_WIRES[4],ELECTRICAL_SYSTEM[4],COOLANT[4],DRIVE_BELT[4],RADIATOR_FAN[4],
         WATER_PUMP[4],TIRE_PRESSURE[4],AIR_FILTER[4],FUEL_TANK[4],FUEL_MANAGEMENT_SYSTEM[4],BRAKE_PARTS[4],BRAKE_LINES[4],
@@ -192,7 +192,7 @@ void b496(){
             /* more statements */
         {
             /* locate the clause */
-            i = 4 * (sn - 1) + cn;
+            i = 38 * (sn - 1) + cn;
             /* clause variable */
             strcpy(v, clvarlt[i]);
             /* are there any more clauses for this statement */
@@ -203,7 +203,7 @@ void b496(){
                 check_instantiation();
                 cn = cn + 1;
                 /* check next clause */
-                i = 4 * (sn - 1) + cn;
+                i = 38 * (sn - 1) + cn;
                 strcpy(v, clvarlt[i]);
             }
 
@@ -247,7 +247,7 @@ void b496(){
 
                     break;
                 case 8:
-                    if (strcmp(TRANSMISION_DRAING_PLUG, "BAD") == 0) s = 1;
+                    if (strcmp(TRANSMISSION_DRAIN_PLUG, "BAD") == 0) s = 1;
 
                     break;
                 case 9:
@@ -718,7 +718,7 @@ void check_instantiation()
                 break;
             case 8:
                 printf("Is the transmission drain plug GOOD OR BAD?");
-                std::cin >>TRANSMISION_DRAING_PLUG;
+                std::cin >>TRANSMISSION_DRAIN_PLUG;
                 break;
             case 9:
                 printf("Is the battery GOOD OR BAD?");
@@ -859,11 +859,11 @@ void search()
     while ((flag == 0) && (sn <= 10))
     {
         cn=1;
-        k = (sn-1)*4+cn;
-        while ((strcmp(clvarlt[k], cndvar[fp]) != 0) && (cn < 4))
+        k = (sn-1)*38+cn;
+        while ((strcmp(clvarlt[k], cndvar[fp]) != 0) && (cn < 38))
         {
             cn = cn+1;
-            k = (sn-1)*4+cn;
+            k = (sn-1)*38+cn;
         }
 
         if (strcmp(clvarlt[k], cndvar[fp]) == 0) flag = 1;
