@@ -1,5 +1,5 @@
 /*Enclosed a program, which comprises the inference engine based on Forward chaining.  You need it for your
-project #1.  The program contains some errors and it is not designed to be efficient. 
+project #1.  The program contains some errors and it is not designed to be efficient.
 Modify the program to make it better and efficient.  Explain in your report how you have modified the
 program to make it better.
 */
@@ -9,7 +9,6 @@ program to make it better.
 the program within the first case statement.
 EXAMPLE: IF ((A1==2) && (A2==6) || (A3 == 'YES')) S-1;
 IF (J=='NO') S-1;
-
 The THEN part of the above construction always contains
 S-1. Install your THEN clauses in sequence in the middle
 of the program within the second case statement. */
@@ -22,11 +21,11 @@ char cndvar[40][5];
 char varlt[45][17], /* variable list*/ clvarlt[1445][17]; /* clause var list */
 char c[3], vp[3], /* condition variable */  v[3]; /*variable */
 char OIL_PUMP[4],OIL_FILTER[4],OIL[4],OIL_DRAIN_PLUG[4],ENGINE_GASKET[4],RADIATOR[4],RADIATOR_HOSE[4],
-    TRANSMISION_DRAING_PLUG[4],BATTERY[4],IGNITION_SWITCH[4],STARTER_MOTOR[4],BATTERY_TERMINALS[4],FUEL_LEVEL[4],
-    FUEL_CONDITION[4],FUEL_SYSTEM[4],VACUUM_HOSE[4],SPARK_PLUGS[4],FUEL_INJECTORS[4],IGNITION_WIRES[4],ENGINE_COMPONENTS[4]
-    ,ALTERNATOR[4],ALTERNATOR_BELT[4],BATTERY_WIRES[4],ELECTRICAL_SYSTEM[4],COOLANT[4],DRIVE_BELT[4],RADIATOR_FAN[4],
-    WATER_PUMP[4],TIRE_PRESSURE[4],AIR_FILTER[4],FUEL_TANK[4],FUEL_MANAGEMENT_SYSTEM[4],BRAKE_PARTS[4],BRAKE_LINES[4],
-    REPLACE[4],RECONNECT[4];
+        TRANSMISION_DRAING_PLUG[4],BATTERY[4],IGNITION_SWITCH[4],STARTER_MOTOR[4],BATTERY_TERMINALS[4],FUEL_LEVEL[4],
+        FUEL_CONDITION[4],FUEL_SYSTEM[4],VACUUM_HOSE[4],SPARK_PLUGS[4],FUEL_INJECTORS[4],IGNITION_WIRES[4],ENGINE_COMPONENTS[4]
+,ALTERNATOR[4],ALTERNATOR_BELT[4],BATTERY_WIRES[4],ELECTRICAL_SYSTEM[4],COOLANT[4],DRIVE_BELT[4],RADIATOR_FAN[4],
+        WATER_PUMP[4],TIRE_PRESSURE[4],AIR_FILTER[4],FUEL_TANK[4],FUEL_MANAGEMENT_SYSTEM[4],BRAKE_PARTS[4],BRAKE_LINES[4],
+        REPLACE[4],RECONNECT[4];
 char po[10],qu[10];
 int instlt[17];         /* instantiated list*/
 int f, i, j, k, s, fp   /* front pointer */;
@@ -108,7 +107,7 @@ int main() {
     printf("HIT RETURN TO CONTINUE");
     getchar();
 
-    /* enter variables as they appear in the IF clauses, Up to 3 
+    /* enter variables as they appear in the IF clauses, Up to 3
     variables per IF statement. If no more variables left, just
     hit return key */
     /****** comment 407, 408 *************/
@@ -151,7 +150,7 @@ int main() {
     strcpy(clvarlt[1331], "BRAKE_PARTS");
     strcpy(clvarlt[1369], "BRAKE_LINES");
     strcpy(clvarlt[1407], "BRAKE_PARTS");
-    
+
     for (i = 1; i < 9; i++) {
         printf("** CLAUSE %d\n", i);
         for (j = 1; j < 5; j++) {
@@ -172,7 +171,7 @@ int main() {
     strcpy(cndvar[bp], c);
     /* move backpointer (bp) to back */
     bp = bp + 1;
-    /* set the condition variable pointer consisting of the 
+    /* set the condition variable pointer consisting of the
     statement number (sn) and the clause number (cn) */
     sn = 1;
     cn = 1;
@@ -193,7 +192,7 @@ void b496(){
             /* more statements */
         {
             /* locate the clause */
-            i = 4 * (sn - 1) + cn;
+            i = 38 * (sn - 1) + cn;
             /* clause variable */
             strcpy(v, clvarlt[i]);
             /* are there any more clauses for this statement */
@@ -204,7 +203,7 @@ void b496(){
                 check_instantiation();
                 cn = cn + 1;
                 /* check next clause */
-                i = 4 * (sn - 1) + cn;
+                i = 38 * (sn - 1) + cn;
                 strcpy(v, clvarlt[i]);
             }
 
@@ -236,7 +235,7 @@ void b496(){
                     break;
                     /* statement 5 */
                 case 5:
-                    if ((strcmp(ENGINE_GASKET, "BAD") == 0)s = 1;
+                    if (strcmp(ENGINE_GASKET, "BAD") == 0)s = 1;
                     break;
                     /* statement 6 */
                 case 6:
@@ -373,47 +372,281 @@ void b496(){
                 /*********** comment 1500 ***********/
                 /* put variable on the conclusion variable queue */
                 case 1:
-                    strcpy(stock, "RISE");
-                    printf("ST=RISE\n");
-                    strcpy(v, "ST");
+                    strcpy(REPLACE, "YES");
+                    printf("Replace = YES\n");
+                    strcpy(v, "Replace");
                     instantiate();
                     break;
                     /*********** comment 1510 ***********/
                     /* put variable on the conclusion variable queue */
                 case 2:
-                    strcpy(stock, "FALL");
-                    printf("ST=FALL\n");
-                    strcpy(v, "ST");
+                    strcpy(REPLACE, "YES");
+                    printf("Replace = YES\n");
+                    strcpy(v, "Replace");
                     instantiate();
                     break;
                     /*********** comment 1540 ***********/
                     /* put variable on the conclusion variable queue */
                 case 3:
-                    strcpy(interest, "RISE");
-                    printf("IN=RISE\n");
-                    strcpy(v, "IN");
+                    strcpy(REPLACE, "YES");
+                    printf("Replace = YES\n");
+                    strcpy(v, "Replace");
                     instantiate();
                     break;
                     /*********** comment 1550 ***********/
                     /* put variable on the conclusion variable queue */
                 case 4:
-                    strcpy(interest, "FALL");
-                    printf("IN=FALL\n");
-                    strcpy(v, "IN");
+                    strcpy(REPLACE, "YES");
+                    printf("Replace = YES\n");
+                    strcpy(v, "Replace");
                     instantiate();
                     break;
                     /* put variable on the conclusion variable queue */
                 case 5:
-                    strcpy(interest, "FALL");
-                    printf("IN=FALL\n");
-                    strcpy(v, "IN");
+                    strcpy(REPLACE, "YES");
+                    printf("Replace = YES\n");
+                    strcpy(v, "Replace");
                     instantiate();
                     break;
                 case 6:
-                    strcpy(po, "YES");
-                    printf("PO=YES\n");
+                    strcpy(REPLACE, "YES");
+                    printf("Replace = YES\n");
+                    strcpy(v, "Replace");
+                    instantiate();
                     break;
                     /*********** comment 1610 ***********/
+                case 7:
+                    strcpy(REPLACE, "YES");
+                    printf("Replace = YES\n");
+                    strcpy(v, "Replace");
+                    instantiate();
+                    break;
+                    /*********** comment 1510 ***********/
+                    /* put variable on the conclusion variable queue */
+                case 8:
+                    strcpy(REPLACE, "YES");
+                    printf("Replace = YES\n");
+                    strcpy(v, "Replace");
+                    instantiate();
+                    break;
+                    /*********** comment 1540 ***********/
+                    /* put variable on the conclusion variable queue */
+                case 9:
+                    strcpy(REPLACE, "YES");
+                    printf("Replace = YES\n");
+                    strcpy(v, "Replace");
+                    instantiate();
+                    break;
+                    /*********** comment 1550 ***********/
+                    /* put variable on the conclusion variable queue */
+                case 10:
+                    strcpy(REPLACE, "YES");
+                    printf("Replace = YES\n");
+                    strcpy(v, "Replace");
+                    instantiate();
+                    break;
+                    /* put variable on the conclusion variable queue */
+                case 11:
+                    strcpy(REPLACE, "YES");
+                    printf("Replace = YES\n");
+                    strcpy(v, "Replace");
+                    instantiate();
+                    break;
+                case 12:
+                    strcpy(REPLACE, "YES");
+                    printf("Replace = YES\n");
+                    strcpy(v, "Replace");
+                    instantiate();
+                    break;
+                case 13:
+                    strcpy(REPLACE, "YES");
+                    printf("Replace = YES\n");
+                    strcpy(v, "Replace");
+                    instantiate();
+                    break;
+                    /*********** comment 1510 ***********/
+                    /* put variable on the conclusion variable queue */
+                case 14:
+                    strcpy(REPLACE, "YES");
+                    printf("Replace = YES\n");
+                    strcpy(v, "Replace");
+                    instantiate();
+                    break;
+                    /*********** comment 1540 ***********/
+                    /* put variable on the conclusion variable queue */
+                case 15:
+                    strcpy(REPLACE, "YES");
+                    printf("Replace = YES\n");
+                    strcpy(v, "Replace");
+                    instantiate();
+                    break;
+                    /*********** comment 1550 ***********/
+                    /* put variable on the conclusion variable queue */
+                case 16:
+                    strcpy(REPLACE, "YES");
+                    printf("Replace = YES\n");
+                    strcpy(v, "Replace");
+                    instantiate();
+                    break;
+                    /* put variable on the conclusion variable queue */
+                case 17:
+                    strcpy(REPLACE, "YES");
+                    printf("Replace = YES\n");
+                    strcpy(v, "Replace");
+                    instantiate();
+                    break;
+                case 18:
+                    strcpy(REPLACE, "YES");
+                    printf("Replace = YES\n");
+                    strcpy(v, "Replace");
+                    instantiate();
+                    break;
+                case 19:
+                    strcpy(REPLACE, "YES");
+                    printf("Replace = YES\n");
+                    strcpy(v, "Replace");
+                    instantiate();
+                    break;
+                    /*********** comment 1510 ***********/
+                    /* put variable on the conclusion variable queue */
+                case 20:
+                    strcpy(REPLACE, "YES");
+                    printf("Replace = YES\n");
+                    strcpy(v, "Replace");
+                    instantiate();
+                    break;
+                    /*********** comment 1540 ***********/
+                    /* put variable on the conclusion variable queue */
+                case 21:
+                    strcpy(REPLACE, "YES");
+                    printf("Replace = YES\n");
+                    strcpy(v, "Replace");
+                    instantiate();
+                    break;
+                    /*********** comment 1550 ***********/
+                    /* put variable on the conclusion variable queue */
+                case 22:
+                    strcpy(REPLACE, "YES");
+                    printf("Replace = YES\n");
+                    strcpy(v, "Replace");
+                    instantiate();
+                    break;
+                    /* put variable on the conclusion variable queue */
+                case 23:
+                    strcpy(REPLACE, "YES");
+                    printf("Replace = YES\n");
+                    strcpy(v, "Replace");
+                    instantiate();
+                    break;
+                case 24:
+                    strcpy(REPLACE, "YES");
+                    printf("Replace = YES\n");
+                    strcpy(v, "Replace");
+                    instantiate();
+                    break;
+                case 25:
+                    strcpy(REPLACE, "YES");
+                    printf("Replace = YES\n");
+                    strcpy(v, "Replace");
+                    instantiate();
+                    break;
+                    /*********** comment 1510 ***********/
+                    /* put variable on the conclusion variable queue */
+                case 26:
+                    strcpy(REPLACE, "YES");
+                    printf("Replace = YES\n");
+                    strcpy(v, "Replace");
+                    instantiate();
+                    break;
+                    /*********** comment 1540 ***********/
+                    /* put variable on the conclusion variable queue */
+                case 27:
+                    strcpy(REPLACE, "YES");
+                    printf("Replace = YES\n");
+                    strcpy(v, "Replace");
+                    instantiate();
+                    break;
+                    /*********** comment 1550 ***********/
+                    /* put variable on the conclusion variable queue */
+                case 28:
+                    strcpy(REPLACE, "YES");
+                    printf("Replace = YES\n");
+                    strcpy(v, "Replace");
+                    instantiate();
+                    break;
+                    /* put variable on the conclusion variable queue */
+                case 29:
+                    strcpy(REPLACE, "YES");
+                    printf("Replace = YES\n");
+                    strcpy(v, "Replace");
+                    instantiate();
+                    break;
+                case 30:
+                    strcpy(REPLACE, "YES");
+                    printf("Replace = YES\n");
+                    strcpy(v, "Replace");
+                    instantiate();
+                    break;
+                case 31:
+                    strcpy(REPLACE, "YES");
+                    printf("Replace = YES\n");
+                    strcpy(v, "Replace");
+                    instantiate();
+                    break;
+                    /*********** comment 1510 ***********/
+                    /* put variable on the conclusion variable queue */
+                case 32:
+                    strcpy(REPLACE, "YES");
+                    printf("Replace = YES\n");
+                    strcpy(v, "Replace");
+                    instantiate();
+                    break;
+                    /*********** comment 1540 ***********/
+                    /* put variable on the conclusion variable queue */
+                case 33:
+                    strcpy(REPLACE, "YES");
+                    printf("Replace = YES\n");
+                    strcpy(v, "Replace");
+                    instantiate();
+                    break;
+                    /*********** comment 1550 ***********/
+                    /* put variable on the conclusion variable queue */
+                case 34:
+                    strcpy(REPLACE, "YES");
+                    printf("Replace = YES\n");
+                    strcpy(v, "Replace");
+                    instantiate();
+                    break;
+                    /* put variable on the conclusion variable queue */
+                case 35:
+                    strcpy(REPLACE, "YES");
+                    printf("Replace = YES\n");
+                    strcpy(v, "Replace");
+                    instantiate();
+                    break;
+                case 36:
+                    strcpy(REPLACE, "YES");
+                    printf("Replace = YES\n");
+                    strcpy(v, "Replace");
+                    instantiate();
+                    break;
+                case 37:
+                    strcpy(REPLACE, "YES");
+                    printf("Replace = YES\n");
+                    strcpy(v, "Replace");
+                    instantiate();
+                    break;
+                    /*********** comment 1510 ***********/
+                    /* put variable on the conclusion variable queue */
+                case 38:
+                    strcpy(REPLACE, "YES");
+                    printf("Replace = YES\n");
+                    strcpy(v, "Replace");
+                    instantiate();
+                    break;
+                    /*********** comment 1540 ***********/
+                    /* put variable on the conclusion variable queue */
+
             }
             f = sn + 1;
             //b496();
@@ -429,7 +662,7 @@ void b496(){
         return;
     }
 }
-    /* no more conclusion variables on queue */
+/* no more conclusion variables on queue */
 
 //==========================================================================
 /* Routine to instantiate a variable (v) if it isn't already.
@@ -441,7 +674,7 @@ void check_instantiation()
     i=1;
 
     /* find variable in the variable list */
-    while ((strcmp(v, varlt[i]) != 0) && (i <= 10)) i = i+1;
+    while ((strcmp(v, varlt[i]) != 0) && (i <= 38)) i = i+1;
 
     /* check if already instantiated */
     if (instlt[i] != 1)
@@ -455,26 +688,159 @@ void check_instantiation()
         switch (i)
         {
             /* input statements for sample position knowledge base */
-        case 1:
-            printf("RISE OR FALL FOR DO? ");
-            std::cin >>dollar;
-            break;
-        case 2:
-            printf("RISE OR FALL FOR FT? ");
-            std::cin >>fedint;
-            break;
-        case 3:
-            printf("ADD OR SUBTRACT FOR FM? ");
-            std::cin >> fedmon;
-            break;
-        case 4:
-            printf("RISE OR FALL FOR IN? ");
-            std::cin >> interest;
-            break;
-        case 5:
-            printf("RISE OR FALL FOR ST? ");
-            std::cin >>stock;
-            break;
+            case 1:
+                printf("Is the Oil pump GOOD OR BAD?");
+                std::cin >>OIL_PUMP;
+                break;
+            case 2:
+                printf("Is the Oil filter GOOD OR BAD?");
+                std::cin >>OIL_FILTER;
+                break;
+            case 3:
+                printf("Is the Oil GOOD OR BAD?");
+                std::cin >>OIL;
+                break;
+            case 4:
+                printf("Is the Oil drain plug GOOD OR BAD?");
+                std::cin >>OIL_DRAIN_PLUG;
+                break;
+            case 5:
+                printf("Is the engine gasket GOOD OR BAD?");
+                std::cin >>ENGINE_GASKET;
+                break;
+            case 6:
+                printf("Is the radiator GOOD OR BAD?");
+                std::cin >>RADIATOR;
+                break;
+            case 7:
+                printf("Is the radiator hose GOOD OR BAD?");
+                std::cin >>RADIATOR_HOSE;
+                break;
+            case 8:
+                printf("Is the transmission drain plug GOOD OR BAD?");
+                std::cin >>TRANSMISION_DRAING_PLUG;
+                break;
+            case 9:
+                printf("Is the battery GOOD OR BAD?");
+                std::cin >>BATTERY;
+                break;
+            case 10:
+                printf("Is the ignition switch GOOD OR BAD?");
+                std::cin >>IGNITION_SWITCH;
+                break;
+            case 11:
+                printf("Is the starter motor GOOD OR BAD?");
+                std::cin >>STARTER_MOTOR;
+                break;
+            case 12:
+                printf("Is the battery terminals GOOD OR BAD?");
+                std::cin >>BATTERY_TERMINALS;
+                break;
+            case 13:
+                printf("Is the fuel level GOOD OR BAD?");
+                std::cin >>FUEL_LEVEL;
+                break;
+            case 14:
+                printf("Is the fuel condition GOOD OR BAD?");
+                std::cin >>FUEL_CONDITION;
+                break;
+            case 15:
+                printf("Is the fuel system GOOD OR BAD?");
+                std::cin >>FUEL_SYSTEM;
+                break;
+            case 16:
+                printf("Is the vacuum hose GOOD OR BAD?");
+                std::cin >>VACUUM_HOSE;
+                break;
+            case 17:
+                printf("Is the spark plugs GOOD OR BAD?");
+                std::cin >>SPARK_PLUGS;
+                break;
+            case 18:
+                printf("Is the fuel injectors GOOD OR BAD?");
+                std::cin >>FUEL_INJECTORS;
+                break;
+            case 19:
+                printf("Is the ignition wires GOOD OR BAD?");
+                std::cin >>IGNITION_WIRES;
+                break;
+            case 20:
+                printf("Is the engine components GOOD OR BAD?");
+                std::cin >>ENGINE_COMPONENTS;
+                break;
+            case 21:
+                printf("Is the battery GOOD OR BAD?");
+                std::cin >>BATTERY;
+                break;
+            case 22:
+                printf("Is the alternator GOOD OR BAD?");
+                std::cin >>ALTERNATOR;
+                break;
+            case 23:
+                printf("Is the alternator belt GOOD OR BAD?");
+                std::cin >>ALTERNATOR_BELT;
+                break;
+            case 24:
+                printf("Is the battery wires GOOD OR BAD?");
+                std::cin >>BATTERY_WIRES;
+                break;
+            case 25:
+                printf("Is the electrical system GOOD OR BAD?");
+                std::cin >>ELECTRICAL_SYSTEM;
+                break;
+            case 26:
+                printf("Is the coolant GOOD OR BAD?");
+                std::cin >>COOLANT;
+                break;
+            case 27:
+                printf("Is the drive belt GOOD OR BAD?");
+                std::cin >>DRIVE_BELT;
+                break;
+            case 28:
+                printf("Is the radiator GOOD OR BAD?");
+                std::cin >>RADIATOR;
+                break;
+            case 29:
+                printf("Is the radiator fan GOOD OR BAD?");
+                std::cin >>RADIATOR_FAN;
+                break;
+            case 30:
+                printf("Is the water pump GOOD OR BAD?");
+                std::cin >>WATER_PUMP;
+                break;
+            case 31:
+                printf("Is the tire pressure GOOD OR BAD?");
+                std::cin >>TIRE_PRESSURE;
+                break;
+            case 32:
+                printf("Is the air filter GOOD OR BAD?");
+                std::cin >>AIR_FILTER;
+                break;
+            case 33:
+                printf("Is the fuel tank GOOD OR BAD?");
+                std::cin >>FUEL_TANK;
+                break;
+            case 34:
+                printf("Is the fuel management system GOOD OR BAD?");
+                std::cin >>FUEL_MANAGEMENT_SYSTEM;
+                break;
+            case 35:
+                printf("Is the brake parts GOOD OR BAD?");
+                std::cin >>BRAKE_PARTS;
+                break;
+            case 36:
+                printf("Is the brake parts GOOD OR BAD?");
+                std::cin >>BRAKE_PARTS;
+                break;
+            case 37:
+                printf("Is the brake lines GOOD OR BAD?");
+                std::cin >>BRAKE_LINES;
+                break;
+            case 38:
+                printf("Is the brake parts GOOD OR BAD?");
+                std::cin >>BRAKE_PARTS;
+                break;
+
         }
     }
     /* end of input statements for the position knowledge base */
