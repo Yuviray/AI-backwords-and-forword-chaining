@@ -26,10 +26,9 @@ char OIL_PUMP[4],OIL_FILTER[4],OIL[4],OIL_DRAIN_PLUG[4],ENGINE_GASKET[4],RADIATO
 ,ALTERNATOR[4],ALTERNATOR_BELT[4],BATTERY_WIRES[4],ELECTRICAL_SYSTEM[4],COOLANT[4],DRIVE_BELT[4],RADIATOR_FAN[4],
         WATER_PUMP[4],TIRE_PRESSURE[4],AIR_FILTER[4],FUEL_TANK[4],FUEL_MANAGEMENT_SYSTEM[4],BRAKE_PARTS[4],BRAKE_LINES[4],
         REPLACE[4],RECONNECT[4];
-char po[10],qu[10];
 int instlt[17];         /* instantiated list*/
 int f, i, j, k, s, fp   /* front pointer */;
-int  bp  /* back pointer */,  gr /* grade */,  sn; /* statement number */
+int  bp  /* back pointer */,  sn; /* statement number */
 int cn;  /* clause number */
 
 void search();
@@ -421,31 +420,25 @@ void b496(){
                     strcpy(v, "Replace");
                     instantiate();
                     break;
-                    /*********** comment 1510 ***********/
-                    /* put variable on the conclusion variable queue */
                 case 8:
                     strcpy(REPLACE, "YES");
                     printf("Replace = YES\n");
                     strcpy(v, "Replace");
                     instantiate();
                     break;
-                    /*********** comment 1540 ***********/
-                    /* put variable on the conclusion variable queue */
                 case 9:
                     strcpy(REPLACE, "YES");
                     printf("Replace = YES\n");
                     strcpy(v, "Replace");
                     instantiate();
                     break;
-                    /*********** comment 1550 ***********/
-                    /* put variable on the conclusion variable queue */
                 case 10:
                     strcpy(REPLACE, "YES");
                     printf("Replace = YES\n");
                     strcpy(v, "Replace");
                     instantiate();
                     break;
-                    /* put variable on the conclusion variable queue */
+
                 case 11:
                     strcpy(REPLACE, "YES");
                     printf("Replace = YES\n");
@@ -464,31 +457,28 @@ void b496(){
                     strcpy(v, "Replace");
                     instantiate();
                     break;
-                    /*********** comment 1510 ***********/
-                    /* put variable on the conclusion variable queue */
+
                 case 14:
                     strcpy(REPLACE, "YES");
                     printf("Replace = YES\n");
                     strcpy(v, "Replace");
                     instantiate();
                     break;
-                    /*********** comment 1540 ***********/
-                    /* put variable on the conclusion variable queue */
+
                 case 15:
                     strcpy(REPLACE, "YES");
                     printf("Replace = YES\n");
                     strcpy(v, "Replace");
                     instantiate();
                     break;
-                    /*********** comment 1550 ***********/
-                    /* put variable on the conclusion variable queue */
+
                 case 16:
                     strcpy(REPLACE, "YES");
                     printf("Replace = YES\n");
                     strcpy(v, "Replace");
                     instantiate();
                     break;
-                    /* put variable on the conclusion variable queue */
+
                 case 17:
                     strcpy(REPLACE, "YES");
                     printf("Replace = YES\n");
@@ -507,31 +497,28 @@ void b496(){
                     strcpy(v, "Replace");
                     instantiate();
                     break;
-                    /*********** comment 1510 ***********/
-                    /* put variable on the conclusion variable queue */
+
                 case 20:
                     strcpy(REPLACE, "YES");
                     printf("Replace = YES\n");
                     strcpy(v, "Replace");
                     instantiate();
                     break;
-                    /*********** comment 1540 ***********/
-                    /* put variable on the conclusion variable queue */
+
                 case 21:
                     strcpy(REPLACE, "YES");
                     printf("Replace = YES\n");
                     strcpy(v, "Replace");
                     instantiate();
                     break;
-                    /*********** comment 1550 ***********/
-                    /* put variable on the conclusion variable queue */
+
                 case 22:
                     strcpy(REPLACE, "YES");
                     printf("Replace = YES\n");
                     strcpy(v, "Replace");
                     instantiate();
                     break;
-                    /* put variable on the conclusion variable queue */
+
                 case 23:
                     strcpy(REPLACE, "YES");
                     printf("Replace = YES\n");
@@ -550,31 +537,28 @@ void b496(){
                     strcpy(v, "Replace");
                     instantiate();
                     break;
-                    /*********** comment 1510 ***********/
-                    /* put variable on the conclusion variable queue */
+
                 case 26:
                     strcpy(REPLACE, "YES");
                     printf("Replace = YES\n");
                     strcpy(v, "Replace");
                     instantiate();
                     break;
-                    /*********** comment 1540 ***********/
-                    /* put variable on the conclusion variable queue */
+
                 case 27:
                     strcpy(REPLACE, "YES");
                     printf("Replace = YES\n");
                     strcpy(v, "Replace");
                     instantiate();
                     break;
-                    /*********** comment 1550 ***********/
-                    /* put variable on the conclusion variable queue */
+
                 case 28:
                     strcpy(REPLACE, "YES");
                     printf("Replace = YES\n");
                     strcpy(v, "Replace");
                     instantiate();
                     break;
-                    /* put variable on the conclusion variable queue */
+
                 case 29:
                     strcpy(REPLACE, "YES");
                     printf("Replace = YES\n");
@@ -593,31 +577,28 @@ void b496(){
                     strcpy(v, "Replace");
                     instantiate();
                     break;
-                    /*********** comment 1510 ***********/
-                    /* put variable on the conclusion variable queue */
+
                 case 32:
                     strcpy(REPLACE, "YES");
                     printf("Replace = YES\n");
                     strcpy(v, "Replace");
                     instantiate();
                     break;
-                    /*********** comment 1540 ***********/
-                    /* put variable on the conclusion variable queue */
+
                 case 33:
                     strcpy(REPLACE, "YES");
                     printf("Replace = YES\n");
                     strcpy(v, "Replace");
                     instantiate();
                     break;
-                    /*********** comment 1550 ***********/
-                    /* put variable on the conclusion variable queue */
+
                 case 34:
                     strcpy(REPLACE, "YES");
                     printf("Replace = YES\n");
                     strcpy(v, "Replace");
                     instantiate();
                     break;
-                    /* put variable on the conclusion variable queue */
+
                 case 35:
                     strcpy(REPLACE, "YES");
                     printf("Replace = YES\n");
@@ -636,16 +617,14 @@ void b496(){
                     strcpy(v, "Replace");
                     instantiate();
                     break;
-                    /*********** comment 1510 ***********/
-                    /* put variable on the conclusion variable queue */
+
                 case 38:
                     strcpy(REPLACE, "YES");
                     printf("Replace = YES\n");
                     strcpy(v, "Replace");
                     instantiate();
                     break;
-                    /*********** comment 1540 ***********/
-                    /* put variable on the conclusion variable queue */
+
 
             }
             f = sn + 1;
@@ -860,7 +839,7 @@ void search()
     {
         cn=1;
         k = (sn-1)*38+cn;
-        while ((strcmp(clvarlt[k], cndvar[fp]) != 0) && (cn < 38))
+        while ((strcmp(clvarlt[k], cndvar[fp]) != 0) && (cn < 1445))
         {
             cn = cn+1;
             k = (sn-1)*38+cn;
