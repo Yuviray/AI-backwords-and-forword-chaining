@@ -2,17 +2,26 @@
 // Created by maldo on 9/11/2022.
 //
 #include "bc.h"
+#include "fc.h"
 #include <iostream>
 
 using namespace std;
 
 int main(){
     string problem;
-    cout << "Starting backwards chaining code...." << endl;
+    string solution;
+
+    cout << "Starting backwards chaining code....\n" << endl;
+
     bc backwards(false);
     problem.assign(backwards.start());
-    cout << "Done with backwards chaining, your problem is : " << problem << endl;
-    cout << endl;
-    cout << "Starting forwards chaining code...." << endl;
+
+    cout << "Done with backwards chaining, your problem is : \n" << problem << endl;
+    cout << "Starting forwards chaining code....\n" << endl ;
+
+    fc forwards(false);
+    solution.assign(forwards.start());
+
+    cout << "To fix you need to " << solution << " " << problem << endl;
 
 }
