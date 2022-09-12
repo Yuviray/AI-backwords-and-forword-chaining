@@ -2,9 +2,6 @@
 #include<cstdio>
 #include<cstring>
 #include<iostream>
-
-
-
 /*****backward chaining *******/
 /* Install your IF clauses in sequence in the first case
    statement of the main program
@@ -23,19 +20,20 @@ char varlt[45][17];
 char clvarlt[1676][17];
 char varble[45];
 //char /* qualify */ qu[4], /* degree*/ de[4];
-char /* discovery */ di[4], /* position */ po[4],PART[4],PROBLEM[4],OIL_PRESSURE[4],OIL_FILTER[4],OIL_GRADE[4]
-    ,LEAK[4],OIL_LEAK[4],COOLANT_LEAK[4],TRANS_LEAK[4],OIL_DRAIN_PLUG[4],ENGINE_LEAK[4],RADIATOR_LEAK[4],RADIATOR_HOSE[4],
-    TRANS_DRAIN_PLUG[4],ENGINE_ROTATES[4],BATT_TERMINALS[4],FUEL[4],START_MOTOR[4],ROUGH[4],VACUUM_HOSE[4],
-    SPARK_PLUGS[4],BAD_FUEL[4],FUEL_INJECTORS[4],IGNITION_WIRES[4],KNOCKING[4],BATT_CHARGE[4],BATT_TEST[4],ALTERNATOR[4],
-    ALT_DRIVE_BELT[4],BATT_WIRES[4],OVERHEAT[4],COOLANT[4],DRIVE_BELT[4],RADIATOR[4],RADIATOR_FAN[4],FUEL_USE[4],TIRE_PRESSURE[4],
-    AIR_FILTER[4],FUEL_SMELL[4],CHECK_BRAKE[4],WOBBLE[4],CHEMICAL_SMELL[4],SPONGEY[4],SQUEAK[4];
+char PART[4],PROBLEM[4],OIL_PRESSURE[4],OIL_FILTER[4],OIL_GRADE[4],LEAK[4],OIL_LEAK[4],COOLANT_LEAK[4],
+     TRANS_LEAK[4],OIL_DRAIN_PLUG[4],ENGINE_LEAK[4],RADIATOR_LEAK[4],RADIATOR_HOSE[4],TRANS_DRAIN_PLUG[4],
+     ENGINE_ROTATES[4],BATT_TERMINALS[4],FUEL[4],START_MOTOR[4],ROUGH[4],VACUUM_HOSE[4],SPARK_PLUGS[4],
+     BAD_FUEL[4],FUEL_INJECTORS[4],IGNITION_WIRES[4],KNOCKING[4],BATT_CHARGE[4],BATT_TEST[4],ALTERNATOR[4],
+     ALT_DRIVE_BELT[4],BATT_WIRES[4],OVERHEAT[4],COOLANT[4],DRIVE_BELT[4],RADIATOR[4],RADIATOR_FAN[4],FUEL_USE[4],
+     TIRE_PRESSURE[4],AIR_FILTER[4],FUEL_SMELL[4],CHECK_BRAKE[4],WOBBLE[4],CHEMICAL_SMELL[4],SPONGEY[4],
+     SQUEAK[4];
 char buff[128];
 /* instantiated list */
 int instlt[45];
 /* statement stack */
 int statsk[45];
 int /* clause stack */ clausk[45], sn, f, i, j, s, k, /*stack pointer */ sp;
-float /* grade */ gr, /*experience */ ex,BATT_VOLTAGE;
+float BATT_VOLTAGE;
 void determine_member_concl_list(void);
 void push_on_stack(void);
 void instantiate(void);
@@ -351,10 +349,10 @@ void determine_member_concl_list() {
     i = f;
     while((strcmp(varble, conclt[i]) != 0) && (i<40))
         /* test for membership */
-        {
-            i=i+1;
+    {
+        i=i+1;
 
-        }
+    }
 
     if (strcmp(varble, conclt[i]) == 0) sn = i;  /* a member */
 }
@@ -584,43 +582,41 @@ goal
                     /******** comment 1570 ********/
                     /* if part of statement 5 */
                 case 5: if((strcmp(PROBLEM, "YES") == 0) &&
-                            (strcmp(LEAK, "YES") == 0) &&
-                            (strcmp(OIL_LEAK, "YES") == 0) &&
-                            (strcmp(OIL_DRAIN_PLUG, "YES") == 0)) s = 1;
+                           (strcmp(LEAK, "YES") == 0) &&
+                           (strcmp(OIL_LEAK, "YES") == 0) &&
+                           (strcmp(OIL_DRAIN_PLUG, "YES") == 0)) s = 1;
                     break;
                     /* if part of statement 6 */
                 case 6: if((strcmp(PROBLEM, "YES") == 0) &&
-                            (strcmp(LEAK, "YES") == 0) &&
-                            (strcmp(OIL_LEAK, "YES") == 0) &&
-                            (strcmp(ENGINE_LEAK, "YES") == 0)) s = 1;
+                           (strcmp(LEAK, "YES") == 0) &&
+                           (strcmp(OIL_LEAK, "YES") == 0) &&
+                           (strcmp(ENGINE_LEAK, "YES") == 0)) s = 1;
                     break;
                 case 7: if((strcmp(PROBLEM, "YES") == 0) &&
-                               (strcmp(LEAK, "YES") == 0) &&
-                               (strcmp(COOLANT_LEAK, "YES") == 0) &&
-                               (strcmp(RADIATOR_LEAK, "YES") == 0)) s = 1;
+                           (strcmp(LEAK, "YES") == 0) &&
+                           (strcmp(COOLANT_LEAK, "YES") == 0) &&
+                           (strcmp(RADIATOR_LEAK, "YES") == 0)) s = 1;
                     break;
-                    /* if part of statement 3 */
+
                 case 8:
                     if ((strcmp(PROBLEM, "YES") == 0) &&
-                            (strcmp(LEAK, "YES") == 0) &&
-                            (strcmp(COOLANT_LEAK, "YES") == 0) &&
-                            (strcmp(RADIATOR_HOSE, "YES") == 0)) s = 1;
+                        (strcmp(LEAK, "YES") == 0) &&
+                        (strcmp(COOLANT_LEAK, "YES") == 0) &&
+                        (strcmp(RADIATOR_HOSE, "YES") == 0)) s = 1;
                     break;
-                    /* if part of statement 4 */
-                    /******** comment 1560 ******/
+
                 case 9: if((strcmp(PROBLEM, "YES") == 0) &&
-                    (strcmp(LEAK, "YES") == 0) &&
-                    (strcmp(TRANS_LEAK, "YES") == 0) &&
-                    (strcmp(TRANS_DRAIN_PLUG, "YES") == 0)) s = 1;
+                           (strcmp(LEAK, "YES") == 0) &&
+                           (strcmp(TRANS_LEAK, "YES") == 0) &&
+                           (strcmp(TRANS_DRAIN_PLUG, "YES") == 0)) s = 1;
                     break;
-                    /******** comment 1570 ********/
-                    /* if part of statement 5 */
+
                 case 10: if((strcmp(PROBLEM, "YES") == 0) &&
                             (strcmp(ENGINE_ROTATES, "NO") == 0) &&
                             (strcmp(BATT_TERMINALS, "YES") == 0) &&
                             (BATT_VOLTAGE<12)) s = 1;
                     break;
-                    /* if part of statement 6 */
+
                 case 11: if((strcmp(PROBLEM, "YES") == 0) &&
                             (strcmp(ENGINE_ROTATES, "NO") == 0) &&
                             (strcmp(BATT_TERMINALS, "YES") == 0) &&
@@ -632,26 +628,23 @@ goal
                             (strcmp(BATT_TERMINALS, "YES") == 0) &&
                             (BATT_VOLTAGE>=12)&&
                             (strcmp(START_MOTOR, "NO") == 0) )s = 1;
-                    break;
-                    /* if part of statement 3 */
+
                 case 13:
                     if ((strcmp(PROBLEM, "YES") == 0) &&
                         (strcmp(ENGINE_ROTATES, "NO") == 0) &&
                         (strcmp(BATT_TERMINALS, "NO") == 0)) s = 1;
                     break;
-                    /* if part of statement 4 */
-                    /******** comment 1560 ******/
+
                 case 14: if((strcmp(PROBLEM, "YES") == 0) &&
-                           (strcmp(ENGINE_ROTATES, "YES") == 0) &&
-                           (strcmp(FUEL, "NO") == 0)) s = 1;
+                            (strcmp(ENGINE_ROTATES, "YES") == 0) &&
+                            (strcmp(FUEL, "NO") == 0)) s = 1;
                     break;
-                    /******** comment 1570 ********/
-                    /* if part of statement 5 */
+
                 case 15: if((strcmp(PROBLEM, "YES") == 0) &&
                             (strcmp(ENGINE_ROTATES, "YES") == 0) &&
                             (strcmp(FUEL, "YES") == 0)) s = 1;
                     break;
-                    /* if part of statement 6 */
+
                 case 16: if((strcmp(PROBLEM, "YES") == 0) &&
                             (strcmp(ROUGH, "YES") == 0) &&
                             (strcmp(VACUUM_HOSE, "YES") == 0)) s = 1;
@@ -660,25 +653,23 @@ goal
                             (strcmp(ROUGH, "YES") == 0) &&
                             (strcmp(SPARK_PLUGS, "YES") == 0)) s = 1;
                     break;
-                    /* if part of statement 3 */
+
                 case 18:
                     if((strcmp(PROBLEM, "YES") == 0) &&
                        (strcmp(ROUGH, "YES") == 0) &&
                        (strcmp(BAD_FUEL, "YES") == 0)) s = 1;
                     break;
-                    /* if part of statement 4 */
-                    /******** comment 1560 ******/
+
                 case 19: if((strcmp(PROBLEM, "YES") == 0) &&
                             (strcmp(ROUGH, "YES") == 0) &&
                             (strcmp(FUEL_INJECTORS, "YES") == 0)) s = 1;
                     break;
-                    /******** comment 1570 ********/
-                    /* if part of statement 5 */
+
                 case 20: if((strcmp(PROBLEM, "YES") == 0) &&
                             (strcmp(ROUGH, "YES") == 0) &&
                             (strcmp(IGNITION_WIRES, "YES") == 0)) s = 1;
                     break;
-                    /* if part of statement 6 */
+
                 case 21: if((strcmp(PROBLEM, "YES") == 0) &&
                             (strcmp(ROUGH, "YES") == 0) &&
                             (strcmp(KNOCKING, "YES") == 0)) s = 1;
@@ -687,23 +678,21 @@ goal
                             (strcmp(BATT_CHARGE, "NO") == 0) &&
                             (strcmp(BATT_TEST, "NO") == 0)) s = 1;
                     break;
-                    /* if part of statement 3 */
+
                 case 23:
                     if((strcmp(PROBLEM, "YES") == 0) &&
                        (strcmp(BATT_CHARGE, "NO") == 0) &&
                        (strcmp(BATT_TEST, "YES") == 0) &&
-                        (strcmp(ALTERNATOR, "NO") == 0)) s = 1;
+                       (strcmp(ALTERNATOR, "NO") == 0)) s = 1;
                     break;
-                    /* if part of statement 4 */
-                    /******** comment 1560 ******/
+
                 case 24: if((strcmp(PROBLEM, "YES") == 0) &&
                             (strcmp(BATT_CHARGE, "NO") == 0) &&
                             (strcmp(BATT_TEST, "YES") == 0) &&
                             (strcmp(ALTERNATOR, "YES") == 0)&&
                             (strcmp(ALT_DRIVE_BELT, "YES") == 0)) s = 1;
                     break;
-                    /******** comment 1570 ********/
-                    /* if part of statement 5 */
+
                 case 25: if((strcmp(PROBLEM, "YES") == 0) &&
                             (strcmp(BATT_CHARGE, "NO") == 0) &&
                             (strcmp(BATT_TEST, "YES") == 0) &&
@@ -711,7 +700,7 @@ goal
                             (strcmp(ALT_DRIVE_BELT, "YES") == 0)&&
                             (strcmp(BATT_WIRES, "YES") == 0)) s = 1;
                     break;
-                    /* if part of statement 6 */
+
                 case 26: if((strcmp(PROBLEM, "YES") == 0) &&
                             (strcmp(BATT_CHARGE, "NO") == 0) &&
                             (strcmp(BATT_TEST, "YES") == 0) &&
@@ -723,14 +712,13 @@ goal
                             (strcmp(OVERHEAT, "YES") == 0) &&
                             (strcmp(COOLANT, "NO") == 0)) s = 1;
                     break;
-                    /******** comment 1570 ********/
-                    /* if part of statement 5 */
+
                 case 28: if((strcmp(PROBLEM, "YES") == 0) &&
                             (strcmp(OVERHEAT, "YES") == 0) &&
                             (strcmp(OVERHEAT, "YES") == 0) &&
                             (strcmp(DRIVE_BELT, "YES") == 0)) s = 1;
                     break;
-                    /* if part of statement 6 */
+
                 case 29: if((strcmp(PROBLEM, "YES") == 0) &&
                             (strcmp(OVERHEAT, "YES") == 0) &&
                             (strcmp(COOLANT, "YES") == 0)&&
@@ -744,7 +732,7 @@ goal
                             (strcmp(RADIATOR, "NO") == 0)&&
                             (strcmp(RADIATOR_FAN, "NO") == 0)) s = 1;
                     break;
-                    /* if part of statement 3 */
+
                 case 31:
                     if((strcmp(PROBLEM, "YES") == 0) &&
                        (strcmp(OVERHEAT, "YES") == 0) &&
@@ -753,20 +741,18 @@ goal
                        (strcmp(RADIATOR, "NO") == 0)&&
                        (strcmp(RADIATOR_FAN, "YES") == 0)) s = 1;
                     break;
-                    /* if part of statement 4 */
-                    /******** comment 1560 ******/
+
                 case 32: if((strcmp(PROBLEM, "YES") == 0) &&
                             (strcmp(FUEL_USE, "YES") == 0) &&
                             (strcmp(TIRE_PRESSURE, "NO") == 0)) s = 1;
                     break;
-                    /******** comment 1570 ********/
-                    /* if part of statement 5 */
+
                 case 33: if((strcmp(PROBLEM, "YES") == 0) &&
                             (strcmp(FUEL_USE, "YES") == 0) &&
                             (strcmp(TIRE_PRESSURE, "YES") == 0) &&
                             (strcmp(AIR_FILTER, "NO") == 0)) s = 1;
                     break;
-                    /* if part of statement 6 */
+
                 case 34: if((strcmp(PROBLEM, "YES") == 0) &&
                             (strcmp(FUEL_USE, "YES") == 0) &&
                             (strcmp(TIRE_PRESSURE, "YES") == 0) &&
@@ -779,7 +765,7 @@ goal
                             (strcmp(AIR_FILTER, "YES") == 0)&&
                             (strcmp(FUEL_SMELL, "NO") == 0)) s = 1;
                     break;
-                    /* if part of statement 6 */
+
                 case 36: if((strcmp(PROBLEM, "YES") == 0) &&
                             (strcmp(CHECK_BRAKE, "YES") == 0) &&
                             (strcmp(WOBBLE, "YES") == 0)) s = 1;
@@ -788,7 +774,7 @@ goal
                             (strcmp(CHECK_BRAKE, "YES") == 0) &&
                             (strcmp(CHEMICAL_SMELL, "YES") == 0)) s = 1;
                     break;
-                    /* if part of statement 6 */
+
                 case 38:if((strcmp(PROBLEM, "YES") == 0) &&
                            (strcmp(CHECK_BRAKE, "YES") == 0) &&
                            (strcmp(SPONGEY, "YES") == 0)) s = 1;
@@ -797,9 +783,7 @@ goal
                             (strcmp(CHECK_BRAKE, "YES") == 0) &&
                             (strcmp(SQUEAK, "YES") == 0)) s = 1;
                     break;
-                    /* if part of statement 6 */
 
-                    /********* comment 1680 ******/
             }
             /* see if the then part should be invoked */
             if( s != 1) {
@@ -845,112 +829,102 @@ goal
                 case 5: strcpy(PART, "YES");
                     printf("OIL DRAIN PLUG\n");
                     break;
-                    /* then part of statement 6 */
+
                 case 6: strcpy(PART, "YES");
                     printf("ENGINE GASKET\n");
                     break;
                 case 7: strcpy(PART, "YES");
                     printf("RADIATOR\n");
                     break;
-                    /* then part of statement 3 */
+
                 case 8: strcpy(PART, "YES");
                     printf("RADIATOR HOSE\n");
                     break;
-                    /* then part of statement 4 */
-                    /******** comment 1560 ******/
+
                 case 9: strcpy(PART, "YES");
                     printf("TRANSMISSION DRAIN PLUG\n");
                     break;
-                    /* then part of statement 5 */
-                    /****** comment 1570 *****/
+
                 case 10: strcpy(PART, "YES");
                     printf("BATTERY\n");
                     break;
-                    /* then part of statement 6 */
+
                 case 11: strcpy(PART, "YES");
                     printf("IGNITION SWITCH\n");
                     break;
                 case 12: strcpy(PART, "YES");
                     printf("STARTER MOTOR\n");
                     break;
-                    /* then part of statement 3 */
+
                 case 13: strcpy(PART, "YES");
                     printf("BATTERY TERMINALS\n");
                     break;
-                    /* then part of statement 4 */
-                    /******** comment 1560 ******/
+
                 case 14: strcpy(PART, "YES");
                     printf("FUEL LEVEL\n");
                     break;
-                    /* then part of statement 5 */
-                    /****** comment 1570 *****/
+
                 case 15: strcpy(PART, "YES");
                     printf("FUEL SYSTEM\n");
                     break;
-                    /* then part of statement 6 */
+
                 case 16: strcpy(PART, "YES");
                     printf("VACUUM HOSE\n");
                     break;
                 case 17: strcpy(PART, "YES");
                     printf("SPARK PLUGS\n");
                     break;
-                    /* then part of statement 3 */
+
                 case 18: strcpy(PART, "YES");
                     printf("FUEL CONDITION\n");
                     break;
-                    /* then part of statement 4 */
-                    /******** comment 1560 ******/
+
                 case 19: strcpy(PART, "YES");
                     printf("FUEL INJECTORS\n");
                     break;
-                    /* then part of statement 5 */
-                    /****** comment 1570 *****/
+
                 case 20: strcpy(PART, "YES");
                     printf("INGITION WIRES\n");
                     break;
-                    /* then part of statement 6 */
+
                 case 21: strcpy(PART, "YES");
                     printf("ENGINE COMPONENTS\n");
                     break;
                 case 22: strcpy(PART, "YES");
                     printf("BATTERY\n");
                     break;
-                    /* then part of statement 3 */
+
                 case 23: strcpy(PART, "YES");
                     printf("ALTERNATOR\n");
                     break;
-                    /* then part of statement 4 */
-                    /******** comment 1560 ******/
+
                 case 24: strcpy(PART, "YES");
                     printf("ALTERNATOR DRIVE BELT\n");
                     break;
-                    /* then part of statement 5 */
-                    /****** comment 1570 *****/
+
                 case 25: strcpy(PART, "YES");
                     printf("BATTERY WIRES\n");
                     break;
-                    /* then part of statement 6 */
+
                 case 26: strcpy(PART, "YES");
                     printf("ELECTRICAL SYSTEM\n");
                     break;
                 case 27: strcpy(PART, "YES");
                     printf("COOLANT\n");
                     break;
-                    /* then part of statement 3 */
+
                 case 28: strcpy(PART, "YES");
                     printf("DRIVE BELT\n");
                     break;
-                    /* then part of statement 4 */
-                    /******** comment 1560 ******/
+
                 case 29: strcpy(PART, "YES");
                     printf("RADIATOR\n");
                     break;
-                    /* then part of statement 5 */
-                    /****** comment 1570 *****/
+
                 case 30: strcpy(PART, "YES");
                     printf("RADIATOR FAN\n");
                     break;
-                    /* then part of statement 6 */
+
                 case 31: strcpy(PART, "YES");
                     printf("WATTER PUMP\n");
                     break;
@@ -982,7 +956,7 @@ goal
                     /****** comment 1680 ********/
             }
             /* pop the stack */
-           popStack();
+            popStack();
         }
     }
 }
