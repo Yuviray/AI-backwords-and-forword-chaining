@@ -102,7 +102,7 @@ int main() {
     strcpy(varlt[36], "RECONNECT");
 
     printf("*** VARIABLE LIST ***\n");
-    for (i = 1; i < 11; i++)
+    for (i = 1; i < 37; i++)
         printf("ENTER VARIABLE   %d   %s\n", i, varlt[i]);
     printf("HIT RETURN TO CONTINUE");
     getchar();
@@ -151,10 +151,10 @@ int main() {
     strcpy(clvarlt[1369], "BRAKE_LINES");
     strcpy(clvarlt[1407], "BRAKE_PARTS");
 
-    for (i = 1; i < 9; i++) {
+    for (i = 1; i < 38; i++) {
         printf("** CLAUSE %d\n", i);
-        for (j = 1; j < 5; j++) {
-            k = 4 * (i - 1) + j;
+        for (j = 1; j < 38; j++) {
+            k = 38 * (i - 1) + j;
             printf("VARIABLE %d  %s\n", j, clvarlt[k]);
         }
 
@@ -192,7 +192,7 @@ void b496(){
             /* more statements */
         {
             /* locate the clause */
-            i = 38 * (sn - 1) + cn;
+            i = 4 * (sn - 1) + cn;
             /* clause variable */
             strcpy(v, clvarlt[i]);
             /* are there any more clauses for this statement */
@@ -203,7 +203,7 @@ void b496(){
                 check_instantiation();
                 cn = cn + 1;
                 /* check next clause */
-                i = 38 * (sn - 1) + cn;
+                i = 4 * (sn - 1) + cn;
                 strcpy(v, clvarlt[i]);
             }
 
@@ -879,14 +879,14 @@ void instantiate()
 {
     i=1;
     /* find varialbe in the varialbe list (varlt) */
-    while ((strcmp(v, varlt[i]) != 0) && (i <= 10)) i=i+1;
+    while ((strcmp(v, varlt[i]) != 0) && (i <= 38)) i=i+1;
 
     /* instantiate it */
     instlt[i] = 1;
     i = 1;
 
     /* determine if (v) is or already has been on the queue (cndvar) */
-    while (((strcmp(v, cndvar[i]) != 0)) && (i <= 10)) i=i+1;
+    while (((strcmp(v, cndvar[i]) != 0)) && (i <= 38)) i=i+1;
 
     /* variable has not been on the queue. Store it in the back of the queue */
     if (strcmp(v, cndvar[i]) != 0)
