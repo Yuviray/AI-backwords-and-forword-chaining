@@ -2,8 +2,8 @@
 //
 // Created by maldo on 9/11/2022.
 //
-#include "bc.h"
-#include "fc.h"
+#include "bc_v2.h"
+#include "fc_v2.h"
 #include <iostream>
 
 using namespace std;

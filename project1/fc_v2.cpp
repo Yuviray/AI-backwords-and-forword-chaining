@@ -19,7 +19,7 @@ of the program within the second case statement. */
 #include<cstring>
 #include<iostream>
 
-#include "fc.h"
+#include "fc_v2.h"
 
 using namespace std;
 

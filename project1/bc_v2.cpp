@@ -3,7 +3,7 @@
 #include<cstring>
 #include<iostream>
 
-#include "bc.h"
+#include "bc_v2.h"
 
 using namespace std;
 
