@@ -83,13 +83,13 @@ char * fc::start() {
     strcpy(varList[35], "REPLACE");
     strcpy(varList[36], "RECONNECT");
 
-    // printf("*** VARIABLE LIST ***\n");
-    // for (i = 1; i < 37; i++)
-    //     printf("ENTER VARIABLE   %d   %s\n", i, varList[i]);
-    // printf("HIT RETURN TO CONTINUE");
-    // getchar();
+    printf("*** VARIABLE LIST ***\n");
+    for (i = 1; i < 37; i++)
+        printf("ENTER VARIABLE   %d   %s\n", i, varList[i]);
+    printf("HIT RETURN TO CONTINUE");
+    getchar();
 
-    // printf("*** CLAUSE-VARIABLE LIST ***\n");
+    printf("*** CLAUSE-VARIABLE LIST ***\n");
     strcpy(clVarList[1], "OIL_PUMP");
     strcpy(clVarList[39], "OIL_FILTER");
     strcpy(clVarList[77], "OIL");
@@ -129,18 +129,13 @@ char * fc::start() {
     strcpy(clVarList[1369], "BRAKE_LINES");
     strcpy(clVarList[1407], "BRAKE_PARTS");
 
-    // for (i = 1; i < 38; i++) {
-    //     printf("** CLAUSE %d\n", i);
-    //     for (j = 1; j < 38; j++) {
-    //         k = 38 * (i - 1) + j;
-    //         printf("VARIABLE %d  %s\n", j, clVarList[k]);
-    //     }
-
-    //     /*if (i == 4) {
-    //         printf("HIT RETURN TO CONTINUE");
-    //         getchar();
-    //     }*/
-    // }
+    for (i = 1; i < 38; i++) {
+        printf("** CLAUSE %d\n", i);
+        for (j = 1; j < 38; j++) {
+            k = 38 * (i - 1) + j;
+            printf("VARIABLE %d  %s\n", j, clVarList[k]);
+        }
+    }
 
     /****** INFERENCE SECTION *****************/
         /* move backpointer (bp) to back */
@@ -157,6 +152,7 @@ char * fc::start() {
     fcLoop();
     return end;
 }
+
 void fc::fcLoop(){
     bool exit = false;
     while(! exit) {
@@ -795,6 +791,7 @@ void fc::searchClauses()
     {
         cn=1;
         k = (sn-1)*38 + cn;
+        cout << sn << "  " << cndVar[fp] << endl;
 
         while ((strcmp(clVarList[k], cndVar[fp]) != 0) && (cn < 37))
         {

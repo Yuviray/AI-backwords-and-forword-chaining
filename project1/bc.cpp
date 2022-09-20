@@ -23,53 +23,11 @@ char * bc::start() {
     for (int i = 1; i < 40; i++) {
         strcpy(concList[i], "Part");
     }
-    // strcpy(concList[1], "Part");
-    // strcpy(concList[2], "Part");
-    // strcpy(concList[3], "Part");
-    // strcpy(concList[4], "Part");
-    // strcpy(concList[5], "Part");
-    // strcpy(concList[6], "Part");
-    // strcpy(concList[7], "Part");
-    // strcpy(concList[8], "Part");
-    // strcpy(concList[9], "Part");
-    // strcpy(concList[10], "Part");
-    // strcpy(concList[11], "Part");
-    // strcpy(concList[12], "Part");
-    // strcpy(concList[13], "Part");
-    // strcpy(concList[14], "Part");
-    // strcpy(concList[15], "Part");
-    // strcpy(concList[16], "Part");
-    // strcpy(concList[17], "Part");
-    // strcpy(concList[18], "Part");
-    // strcpy(concList[19], "Part");
-    // strcpy(concList[20], "Part");
-    // strcpy(concList[21], "Part");
-    // strcpy(concList[22], "Part");
-    // strcpy(concList[23], "Part");
-    // strcpy(concList[24], "Part");
-    // strcpy(concList[25], "Part");
-    // strcpy(concList[26], "Part");
-    // strcpy(concList[27], "Part");
-    // strcpy(concList[28], "Part");
-    // strcpy(concList[29], "Part");
-    // strcpy(concList[30], "Part");
-    // strcpy(concList[31], "Part");
-    // strcpy(concList[32], "Part");
-    // strcpy(concList[33], "Part");
-    // strcpy(concList[34], "Part");
-    // strcpy(concList[35], "Part");
-    // strcpy(concList[36], "Part");
-    // strcpy(concList[37], "Part");
-    // strcpy(concList[38], "Part");
-    // strcpy(concList[39], "Part");
 
-
-
-
-    // printf("*** CONCLUSION LIST ***\n");
-    // for (i = 1; i < 40; i++) printf("CONCLUSION %d %s\n", i, concList[i]);
-    // printf("HIT RETURN TO CONTINUE");
-    // gets(buff);
+    printf("*** CONCLUSION LIST ***\n");
+    for (i = 1; i < 40; i++) printf("CONCLUSION %d %s\n", i, concList[i]);
+    printf("HIT RETURN TO CONTINUE");
+    gets(buff);
 
     /*populate variable list*/
     strcpy(varList[1], "PROBLEM");
@@ -117,10 +75,10 @@ char * bc::start() {
     strcpy(varList[43], "SPONGEY");
     strcpy(varList[44], "SQUEAK");
 
-    // printf("*** VARIABLE LIST *\n");
-    // for (i = 1; i < 45; i++) printf("VARIABLE %d %s\n", i, varList[i]);
-    // printf("HIT RETURN KEY TO CONTINUE");
-    // gets(buff);
+    printf("*** VARIABLE LIST *\n");
+    for (i = 1; i < 45; i++) printf("VARIABLE %d %s\n", i, varList[i]);
+    printf("HIT RETURN KEY TO CONTINUE");
+    gets(buff);
 
     /*populate clause variable list*/
     strcpy(clVarList[1], "PROBLEM");
@@ -274,18 +232,14 @@ char * bc::start() {
     strcpy(clVarList[1674], "CHECK_BRAKE");
     strcpy(clVarList[1675], "SQUEAK");
 
-    // printf("*** CLAUSE VARIABLE LIST ***\n");
-    // for (i = 1; i < 40; i++) {
-    //     printf("** CLAUSE %d\n", i);
-    //     for (j = 1; j < 45; j++) {
-    //         k = 44 * (i - 1) + j;
-    //         printf("VARIABLE %d  %s\n", j, clVarList[k]);
-    //     }
-    //     /*if (i == 4) {
-    //         printf("HIT RETURN KEY TO CONTINUE");
-    //         gets(buff);
-    //     }*/
-    // }
+    printf("*** CLAUSE VARIABLE LIST ***\n");
+    for (i = 1; i < 40; i++) {
+        printf("** CLAUSE %d\n", i);
+        for (j = 1; j < 45; j++) {
+            k = 44 * (i - 1) + j;
+            printf("VARIABLE %d  %s\n", j, clVarList[k]);
+        }
+    }
 
     /****** inference section *****/
     printf("** ENTER CONCLUSION : ");

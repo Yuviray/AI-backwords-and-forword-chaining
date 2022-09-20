@@ -1,7 +1,3 @@
-
-//
-//
-//
 #include <string>
 #include <cstring>
 #include <iostream>
@@ -10,7 +6,7 @@ using namespace std;
 
 class fc{
 private :
-    char cndVar[40][5];
+    char cndVar[40][40];
     char varList[45][17], /* variable list*/ clVarList[1445][17]; /* clause var list */
     char c[30] /* condition variable */,  v[3]; /*variable */
     char OIL_PUMP[4],OIL_FILTER[4],OIL[4],OIL_DRAIN_PLUG[4],ENGINE_GASKET[4],RADIATOR[4],RADIATOR_HOSE[4],

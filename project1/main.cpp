@@ -1,7 +1,3 @@
-
-//
-//
-//
 #include "bc.h"
 #include "fc.h"
 #include <iostream>
