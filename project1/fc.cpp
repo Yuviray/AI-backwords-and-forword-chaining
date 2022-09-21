@@ -93,7 +93,7 @@ char * fc::start() {
     strcpy(clVarList[1], "OIL_PUMP");
     strcpy(clVarList[39], "OIL_FILTER");
     strcpy(clVarList[77], "OIL");
-    strcpy(clVarList[115], "OIL_DRAIN_PlUG");
+    strcpy(clVarList[115], "OIL_DRAIN_PLUG");
     strcpy(clVarList[153], "ENGINE_GASKET");
     strcpy(clVarList[191], "RADIATOR");
     strcpy(clVarList[229], "RADIATOR_HOSE");
@@ -791,7 +791,7 @@ void fc::searchClauses()
     {
         cn=1;
         k = (sn-1)*38 + cn;
-        cout << sn << "  " << cndVar[fp] << endl;
+        //cout << sn << "  " << cndVar[fp] << endl;
 
         while ((strcmp(clVarList[k], cndVar[fp]) != 0) && (cn < 37))
         {
