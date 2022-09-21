@@ -20,7 +20,7 @@ int main(){
         fc forwards(problem);
         solution.assign(forwards.start());
 
-        cout << "To fix you need to " << solution << " " << problem << endl;
+        cout << "To fix you need to replace " << problem << endl;
 
     }
     else{
