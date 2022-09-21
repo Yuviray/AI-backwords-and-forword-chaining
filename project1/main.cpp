@@ -14,11 +14,18 @@ int main(){
     problem.assign(backwards.start());
 
     cout << "Done with backwards chaining, your problem is : \n" << problem << endl;
-    cout << "Starting forwards chaining code....\n" << endl ;
+    if (problem !="NO ISSUE"){
+        cout << "Starting forwards chaining code....\n" << endl ;
 
-    fc forwards(problem);
-    solution.assign(forwards.start());
+        fc forwards(problem);
+        solution.assign(forwards.start());
 
-    cout << "To fix you need to " << solution << " " << problem << endl;
+        cout << "To fix you need to " << solution << " " << problem << endl;
+
+    }
+    else{
+        cout << "Your car is fine "<< endl;
+    }
+
 
 }
